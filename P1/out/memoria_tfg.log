@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.3)  3 OCT 2024 14:08
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.3)  3 OCT 2024 14:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1413,7 +1413,7 @@ Package glossaries Info: Writing glossary file memoria_tfg.glo on input line 231
 \openout5 = `memoria_tfg.acn'.
 
 Package glossaries Info: Writing glossary file memoria_tfg.acn on input line 231.
- (bibliografia/acronimos.tex) (bibliografia/glosario.tex)) (memoria_tfg.aux (portada/portada.aux) (contido/sinqos.aux))
+ (bibliografia/acronimos.tex) (bibliografia/glosario.tex)) (c:\Users\oscar\Desktop\DR\P1\out\memoria_tfg.aux (c:\Users\oscar\Desktop\DR\P1\out\portada/portada.aux) (c:\Users\oscar\Desktop\DR\P1\out\contido/sinqos.aux))
 \openout1 = `memoria_tfg.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
@@ -1542,7 +1542,7 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 51.
- (memoria_tfg.out) (memoria_tfg.out)
+ (c:\Users\oscar\Desktop\DR\P1\out\memoria_tfg.out) (c:\Users\oscar\Desktop\DR\P1\out\memoria_tfg.out)
 \@outlinefile=\write6
 \openout6 = `memoria_tfg.out'.
 
@@ -1597,7 +1597,7 @@ LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
 (Font)              scaled to size 10.95pt on input line 69.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
 (Font)              scaled to size 24.88pt on input line 69.
- (memoria_tfg.toc)
+ (c:\Users\oscar\Desktop\DR\P1\out\memoria_tfg.toc)
 \tf@toc=\write7
 \openout7 = `memoria_tfg.toc'.
 
@@ -1607,7 +1607,7 @@ LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
 
 
 
-] (memoria_tfg.lof)
+] (c:\Users\oscar\Desktop\DR\P1\out\memoria_tfg.lof)
 \tf@lof=\write8
 \openout8 = `memoria_tfg.lof'.
 
@@ -1636,21 +1636,21 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-(memoria_tfg.aux (portada/portada.aux) (contido/sinqos.aux))
+(c:\Users\oscar\Desktop\DR\P1\out\memoria_tfg.aux (c:\Users\oscar\Desktop\DR\P1\out\portada/portada.aux) (c:\Users\oscar\Desktop\DR\P1\out\contido/sinqos.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
 Package rerunfilecheck Info: File `memoria_tfg.out' has not changed.
-(rerunfilecheck)             Checksum: B27D485B105B8334BAB9706FE2FF8C08;980.
+(rerunfilecheck)             Checksum: CD621B67B7C0B01D781F8CAA9C00017C;983.
  ) 
 Here is how much of TeX's memory you used:
- 36518 strings out of 409029
- 734490 string characters out of 5756741
+ 36519 strings out of 409029
+ 734919 string characters out of 5756741
  1131192 words of memory out of 5000000
  58700 multiletter control sequences out of 15000+600000
  567647 words of font info for 110 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  106i,7n,145p,2375b,374s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on memoria_tfg.xdv (4 pages, 28280 bytes).
+Output written on c:\Users\oscar\Desktop\DR\P1\out\memoria_tfg.xdv (4 pages, 28292 bytes).
