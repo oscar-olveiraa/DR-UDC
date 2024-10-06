@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.3)  3 OCT 2024 14:08
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.3)  6 OCT 2024 23:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1624,13 +1624,26 @@ LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
 (Font)              scaled to size 14.4pt on input line 1.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
 (Font)              scaled to size 14.4pt on input line 4.
-)
+
+Overfull \hbox (50.78938pt too wide) detected at line 15
+\OML/cmm/m/it/10.95 R[] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 R[] \OT1/cmr/m/n/10.95 + 2 \OMS/cmsy/m/n/10.95 ^^A \OML/cmm/m/it/10.95 R[] \OT1/cmr/m/n/10.95 = [] + 2 \OMS/cmsy/m/n/10.95 ^^A \OT1/cmr/m/n/10.95 ([]) = [] + [] = 50 [] + 25 [] = 75 [][]
+ []
+
+
 
 [1
 
 
 
-]
+])
+
+LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 81.
+LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/sl' in size <10> not available
+(Font)              Font shape `TU/LinLibertine(0)/m/it' tried instead on input line 81.
+LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 81.
+[2]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -1642,15 +1655,15 @@ LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
 Package rerunfilecheck Info: File `memoria_tfg.out' has not changed.
-(rerunfilecheck)             Checksum: B27D485B105B8334BAB9706FE2FF8C08;980.
+(rerunfilecheck)             Checksum: 6EE165FC43503721A02C8EE751483686;984.
  ) 
 Here is how much of TeX's memory you used:
- 36518 strings out of 409029
- 734490 string characters out of 5756741
- 1131192 words of memory out of 5000000
- 58700 multiletter control sequences out of 15000+600000
- 567647 words of font info for 110 fonts, out of 8000000 for 9000
+ 36531 strings out of 409029
+ 734957 string characters out of 5756741
+ 1136281 words of memory out of 5000000
+ 58711 multiletter control sequences out of 15000+600000
+ 567720 words of font info for 112 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 106i,7n,145p,2375b,374s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 106i,12n,145p,2375b,432s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on memoria_tfg.xdv (4 pages, 28280 bytes).
+Output written on memoria_tfg.xdv (5 pages, 38964 bytes).
