@@ -445,6 +445,15 @@ OUTPUT contido\sinqos.aux
 INPUT .\contido\sinqos.tex
 INPUT .\contido\sinqos.tex
 INPUT contido\sinqos.tex
+INPUT .\graficas\sinQoS\tamanho_cola_sinQoS.pdf
+INPUT .\graficas\sinQoS\tamanho_cola_sinQoS.pdf
+INPUT .\graficas\sinQoS\tamanho_cola_sinQoS.pdf
+INPUT .\graficas\sinQoS\tiempo_en_cola_sinQoS.pdf
+INPUT .\graficas\sinQoS\tiempo_en_cola_sinQoS.pdf
+INPUT .\graficas\sinQoS\tiempo_en_cola_sinQoS.pdf
+INPUT .\graficas\sinQoS\ end_to_end__delay_sinQoS.pdf
+INPUT .\graficas\sinQoS\ end_to_end__delay_sinQoS.pdf
+INPUT .\graficas\sinQoS\ end_to_end__delay_sinQoS.pdf
 INPUT memoria_tfg.aux
 INPUT .\portada\portada.aux
 INPUT .\portada\portada.aux

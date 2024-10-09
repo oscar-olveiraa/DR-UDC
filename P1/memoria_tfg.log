@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.3)  6 OCT 2024 23:28
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.3)  9 OCT 2024 14:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1635,15 +1635,47 @@ Overfull \hbox (50.78938pt too wide) detected at line 15
 
 
 
-])
+]
+File: graficas/sinQoS/tamanho_cola_sinQoS.pdf Graphic file (type pdf)
+<use graficas/sinQoS/tamanho_cola_sinQoS.pdf>
+
+Overfull \hbox (21.05397pt too wide) in paragraph at lines 72--73
+ [][][][] 
+ []
+
+
 
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 81.
+(Font)              scaled to size 10.0pt on input line 103.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/sl' in size <10> not available
-(Font)              Font shape `TU/LinLibertine(0)/m/it' tried instead on input line 81.
+(Font)              Font shape `TU/LinLibertine(0)/m/it' tried instead on input line 103.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 81.
+(Font)              scaled to size 10.0pt on input line 103.
 [2]
+
+[3]
+File: graficas/sinQoS/tiempo_en_cola_sinQoS.pdf Graphic file (type pdf)
+<use graficas/sinQoS/tiempo_en_cola_sinQoS.pdf>
+
+Overfull \hbox (21.05397pt too wide) in paragraph at lines 124--125
+ [][][][] 
+ []
+
+
+
+[4]
+File: graficas/sinQoS/ end_to_end__delay_sinQoS.pdf Graphic file (type pdf)
+<use graficas/sinQoS/ end_to_end__delay_sinQoS.pdf>
+
+Overfull \hbox (21.05397pt too wide) in paragraph at lines 176--177
+ [][][][] 
+ []
+
+)
+
+[5]
+
+[6]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -1655,15 +1687,15 @@ LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
 Package rerunfilecheck Info: File `memoria_tfg.out' has not changed.
-(rerunfilecheck)             Checksum: 6EE165FC43503721A02C8EE751483686;984.
+(rerunfilecheck)             Checksum: B27D485B105B8334BAB9706FE2FF8C08;980.
  ) 
 Here is how much of TeX's memory you used:
- 36531 strings out of 409029
- 734957 string characters out of 5756741
- 1136281 words of memory out of 5000000
- 58711 multiletter control sequences out of 15000+600000
+ 36578 strings out of 409029
+ 736630 string characters out of 5756741
+ 1140630 words of memory out of 5000000
+ 58754 multiletter control sequences out of 15000+600000
  567720 words of font info for 112 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 106i,12n,145p,2375b,432s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 106i,13n,145p,2375b,538s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on memoria_tfg.xdv (5 pages, 38964 bytes).
+Output written on memoria_tfg.xdv (9 pages, 83560 bytes).
