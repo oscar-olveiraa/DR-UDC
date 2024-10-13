@@ -186,3 +186,23 @@ coinciden de una forma similar los tiempos de la gráfica \ref{fig:sinqos_time} 
 \section{Muestras VoIP y Paquetes VoIP perdidos}
 
 \subsection{Ejercicio 1.4.1}
+
+El número constante de muestras que se pierden al principio (ver gráfica \ref{fig:sinqos_lostsamples}) es consecuencia de que la cola se llena muy 
+rápidamente al enviar cada 20ms paquetes VoIP, por lo que todos los paquetes que entran se descartan (ver gráfica \ref{fig:sinqos_lostpkts}) y hace que 
+las muestras de voz se pierdan de forma uniforme. Una vez que la cola ya está llena, se sigue perdiendo paquetes y con ello muestras, pero deja de ser tan constante ya que se
+va procesando poco a poco el tráfico entonces al irse liberando paquetes, hay momentos en los que se pierden más y otros momentos 
+en los que se pierden menos.
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics{graficas/sinQoS/ muestras_perdidas_sinQoS.pdf}
+  \caption{Muestras perdidas sin QoS}
+  \label{fig:sinqos_lostsamples}
+\end{figure}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics{graficas/sinQoS/paquetes_perdidos_sinQoS.pdf}
+  \caption{Retardo extremo a extremos del router sin QoS}
+  \label{fig:sinqos_lostpkts}
+\end{figure}
