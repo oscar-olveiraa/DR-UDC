@@ -1,42 +1,42 @@
 \selectlanguage *[]{spanish}
 \contentsline {chapter}{\numberline {1}Router sin QoS}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Longitud de cola del router}{1}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Ejercicio 1.1.1}{1}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Ejercicio 1.1.2}{2}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}Ejercicio 1.1.3}{2}{subsection.1.1.3}%
-\contentsline {subsection}{\numberline {1.1.4}Ejercicio 1.1.4}{2}{subsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.1.1}Para el caso en el que se están transmitiendo tanto el flujo VoIP como los dos flujos UDP, calcula:}{1}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}¿Cuál es la tasa de entrada [pkt/s] y la tasa de salida [pkt/s] justo en el momento en que deja de transmitirse el flujo VoIP? ¿Qué consecuencia tienen estas tasas sobre la cola?}{2}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Para el caso en el que ya solo se están transmitiendo los dos flujos UDP y la cola solo contiene paquetes UDP, calcula la tasa de entrada [pkt/s] y tasa de salida [pkt/s]}{2}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}Para el caso en que ya no se transmite el flujo VoIP, calcula la proporción de paquetes de cada tipo en la cola para que las tasas de entrada y de salida [pkt/s] se igualen. ¿Está la cola llena en ese momento? }{3}{subsection.1.1.4}%
 \contentsline {section}{\numberline {1.2}Tiempo en cola del router}{4}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Ejercicio 1.2.1}{4}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Ejercicio 1.2.2}{5}{subsection.1.2.2}%
-\contentsline {section}{\numberline {1.3}Retardo de extremo a extremo}{5}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Ejercicio 1.3.1}{5}{subsection.1.3.1}%
-\contentsline {section}{\numberline {1.4}Muestras VoIP y Paquetes VoIP perdidos}{5}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Ejercicio 1.4.1}{5}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.2.1}Mientras dura la transmisión del flujo VoIP:}{4}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Para el caso en el que ya solo se están transmitiendo los dos flujos UDP:}{5}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Retardo de extremo a extremo}{6}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}¿Cuál es la relación con la gráfica de tiempo de encolado en el router?}{6}{subsection.1.3.1}%
+\contentsline {section}{\numberline {1.4}Muestras VoIP y Paquetes VoIP perdidos}{7}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}¿Por qué se pierde un número constante de muestras al principio? Relaciona con la gráfica de paquetes perdidos.}{7}{subsection.1.4.1}%
 \contentsline {chapter}{\numberline {2}Router con QoS - WRR[1,1]}{9}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Longitud de cola del router}{9}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Ejercicio 2.1.1}{9}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Ejercicio 2.1.2}{10}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Ejercicio 2.1.3}{10}{subsection.2.1.3}%
-\contentsline {section}{\numberline {2.2}Tiempo en cola del router}{11}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Ejercicio 2.2.1}{11}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Ejercicio 2.2.2}{11}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Retardo extremo a extremo}{11}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Ejercicio 2.3.1}{11}{subsection.2.3.1}%
-\contentsline {section}{\numberline {2.4}Muestras VoIP perdidas y Paquetes VoIP perdidos}{11}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Ejercicio 2.4.1}{11}{subsection.2.4.1}%
-\contentsline {chapter}{\numberline {3}Router con QoS - WRR[1,6]}{12}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Longitud de cola del router}{12}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Ejercicio 3.1.1}{12}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Ejercicio 3.1.2}{13}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Tiempo en cola del router}{13}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Ejercicio 3.2.1}{13}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Ejercicio 3.2.2}{13}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Ejercicio 3.2.3}{14}{subsection.3.2.3}%
-\contentsline {chapter}{\numberline {4}Router con QoS - Colas RED}{15}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Longitud de cola del router}{15}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Ejercicio 4.1.1}{15}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Ejercicio 4.1.2}{15}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Ejercicio 4.1.3}{16}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}Tiempo en cola del router}{17}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Ejercicio 4.2.1}{17}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Ejercicio 4.2.2}{17}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {2.1.1}Calcula analíticamente cuántos paquetes habrá como máximo en la cola EF.}{9}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Mientras dura la transmisión del flujo VoIP:}{10}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Para el caso en el que ya solo se están transmitiendo los dos flujos UDP, calcula la tasa de entrada [pkt/s] y tasa de salida [pkt/s].}{11}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Tiempo en cola del router}{12}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Mientras dura la transmisión del flujo VoIP, calcula analíticamente el tiempo en cola de un paquete cuando las colas AF1x y AF2x están llenas.}{12}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Para el caso en el que ya solo se están transmitiendo los dos flujos UDP, calcula el tiempo medio en cola de un paquete.}{12}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Retardo extremo a extremo}{12}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Ejercicio 2.3.1}{12}{subsection.2.3.1}%
+\contentsline {section}{\numberline {2.4}Muestras VoIP perdidas y Paquetes VoIP perdidos}{12}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Ejercicio 2.4.1}{12}{subsection.2.4.1}%
+\contentsline {chapter}{\numberline {3}Router con QoS - WRR[1,6]}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Longitud de cola del router}{13}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Mientras dura la transmisión del flujo VoIP}{13}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Para el caso en el que ya solo se están transmitiendo los dos flujos UDP, calcula la tasa de entrada [pkt/s] y tasa de salida [pkt/s].}{14}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Tiempo en cola del router}{14}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Mientras dura la transmisión del flujo VoIP, calcula analíticamente el tiempo en cola de un paquete cuando la cola AF2x está llena.}{14}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}¿En qué instante entró en la cola AF1x el paquete que salió en t = 60s? ¿Estaba la cola AF1x llena cuando entró?}{15}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}¿En qué instante salió el primer paquete que se encontró la cola AF1x llena?}{15}{subsection.3.2.3}%
+\contentsline {chapter}{\numberline {4}Router con QoS - Colas RED}{16}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Longitud de cola del router}{16}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Ejercicio 4.1.1}{16}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Ejercicio 4.1.2}{16}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Ejercicio 4.1.3}{17}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Tiempo en cola del router}{18}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Ejercicio 4.2.1}{18}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Ejercicio 4.2.2}{18}{subsection.4.2.2}%

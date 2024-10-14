@@ -2,9 +2,15 @@
 \label{chap:conqoswrr16}
 \renewcommand{\theenumi}{\alph{enumi}}
 
+\tcolorbox[colback=yellow!20, colframe=yellow!50!black, title=Nota]
+En este capítulo, aunque la proporción ya no es la misma como en el caso del WRR[1,1], algunos 
+cálculos, como la tasa de entrada en cada cola, es equivalente para ambas, por los que nos 
+referimos a una única cola genérica 'Afx', que representa ambas colas de tráfico UDP.
+\endtcolorbox
+
 \section{Longitud de cola del router}
 
-\subsection{Ejercicio 3.1.1}
+\subsection{Mientras dura la transmisión del flujo VoIP}
 \begin{enumerate}
     \item Tasa de salida (en pkt/s y b/s) de cada cola AF1x y AF2x:
     \[
@@ -30,14 +36,15 @@
     \[
         \begin{aligned}
             t_{\text{FillAf1}} &= \frac{L}{R_{\text{InAf1}} - R_{\text{OutAf1}}} = \frac{100~\text{pkt}}{12,5~\text{pkt/s} - 0,864~\text{pkt/s}} = 8,594~\text{s} \\
-            t_{\text{FillAf1}} &= \frac{L}{R_{\text{InAf2}} - R_{\text{OutAf2}}} = \frac{100~\text{pkt}}{12,5~\text{pkt/s} - 5,186~\text{pkt/s}} = 13,672~\text{s} \\
+            t_{\text{FillAf2}} &= \frac{L}{R_{\text{InAf2}} - R_{\text{OutAf2}}} = \frac{100~\text{pkt}}{12,5~\text{pkt/s} - 5,186~\text{pkt/s}} = 13,672~\text{s} \\
         \end{aligned}
     \]
 \end{enumerate}
 
 \vspace{0,3cm}
 
-\subsection{Ejercicio 3.1.2}
+\subsection{Para el caso en el que ya solo se están transmitiendo los dos flujos UDP, calcula la tasa de entrada [pkt/s] y
+tasa de salida [pkt/s].}
 \[
     \begin{aligned}
         R_{\text{InAfX}} &= \frac{1~\text{pkt}}{0,08~\text{s}} = 12,5~\text{pkt/s} \\ \\
@@ -50,16 +57,27 @@
 \vspace{1cm}
 
 \section{Tiempo en cola del router}
-\subsection{Ejercicio 3.2.1}
+\subsection{Mientras dura la transmisión del flujo VoIP, calcula analíticamente el tiempo en cola de un paquete cuando
+la cola AF2x está llena.}
 \[
     \begin{aligned}
         t_{\text{qAf2}} &= \frac{L}{R_{\text{OutAf2}}} = \frac{100~\text{pkt}}{5,186~\text{pkt/s}}= 19,283~\text{s} \\
     \end{aligned}
 \]
+Para comprobar este resultado podemos acudir a la figura \ref{fig:wrr16_time} para ver como el tiempo 
+en cola de los paquetes de Afx2 se estanca antes de llegar a los 20s, ya que
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics{graficas/WRR/tiempo_en_cola_wrr.pdf}
+    \caption{Tiempo en cola de paquetes en router con WRR[1,6]}
+    \label{fig:wrr16_time}
+\end{figure}
 
 \vspace{0,3cm}
 
-\subsection{Ejercicio 3.2.2}
+\subsection{¿En qué instante entró en la cola AF1x el paquete que salió en t = 60s? ¿Estaba la cola AF1x llena cuando
+entró?}
 \[
     \begin{aligned}
         t_{\text{qAf1}} &= \frac{L}{R_{\text{OutAf1}}} = \frac{100~\text{pkt}}{0,864~\text{pkt/s}}= ~\text{s} \\
@@ -69,7 +87,7 @@
 
 \vspace{0,3cm}
 
-\subsection{Ejercicio 3.2.3}
+\subsection{¿En qué instante salió el primer paquete que se encontró la cola AF1x llena?}
 \[
     \begin{aligned}
         t_{\text{FillAf2}} &= \frac{L}{R_{\text{OutAf2}}} = \frac{100~\text{pkt}}{5,186~\text{pkt/s}}= 19,283~\text{s} \\

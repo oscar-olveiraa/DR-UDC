@@ -3,7 +3,7 @@
 
 \section{Longitud de cola del router}
 
-\subsection{Ejercicio 1.1.1}
+\subsection{Para el caso en el que se están transmitiendo tanto el flujo VoIP como los dos flujos UDP, calcula:}
 
 \renewcommand{\theenumi}{\alph{enumi}}
 \begin{enumerate}
@@ -44,7 +44,8 @@ R_{in} = R_{VoIP} + 2 \cdot R_{UDP} = \frac{1~\mathrm{pkts}}{20~\text{ms}} + 2 \
 
 \end{enumerate}
 
-\subsection{Ejercicio 1.1.2}
+\subsection{¿Cuál es la tasa de entrada [pkt/s] y la tasa de salida [pkt/s] justo en el momento en que deja de
+transmitirse el flujo VoIP? ¿Qué consecuencia tienen estas tasas sobre la cola?}
 La tasa de entrada al dejar de transmitir los paquetes de VoIP, solamente se transmiten los paquetes UDP, entonces en la ecuación \ref{eq:sinqos_tasa_entrada},
 solo tendríamos en cuenta la tasa de los paquetes UDP, quedando en:
     
@@ -74,7 +75,8 @@ en la gráfica \ref{fig:sinqos_tam}.
     \label{fig:sinqos_tam}
 \end{figure}
 
-\subsection{Ejercicio 1.1.3}
+\subsection{Para el caso en el que ya solo se están transmitiendo los dos flujos UDP y la cola solo contiene paquetes
+UDP, calcula la tasa de entrada [pkt/s] y tasa de salida [pkt/s]}
 
 Estas dos tasas ya se han calculado en el siguiente apartado. Por lo tanto quedaría que:
 
@@ -86,7 +88,9 @@ Estas dos tasas ya se han calculado en el siguiente apartado. Por lo tanto queda
   R_{out} = 16~\mathrm{pkts/s}
 \]
 
-\subsection{Ejercicio 1.1.4}
+\subsection{Para el caso en que ya no se transmite el flujo VoIP, calcula la proporción de paquetes de cada tipo en la
+cola para que las tasas de entrada y de salida [pkt/s] se igualen. ¿Está la cola llena en ese momento?
+}
 
 Aprovechando la ecuación para calcular la tasa de salida:
 
@@ -107,7 +111,7 @@ nos quedaria un hueco de para 45 paquetes al dejar de transmitir VoIP y no se ll
 
 \section{Tiempo en cola del router}
 
-\subsection{Ejercicio 1.2.1}
+\subsection{Mientras dura la transmisión del flujo VoIP:}
 \begin{enumerate}
     
     \item Calcula el tiempo medio en cola de un paquete cuando la cola está llena: \label{item:a}
@@ -143,7 +147,7 @@ nos quedaria un hueco de para 45 paquetes al dejar de transmitir VoIP y no se ll
 
 \end{enumerate}
 
-\subsection{Ejercicio 1.2.2}
+\subsection{Para el caso en el que ya solo se están transmitiendo los dos flujos UDP:}
 \begin{enumerate}
     
     \item Calcula el tiempo medio en cola de un paquete cuando la cola está llena.
@@ -169,7 +173,7 @@ nos quedaria un hueco de para 45 paquetes al dejar de transmitir VoIP y no se ll
 
 \section{Retardo de extremo a extremo}
 
-\subsection{Ejercicio 1.3.1}
+\subsection{¿Cuál es la relación con la gráfica de tiempo de encolado en el router?}
 
 \begin{figure}[!ht]
     \centering
@@ -178,14 +182,18 @@ nos quedaria un hueco de para 45 paquetes al dejar de transmitir VoIP y no se ll
     \label{fig:sinqos_endtoend}
 \end{figure}
 
-Hay una relación con el retardo extremo a extremo (tiempo que tarda en llegar los paquetes al destino), con respeto al tiempo de encolado
-de paquetes ya que, si los paquetes pasan mucho tiempo dentro de la cola, aumenta el tiempo de llegada de esos paquetes al detini, por lo que
-coinciden de una forma similar los tiempos de la gráfica \ref{fig:sinqos_time} con respeto a la gráfica \ref{fig:sinqos_endtoend}
+Hay una relación clara entre el retardo extremo a extremo y el tiempo de encolado de paquetes. Esto se debe a 
+que el enlace router-servidor es el único del sistema que sufre problemas de congestión. Por tanto, esto, sumado
+a que el sistema es relativamente pequeño (La distancia origen-destino es baja), hace que sea 
+evidente pensar que casi todo el retraso de los paquetes proviene del tiempo que pasan dentro 
+de esta cola, aumentando el tiempo de llegada de esos paquetes al destino. Por ello, coinciden de 
+una forma similar los tiempos de la gráfica \ref{fig:sinqos_time} con respeto a la gráfica \ref{fig:sinqos_endtoend}.
 
 
 \section{Muestras VoIP y Paquetes VoIP perdidos}
 
-\subsection{Ejercicio 1.4.1}
+\subsection{¿Por qué se pierde un número constante de muestras al principio? Relaciona con la gráfica de paquetes
+perdidos.}
 
 El número constante de muestras que se pierden al principio (ver gráfica \ref{fig:sinqos_lostsamples}) es consecuencia de que la cola se llena muy 
 rápidamente al enviar cada 20ms paquetes VoIP, por lo que todos los paquetes que entran se descartan (ver gráfica \ref{fig:sinqos_lostpkts}) y hace que 
