@@ -15,7 +15,7 @@ Afx2. Cuando esto ocurre nos referimos a la cola genérica 'Afx'.
 
 La cola EF, que representa el flujo UDP, es manejada en este caso mediante \textit{Strict Priority Queueing},
 por lo que podemos 'ignorar' las colas de paquetes UDP y simplemente calcular la tasa de salida con la
-unica restricción que supone limitar el tráfico EF a la tasa efectiva resultante de transmitir VoIP que, 
+única restricción que supone limitar el tráfico EF a la tasa efectiva resultante de transmitir VoIP que, 
 en este caso es de 76,8kbps, como se indica en el enunciado.
 
 
@@ -33,7 +33,7 @@ R_{InVoIP} = R_{outVoIP}
 
 Como la tasa de salida es igual a la de entrada, habrá como mucho un paquete VoIP en
 cola en todo momento, ya que cada paquete se transmite al mismo tiempo que llega el siguiente.
-Esto puede ratificarse al observar la línea verde, que representa la cola EF, en la figura 2.1.
+Esto puede ratificarse al observar la línea verde, que representa la cola EF, en la figura \ref{fig:wrr11_tam}.
 
 \begin{figure}[!ht]
     \centering
