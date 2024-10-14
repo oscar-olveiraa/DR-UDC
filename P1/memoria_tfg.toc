@@ -40,3 +40,4 @@
 \contentsline {section}{\numberline {4.2}Tiempo en cola del router}{20}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Explica a qué es debido el salto en el tiempo de encolado de la cola AF2x.}{20}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Explica las ventajas e inconvenientes del comportamiento de cada cola AF1x y AF2x. }{21}{subsection.4.2.2}%
+\contentsline {chapter}{\numberline {5}Otras Gráficas}{22}{chapter.5}%
