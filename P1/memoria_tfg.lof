@@ -12,11 +12,15 @@
 \addvspace {10\p@ }
 \setforeignlanguage {spanish}
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Longitud de la cola del router aplicando colas DropTail}}{10}{figure.caption.8}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Muestras perdidas en router con WRR[1,1]}}{13}{figure.caption.9}%
 \addvspace {10\p@ }
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Tiempo en cola de paquetes en router con WRR[1,6]}}{15}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Tamaño de la cola en router con WRR[1,6]}}{16}{figure.caption.10}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Tiempo en cola de paquetes en router con WRR[1,6]}}{17}{figure.caption.11}%
 \addvspace {10\p@ }
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Longitud cola del router con QoS usando colas RED}}{17}{figure.caption.10}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Longitud cola del router con QoS usando colas RED}}{19}{figure.caption.12}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Tiempo encolado cola del router con QoS usando colas RED}}{19}{figure.caption.11}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Tiempo encolado cola del router con QoS usando colas RED}}{21}{figure.caption.13}%

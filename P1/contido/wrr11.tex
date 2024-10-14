@@ -68,8 +68,7 @@ Esto puede ratificarse al observar la línea verde, que representa la cola EF, e
             t_{\text{FillAfx}} &= \frac{L}{R_{\text{InAfx}} - R_{\text{OutAfx}}} = \frac{100~\text{pkt}}{12,5~\text{pkt/s} - 3,025~\text{pkt/s}} = 9,475~\text{s} \\
         \end{aligned}
     \]
-    El resultado de este apartado puede comprobarse como correcto al contrastarlo con la figura
-    \ref{fig:wrr11_tam}.
+    El resultado de este apartado se puede que es correcto al contrastarlo con la figura \ref{fig:wrr11_tam}.
 
 \end{enumerate}
 
@@ -133,3 +132,14 @@ espera en la cola con la que tratamos en estos ejercicios.
 \section{Muestras VoIP perdidas y Paquetes VoIP perdidos}
 
 \subsection{Ejercicio 2.4.1}
+
+En este caso, las muestras perdidas son muy pocas gracias a aplicar técnicas de QoS. Las pocas muestras
+que se pierden pueden ser debidas a ráfagas ocasionales de tráfico u otras situaciones inherentes a la naturaleza de la red.
+De hecho, en este caso ya no se pierde ningún paquete en la transmisión.
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics{graficas/WRR/tamao_cola_wrr.pdf}
+    \caption{Muestras perdidas en router con WRR[1,1]}
+    \label{fig:wrr16_lostsamples}
+\end{figure}

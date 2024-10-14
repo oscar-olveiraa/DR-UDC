@@ -24,6 +24,8 @@ referimos a una única cola genérica 'Afx', que representa ambas colas de tráf
             R_{\text{OutAf2}}[pkt/s] &= p_{\text{Af2}} \cdot R_{\text{OutUDP}} = \frac{6}{7} \cdot 6,05~\text{pkt/s} = 5,186~\text{pkt/s} \\
         \end{aligned}
     \]
+    En este caso, a diferencia del capítulo anterior (WRR[1,1]), al tener pesos distintos para cada cola,
+    la tasa de salida de la cola es mucho mayor en Afx2 que en Afx1.
     \item Paquetes por segundo descartados a la entrada de cada cola:
     \[
         \begin{aligned}
@@ -39,7 +41,15 @@ referimos a una única cola genérica 'Afx', que representa ambas colas de tráf
             t_{\text{FillAf2}} &= \frac{L}{R_{\text{InAf2}} - R_{\text{OutAf2}}} = \frac{100~\text{pkt}}{12,5~\text{pkt/s} - 5,186~\text{pkt/s}} = 13,672~\text{s} \\
         \end{aligned}
     \]
+    Como se observa en la figura \ref{fig:wrr16_tam}, el tiempo de llenado paras las colas UDP es muy 
+    bajo, coincidiendo con lo calculado en este apartado.
 \end{enumerate}
+\begin{figure}[!ht]
+    \centering
+    \includegraphics{graficas/WRR/tamao_cola_wrr.pdf}
+    \caption{Tamaño de la cola en router con WRR[1,6]}
+    \label{fig:wrr16_tam}
+\end{figure}
 
 \vspace{0,3cm}
 
@@ -53,6 +63,9 @@ tasa de salida [pkt/s].}
         R_{\text{OutAf2}}[pkt/s] &= p_{\text{Af2}} \cdot R_{\text{OutUDP}} = \frac{6}{7} \cdot 16~\text{pkt/s} = 13,714~\text{pkt/s} \\
     \end{aligned}
 \]
+Es interesante fijarse que, para este contexto, al tener un peso de 6, la cola Afx2 se comienza a vaciar 
+cuando cesa el flujo VoIP como puede verse con lo que se acaba de calcular (La tasa de salida de Afx2 es mayor 
+que la tasa de entrada en la misma). También se refleja en la figura \ref{fig:wrr16_tam}.
 
 \vspace{1cm}
 
@@ -65,7 +78,33 @@ la cola AF2x está llena.}
     \end{aligned}
 \]
 Para comprobar este resultado podemos acudir a la figura \ref{fig:wrr16_time} para ver como el tiempo 
-en cola de los paquetes de Afx2 se estanca antes de llegar a los 20s, ya que
+en cola de los paquetes de Afx2 efectivamente se estanca justo antes de los 20s.
+
+\vspace{0,3cm}
+
+\subsection{¿En qué instante entró en la cola AF1x el paquete que salió en t = 60s? ¿Estaba la cola AF1x llena cuando
+entró?}
+Para realizar este ejercicio nos ayudaremos de la gráfica correspondiente, ya que no es posible 
+realizarlo analíticamente, al menos con los conocimientos que tenemos actualmente. Observando 
+la figura \ref{fig:wrr16_time} desde Omnet, podemos ver que el paquete saliente de la cola Af1x en el segundo 60, lleva 
+en cola un tiempo aproximado de 55,1s.
+\[
+    \begin{aligned}
+        t_{\text{in}} &= t_{\text{out}} - t_{\text{qAf1}} = 60~\text{s} - 55,1~\text{s}= 4,9~\text{s} \\
+    \end{aligned}
+\]
+Por tanto, el momento en el que entró, fue el segundo 4,9. Si nos fijamos en la figura \ref{fig:wrr16_tam}, la cola aún no estaba llena.
+
+\vspace{0,3cm}
+
+\subsection{¿En qué instante salió el primer paquete que se encontró la cola AF1x llena?}
+Aunque podría haber forma de obtener un resultado aproximado calculándolo analíticamente, la forma
+que se usará para resolver este ejercicio es, igual que en el anterior, la comparación con las gráficas en Omnet.
+Primero, acudiremos a la figura \ref{fig:wrr16_tam}. En ella, vemos que el primer paquete que encontró la cola llena
+lo hizo en el instante t=8,6s. 
+A continuación, debemos buscar el punto en la cola Afx1 de la figura \ref{fig:wrr16_time} en el que,
+si  restamos la componente X a la Y, resulte 8,6. Este punto coincidiría con el instante t=84s, momento
+en el que salió el primer paquete que encontró la cola llena.
 
 \begin{figure}[!ht]
     \centering
@@ -73,24 +112,4 @@ en cola de los paquetes de Afx2 se estanca antes de llegar a los 20s, ya que
     \caption{Tiempo en cola de paquetes en router con WRR[1,6]}
     \label{fig:wrr16_time}
 \end{figure}
-
-\vspace{0,3cm}
-
-\subsection{¿En qué instante entró en la cola AF1x el paquete que salió en t = 60s? ¿Estaba la cola AF1x llena cuando
-entró?}
-\[
-    \begin{aligned}
-        t_{\text{qAf1}} &= \frac{L}{R_{\text{OutAf1}}} = \frac{100~\text{pkt}}{0,864~\text{pkt/s}}= ~\text{s} \\
-		t_{\text{InAf1}} &= t_{\text{OutAf1}} - t_{\text{qAf1}} = - = ~\text{s} \\
-    \end{aligned}
-\]
-
-\vspace{0,3cm}
-
-\subsection{¿En qué instante salió el primer paquete que se encontró la cola AF1x llena?}
-\[
-    \begin{aligned}
-        t_{\text{FillAf2}} &= \frac{L}{R_{\text{OutAf2}}} = \frac{100~\text{pkt}}{5,186~\text{pkt/s}}= 19,283~\text{s} \\
-    \end{aligned}
-\]
 
