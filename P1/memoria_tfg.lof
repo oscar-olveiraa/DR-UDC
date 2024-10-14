@@ -10,7 +10,9 @@
 \setforeignlanguage {spanish}
 \contentsline {figure}{\numberline {1.5}{\ignorespaces Retardo extremo a extremos del router sin QoS}}{8}{figure.caption.7}%
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Longitud cola del router con QoS usando colas RED}}{10}{figure.caption.8}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Longitud cola del router con QoS usando colas RED}}{16}{figure.caption.8}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Tiempo encolado cola del router con QoS usando colas RED}}{12}{figure.caption.9}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Tiempo encolado cola del router con QoS usando colas RED}}{18}{figure.caption.9}%

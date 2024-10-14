@@ -1,0 +1,78 @@
+\chapter{Router con QoS - WRR[1,6]}
+\label{chap:conqoswrr16}
+\renewcommand{\theenumi}{\alph{enumi}}
+
+\section{Longitud de cola del router}
+
+\subsection{Ejercicio 3.1.1}
+\begin{enumerate}
+    \item Tasa de salida (en pkt/s y b/s) de cada cola AF1x y AF2x:
+    \[
+        \begin{aligned}
+            R_{\text{OutUDP}}[b/s] &= R_{\text{Out}} - R_{\text{OutVoIP}} = 128~\text{kb/s} \cdot 1000~\text{b/kb} - 50~\text{pkt/s} \cdot 199~\text{B/pkt} \cdot 8~\text{b/B} \\
+                              &= 48400~\text{b/s} \\
+            R_{\text{OutUDP}}[pkt/s] &= 48400~\text{b/s} \cdot \frac{1~\text{B}}{8~\text{b}} \cdot \frac{1~\text{pkt}}{1000~\text{B}} = 6,05~\text{pkt/s} \\ \\
+            R_{\text{OutAf1}}[b/s] &= p_{\text{Af1}} \cdot R_{\text{OutUDP}} = \frac{1}{7} \cdot 48400~\text{b/s} = 6914~\text{b/s} \\
+            R_{\text{OutAf1}}[pkt/s] &= p_{\text{Af1}} \cdot R_{\text{OutUDP}} = \frac{1}{7} \cdot 6,05~\text{pkt/s} = 0,864~\text{pkt/s} \\ \\
+            R_{\text{OutAf2}}[b/s] &= p_{\text{Af2}} \cdot R_{\text{OutUDP}} = \frac{6}{7} \cdot 48400~\text{b/s} = 41486~\text{b/s} \\
+            R_{\text{OutAf2}}[pkt/s] &= p_{\text{Af2}} \cdot R_{\text{OutUDP}} = \frac{6}{7} \cdot 6,05~\text{pkt/s} = 5,186~\text{pkt/s} \\
+        \end{aligned}
+    \]
+    \item Paquetes por segundo descartados a la entrada de cada cola:
+    \[
+        \begin{aligned}
+            R_{\text{InAfX}} &= \frac{1~\text{pkt}}{0,08~\text{s}} = 12,5~\text{pkt/s} \\ \\
+            Pkt_{\text{DescAf1}} &= R_{\text{InAf1}} - R_{\text{OutAf1}} = 12,5~\text{pkt/s} - 0,864~\text{pkt/s} = 11,636~\text{pkt/s} \\
+            Pkt_{\text{DescAf2}} &= R_{\text{InAf2}} - R_{\text{OutAf2}} = 12,5~\text{pkt/s} - 5,186~\text{pkt/s} = 7,314~\text{pkt/s} \\
+        \end{aligned}
+    \]
+    \item Tiempo de llenado de las colas AF1x y AF2x:
+    \[
+        \begin{aligned}
+            t_{\text{FillAf1}} &= \frac{L}{R_{\text{InAf1}} - R_{\text{OutAf1}}} = \frac{100~\text{pkt}}{12,5~\text{pkt/s} - 0,864~\text{pkt/s}} = 8,594~\text{s} \\
+            t_{\text{FillAf1}} &= \frac{L}{R_{\text{InAf2}} - R_{\text{OutAf2}}} = \frac{100~\text{pkt}}{12,5~\text{pkt/s} - 5,186~\text{pkt/s}} = 13,672~\text{s} \\
+        \end{aligned}
+    \]
+\end{enumerate}
+
+\vspace{0,3cm}
+
+\subsection{Ejercicio 3.1.2}
+\[
+    \begin{aligned}
+        R_{\text{InAfX}} &= \frac{1~\text{pkt}}{0,08~\text{s}} = 12,5~\text{pkt/s} \\ \\
+        R_{\text{OutUDP}}[pkt/s] &= 128~\text{kb/s} \cdot 1000~\text{b/kb} \cdot \frac{1~\text{B}}{8~\text{b}} \cdot \frac{1~\text{pkt}}{1000~\text{B}} = 16~\text{pkt/s} \\ \\
+        R_{\text{OutAf1}}[pkt/s] &= p_{\text{Af1}} \cdot R_{\text{OutUDP}} = \frac{1}{7} \cdot 16~\text{pkt/s} = 2,286~\text{pkt/s} \\
+        R_{\text{OutAf2}}[pkt/s] &= p_{\text{Af2}} \cdot R_{\text{OutUDP}} = \frac{6}{7} \cdot 16~\text{pkt/s} = 13,714~\text{pkt/s} \\
+    \end{aligned}
+\]
+
+\vspace{1cm}
+
+\section{Tiempo en cola del router}
+\subsection{Ejercicio 3.2.1}
+\[
+    \begin{aligned}
+        t_{\text{qAf2}} &= \frac{L}{R_{\text{OutAf2}}} = \frac{100~\text{pkt}}{5,186~\text{pkt/s}}= 19,283~\text{s} \\
+    \end{aligned}
+\]
+
+\vspace{0,3cm}
+
+\subsection{Ejercicio 3.2.2}
+\[
+    \begin{aligned}
+        t_{\text{qAf1}} &= \frac{L}{R_{\text{OutAf1}}} = \frac{100~\text{pkt}}{0,864~\text{pkt/s}}= ~\text{s} \\
+		t_{\text{InAf1}} &= t_{\text{OutAf1}} - t_{\text{qAf1}} = - = ~\text{s} \\
+    \end{aligned}
+\]
+
+\vspace{0,3cm}
+
+\subsection{Ejercicio 3.2.3}
+\[
+    \begin{aligned}
+        t_{\text{FillAf2}} &= \frac{L}{R_{\text{OutAf2}}} = \frac{100~\text{pkt}}{5,186~\text{pkt/s}}= 19,283~\text{s} \\
+    \end{aligned}
+\]
+
