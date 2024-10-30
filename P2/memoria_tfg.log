@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.3)  15 OCT 2024 01:34
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.3)  30 OCT 2024 19:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/oscar/Desktop/DR/P1/memoria_tfg.tex
-(c:/Users/oscar/Desktop/DR/P1/memoria_tfg.tex
+**c:/Users/oscar/Desktop/DR/P2/memoria_tfg.tex
+(c:/Users/oscar/Desktop/DR/P2/memoria_tfg.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
 (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
@@ -1605,62 +1605,7 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@temp=\box133
 \tcb@temp=\box134
 \tcb@temp=\box135
-) (memoria_tfg.aux (portada/portada.aux) (contido/sinqos.aux) (contido/wrr11.aux) (contido/wrr16.aux) (contido/red.aux) (contido/otras_graficas.aux
-
-LaTeX Warning: Label `chap:sinqos' multiply defined.
-
-
-LaTeX Warning: Label `fig:sinqos_pktreceived99100' multiply defined.
-
-
-LaTeX Warning: Label `fig:sinqos_pktreceived99100' multiply defined.
-
-
-LaTeX Warning: Label `fig:sinqos_pktreceived99100' multiply defined.
-
-
-LaTeX Warning: Label `fig:sinqos_pktreceived99100' multiply defined.
-
-
-LaTeX Warning: Label `fig:sinqos_pktreceived99100' multiply defined.
-
-
-LaTeX Warning: Label `fig:sinqos_pktreceived99100' multiply defined.
-
-
-LaTeX Warning: Label `fig:sinqos_pktreceived99100' multiply defined.
-
-
-LaTeX Warning: Label `fig:sinqos_pktreceived99100' multiply defined.
-
-
-LaTeX Warning: Label `fig:sinqos_pktreceived99100' multiply defined.
-
-
-LaTeX Warning: Label `fig:sinqos_pktreceived99100' multiply defined.
-
-
-LaTeX Warning: Label `fig:sinqos_pktreceived99100' multiply defined.
-
-
-LaTeX Warning: Label `fig:sinqos_pktreceived99100' multiply defined.
-
-
-LaTeX Warning: Label `fig:sinqos_pktreceived99100' multiply defined.
-
-
-LaTeX Warning: Label `fig:sinqos_pktreceived99100' multiply defined.
-
-
-LaTeX Warning: Label `fig:sinqos_pktreceived99100' multiply defined.
-
-
-LaTeX Warning: Label `fig:sinqos_pktreceived99100' multiply defined.
-
-
-LaTeX Warning: Label `fig:sinqos_pktreceived99100' multiply defined.
-
-))
+) (memoria_tfg.aux (portada/portada.aux) (contido/ipv4.aux))
 \openout1 = `memoria_tfg.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
@@ -1841,469 +1786,73 @@ LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
 
 ])
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
-(Font)              scaled to size 10.95pt on input line 68.
+(Font)              scaled to size 10.95pt on input line 69.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
-(Font)              scaled to size 24.88pt on input line 68.
- (memoria_tfg.toc
-
-[1
-
-
-
-]
-
-LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 43.
-LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/sl' in size <10> not available
-(Font)              Font shape `TU/LinLibertine(0)/m/it' tried instead on input line 43.
-LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 43.
-[2])
+(Font)              scaled to size 24.88pt on input line 69.
+ (memoria_tfg.toc)
 \tf@toc=\write8
 \openout8 = `memoria_tfg.toc'.
 
 
 
-[3] (memoria_tfg.lof
+[1
 
-[4
 
-])
+
+] (memoria_tfg.lof)
 \tf@lof=\write9
 \openout9 = `memoria_tfg.lof'.
 
 
 
-[5]
-\openout2 = `contido/sinqos.aux'.
+[2
 
- (contido/sinqos.tex
+]
+\openout2 = `contido/ipv4.aux'.
+
+ (contido/ipv4.tex
 Capítulo 1.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
 (Font)              scaled to size 14.4pt on input line 1.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
 (Font)              scaled to size 14.4pt on input line 4.
-
-Overfull \hbox (58.39357pt too wide) detected at line 15
-\OML/cmm/m/it/10.95 R[] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 R[] \OT1/cmr/m/n/10.95 + 2 \OMS/cmsy/m/n/10.95 ^^A \OML/cmm/m/it/10.95 R[] \OT1/cmr/m/n/10.95 = [] + 2 \OMS/cmsy/m/n/10.95 ^^A [] \OT1/cmr/m/n/10.95 = [] + [] = 50 [] + 25 [] = 75 [][]
- []
-
+File: imaxes/captura_ejer1_1.png Graphic file (type bmp)
+<imaxes/captura_ejer1_1.png>
 
 
 [1
 
 
 
-]
-File: graficas/sinQoS/tamanho_cola_sinQoS.pdf Graphic file (type pdf)
-<use graficas/sinQoS/tamanho_cola_sinQoS.pdf>
+])
 
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 73--74
- [][][][] 
- []
-
-
-
-[2]
-
-[3]
-File: graficas/sinQoS/tiempo_en_cola_sinQoS.pdf Graphic file (type pdf)
-<use graficas/sinQoS/tiempo_en_cola_sinQoS.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 128--129
- [][][][] 
- []
-
-
-
-[4]
-
-[5]
-File: graficas/sinQoS/delay_SinQoS.pdf Graphic file (type pdf)
-<use graficas/sinQoS/delay_SinQoS.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 180--181
- [][][][] 
- []
-
-
-
-[6]
-File: graficas/sinQoS/ muestras_perdidas_sinQoS.pdf Graphic file (type pdf)
-<use graficas/sinQoS/ muestras_perdidas_sinQoS.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 206--207
- [][][][] 
- []
-
-File: graficas/sinQoS/paquetes_perdidos_sinQoS.pdf Graphic file (type pdf)
-<use graficas/sinQoS/paquetes_perdidos_sinQoS.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 213--214
- [][][][] 
- []
-
-)
-
-[7]
-
-[8]
-\openout2 = `contido/wrr11.aux'.
-
- (contido/wrr11.tex
-Capítulo 2.
+LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 81.
+LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/sl' in size <10> not available
+(Font)              Font shape `TU/LinLibertine(0)/m/it' tried instead on input line 81.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 16.
-File: graficas/DropTail/tamanho_cola_droptail.pdf Graphic file (type pdf)
-<use graficas/DropTail/tamanho_cola_droptail.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 40--41
- [][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
-
- []
-
-
-Overfull \hbox (7.12613pt too wide) detected at line 56
-[][]
- []
-
-
-
-[9
-
-
-
-
-]
-
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
-
- []
-
-
-
-[11]
-
-[12]
-File: graficas/WRR/tamao_cola_wrr.pdf Graphic file (type pdf)
-<use graficas/WRR/tamao_cola_wrr.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 142--143
- [][][][] 
- []
-
-)
-
-[13]
-\openout2 = `contido/wrr16.aux'.
-
- (contido/wrr16.tex
-Capítulo 3.
-
-Overfull \hbox (7.12613pt too wide) detected at line 26
-[][]
- []
-
-
-
-[14
-
-
-
-
-]
-File: graficas/WRR/tamao_cola_wrr.pdf Graphic file (type pdf)
-<use graficas/WRR/tamao_cola_wrr.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 49--50
- [][][][] 
- []
-
-
-
-[15]
-
-[16]
-File: graficas/WRR/tiempo_en_cola_wrr.pdf Graphic file (type pdf)
-<use graficas/WRR/tiempo_en_cola_wrr.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 111--112
- [][][][] 
- []
-
-)
-
-[17]
-\openout2 = `contido/red.aux'.
-
- (contido/red.tex
-Capítulo 4.
-File: graficas/RED/tamao_cola_red.pdf Graphic file (type pdf)
-<use graficas/RED/tamao_cola_red.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 21--22
- [][][][] 
- []
-
-
-
-[18
-
-
-
-
-]
-
-[19]
-File: graficas/RED/tiempo_en_cola_red.pdf Graphic file (type pdf)
-<use graficas/RED/tiempo_en_cola_red.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 111--112
- [][][][] 
- []
-
-
-
-[20])
-
-[21]
-\openout2 = `contido/otras_graficas.aux'.
-
- (contido/otras_graficas.tex
-Capítulo 5.
-File: graficas/sinQoS/jitter_SinQoS.pdf Graphic file (type pdf)
-<use graficas/sinQoS/jitter_SinQoS.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 6--7
- [][][][] 
- []
-
-File: graficas/sinQoS/packetsReceived_sinQoS.pdf Graphic file (type pdf)
-<use graficas/sinQoS/packetsReceived_sinQoS.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 13--14
- [][][][] 
- []
-
-File: graficas/sinQoS/packetsReceived_sinQoS_1.pdf Graphic file (type pdf)
-<use graficas/sinQoS/packetsReceived_sinQoS_1.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 20--21
- [][][][] 
- []
-
-File: graficas/sinQoS/packetsReceived_sinQoS_99.pdf Graphic file (type pdf)
-<use graficas/sinQoS/packetsReceived_sinQoS_99.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 27--28
- [][][][] 
- []
-
-File: graficas/DropTail/tiempo_en_cola_droptail.pdf Graphic file (type pdf)
-<use graficas/DropTail/tiempo_en_cola_droptail.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 35--36
- [][][][] 
- []
-
-File: graficas/DropTail/delay_DT.pdf Graphic file (type pdf)
-<use graficas/DropTail/delay_DT.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 42--43
- [][][][] 
- []
-
-File: graficas/DropTail/jitter_DT.pdf Graphic file (type pdf)
-<use graficas/DropTail/jitter_DT.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 49--50
- [][][][] 
- []
-
-File: graficas/DropTail/packetsReceived_DT.pdf Graphic file (type pdf)
-<use graficas/DropTail/packetsReceived_DT.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 56--57
- [][][][] 
- []
-
-File: graficas/DropTail/packetsReceived_DT_1.pdf Graphic file (type pdf)
-<use graficas/DropTail/packetsReceived_DT_1.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 63--64
- [][][][] 
- []
-
-File: graficas/DropTail/packetsReceived_DT_99.pdf Graphic file (type pdf)
-<use graficas/DropTail/packetsReceived_DT_99.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 70--71
- [][][][] 
- []
-
-File: graficas/WRR/delay_wrr.pdf Graphic file (type pdf)
-<use graficas/WRR/delay_wrr.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 78--79
- [][][][] 
- []
-
-File: graficas/WRR/jitter_WRR.pdf Graphic file (type pdf)
-<use graficas/WRR/jitter_WRR.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 85--86
- [][][][] 
- []
-
-File: graficas/WRR/packetsReceived_WRR.pdf Graphic file (type pdf)
-<use graficas/WRR/packetsReceived_WRR.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 92--93
- [][][][] 
- []
-
-File: graficas/WRR/packetsReceived_WRR_1.pdf Graphic file (type pdf)
-<use graficas/WRR/packetsReceived_WRR_1.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 99--100
- [][][][] 
- []
-
-File: graficas/WRR/packetsReceived_WRR_99.pdf Graphic file (type pdf)
-<use graficas/WRR/packetsReceived_WRR_99.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 106--107
- [][][][] 
- []
-
-File: graficas/WRR/muestras_perdidas_wrr.pdf Graphic file (type pdf)
-<use graficas/WRR/muestras_perdidas_wrr.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 113--114
- [][][][] 
- []
-
-File: graficas/RED/delay_red.pdf Graphic file (type pdf)
-<use graficas/RED/delay_red.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 121--122
- [][][][] 
- []
-
-File: graficas/RED/jitter_RED.pdf Graphic file (type pdf)
-<use graficas/RED/jitter_RED.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 128--129
- [][][][] 
- []
-
-File: graficas/RED/packetsReceived_RED.pdf Graphic file (type pdf)
-<use graficas/RED/packetsReceived_RED.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 135--136
- [][][][] 
- []
-
-File: graficas/RED/packetsReceived_RED_1.pdf Graphic file (type pdf)
-<use graficas/RED/packetsReceived_RED_1.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 142--143
- [][][][] 
- []
-
-File: graficas/RED/packetsReceived_RED_99.pdf Graphic file (type pdf)
-<use graficas/RED/packetsReceived_RED_99.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 149--150
- [][][][] 
- []
-
-File: graficas/RED/muestras_perdidas_red.pdf Graphic file (type pdf)
-<use graficas/RED/muestras_perdidas_red.pdf>
-
-Overfull \hbox (21.05397pt too wide) in paragraph at lines 156--157
- [][][][] 
- []
-
-)
-
-[22
-
-
-
-
-]
-
-[23]
-
-[24]
-
-[25]
-
-[26]
-
-[27]
-
-[28]
-
-[29]
-
-[30]
-
-[31]
-
-[32]
-
-[33]
-
-[34]
-
-[35]
-
-[36]
-
-[37]
-
-[38]
-
-[39]
-
-[40]
-
-[41]
-
-[42]
-
-[43]
+(Font)              scaled to size 10.0pt on input line 81.
+[2]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-(memoria_tfg.aux (portada/portada.aux) (contido/sinqos.aux) (contido/wrr11.aux) (contido/wrr16.aux) (contido/red.aux) (contido/otras_graficas.aux))
+(memoria_tfg.aux (portada/portada.aux) (contido/ipv4.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `memoria_tfg.out' has not changed.
-(rerunfilecheck)             Checksum: 7AFDC8AB59439922AAF79E98F31E502F;16589.
+(rerunfilecheck)             Checksum: 1D1E6A7CD1508EAC89FB3DC954F5A757;101.
  ) 
 Here is how much of TeX's memory you used:
- 48236 strings out of 409029
- 1002679 string characters out of 5756741
- 1378774 words of memory out of 5000000
- 70177 multiletter control sequences out of 15000+600000
- 567728 words of font info for 113 fonts, out of 8000000 for 9000
+ 47749 strings out of 409029
+ 985375 string characters out of 5756741
+ 1350794 words of memory out of 5000000
+ 69754 multiletter control sequences out of 15000+600000
+ 567720 words of font info for 112 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 106i,13n,145p,2397b,622s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 106i,12n,145p,2397b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on memoria_tfg.xdv (49 pages, 381440 bytes).
+Output written on memoria_tfg.xdv (5 pages, 28360 bytes).
