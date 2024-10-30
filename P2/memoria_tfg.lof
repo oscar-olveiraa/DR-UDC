@@ -1,0 +1,71 @@
+\addvspace {10\p@ }
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Longitud de la cola del router sin QoS}}{3}{figure.caption.3}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Tiempo paquetes en cola del router sin QoS}}{5}{figure.caption.4}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Retardo extremo a extremos del router sin QoS}}{6}{figure.caption.5}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Muestras perdidas sin QoS}}{7}{figure.caption.6}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Retardo extremo a extremos del router sin QoS}}{8}{figure.caption.7}%
+\addvspace {10\p@ }
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Longitud de la cola del router aplicando colas DropTail}}{10}{figure.caption.8}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Muestras perdidas en router con WRR[1,1]}}{13}{figure.caption.9}%
+\addvspace {10\p@ }
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Tamaño de la cola en router con WRR[1,6]}}{16}{figure.caption.10}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Tiempo en cola de paquetes en router con WRR[1,6]}}{17}{figure.caption.11}%
+\addvspace {10\p@ }
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Longitud cola del router con QoS usando colas RED}}{19}{figure.caption.12}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Tiempo encolado cola del router con QoS usando colas RED}}{21}{figure.caption.13}%
+\addvspace {10\p@ }
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Jitter a partir retardo extremo a extremo del router sin QoS}}{22}{figure.caption.14}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Paquetes recibidos en el servidor sin QoS}}{23}{figure.caption.15}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Paquetes recibidos en el servidor sin QoS intervalo 0-1}}{24}{figure.caption.16}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Paquetes recibidos en el servidor sin QoS intervalo 99-100}}{25}{figure.caption.17}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Tiempo encolado droptail}}{26}{figure.caption.18}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Delay extremo a extremo con droptail}}{27}{figure.caption.19}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Jitter a partir retardo extremo a extremo droptail}}{28}{figure.caption.20}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Paquetes recibidos en el servidor droptail}}{29}{figure.caption.21}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Paquetes recibidos en el sevidor droptail intervalo 0-1 }}{30}{figure.caption.22}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Paquetes recibidos en el servidor droptail intervalo 99-100}}{31}{figure.caption.23}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Retardo extremo a extremo WRR16}}{32}{figure.caption.24}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Jitter a partir retardo extremo a extremo WRR16}}{33}{figure.caption.25}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Paquetes recibidos en el servidor con WRR16}}{34}{figure.caption.26}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Paquetes recibidos en el servidor con WRR16 intervalo 0-1}}{35}{figure.caption.27}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Paquetes recibidos en el servidor con WRR16 intervalo 99-100}}{36}{figure.caption.28}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Muestras perdidas WRR16}}{37}{figure.caption.29}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Retardo extremo a extremo RED}}{38}{figure.caption.30}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Jitter a partir retardo extremo a extremo RED}}{39}{figure.caption.31}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Paquetes recibidos en el servidor con RED}}{40}{figure.caption.32}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Paquetes recibidos en el servidor con RED intervalo 0-1}}{41}{figure.caption.33}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Paquetes recibidos en el servidor con RED intervalo 99-100}}{42}{figure.caption.34}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Muestras perdidas con RED}}{43}{figure.caption.35}%
