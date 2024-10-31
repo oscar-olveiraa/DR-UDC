@@ -22,9 +22,14 @@ responde a su solicitud para confirmar la asignación ofrecida por el servidor l
 el cliente lo ignora. Finalmente, el servidor local contesta con un ACK (estos procesos se repiten para todos los cliente, host[1] y host[2]).
 
 Posteriormente, el cliente host[0] intenta hacer la conexión con el servidor local, para lo cual manda primero un broadcast ARP, para asi saber 
-cual es la MAC de la máquina, con la IP que establece en la cabecera ARP. Después, el servidor contesta al broadcast ARP que mandó el cliente identificandose
-su mac, ya que la cabecera ARP incluye su IP.
+cual es la MAC de la máquina, con la IP que establece en la cabecera ARP. Después, el servidor contesta al broadcast ARP que mandó el cliente identificandose su mac, ya que la cabecera ARP incluye su IP.
 
-Finalmente, la conexión sigue adelante con los mensajes de la Trasporte restableciendose cada 4 segundos, con
+Finalmente, la conexión sigue adelante con los mensajes de la capa Trasporte correspondientes para la comunicación, restableciendose cada 4 segundos esa conexion (esto ocurre ya que establecemos un idleInterval de 4 segundos).
 
 
+
+
+\section{Ejercicio 1.2}
+
+\subsection{¿Cuál de los servidores proporciona la IP a host[0]? ¿Sabe el otro servidor que host[0] no cogió la IP ofrecida
+por él? ¿Cómo? (Muestra el contenido de los paquetes relevantes en Wireshark.)}

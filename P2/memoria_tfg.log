@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.3)  30 OCT 2024 19:58
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.3)  31 OCT 2024 13:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1844,15 +1844,15 @@ LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
 Package rerunfilecheck Info: File `memoria_tfg.out' has not changed.
-(rerunfilecheck)             Checksum: 1D1E6A7CD1508EAC89FB3DC954F5A757;101.
+(rerunfilecheck)             Checksum: 8D165C7D7CF447A7FBC6E8C62817ABF5;163.
  ) 
 Here is how much of TeX's memory you used:
  47749 strings out of 409029
  985375 string characters out of 5756741
- 1350794 words of memory out of 5000000
+ 1352794 words of memory out of 5000000
  69754 multiletter control sequences out of 15000+600000
  567720 words of font info for 112 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  106i,12n,145p,2397b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on memoria_tfg.xdv (5 pages, 28360 bytes).
+Output written on memoria_tfg.xdv (5 pages, 33344 bytes).

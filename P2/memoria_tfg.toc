@@ -2,3 +2,5 @@
 \contentsline {chapter}{\numberline {1}IPv4}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Ejercicio 1.1}{1}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Muestra una captura del tráfico de paquetes DHCP intercambiados entre el nodo host[0] y los servidores DHCP durante el proceso de obtención de su IP, obtenida en Wireshark (Nota: para que los tiempos mostrados en Wireshark coincidan con los tiempos de simulación, activa Visualización → Formato de visualización de fecha → Segundos desde 1970-01-01). Explica lo que ocurre y para qué sirve cada paquete. Para facilitar la captura, configura el startTime del cliente DHCP para que se inicie antes en host[0] que el resto de equipos}{1}{subsection.1.1.1}%
+\contentsline {section}{\numberline {1.2}Ejercicio 1.2}{2}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}¿Cuál de los servidores proporciona la IP a host[0]? ¿Sabe el otro servidor que host[0] no cogió la IP ofrecida por él? ¿Cómo? (Muestra el contenido de los paquetes relevantes en Wireshark.)}{2}{subsection.1.2.1}%

@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1730314706.89624 "memoria_tfg.xdv" "memoria_tfg.pdf" "memoria_tfg" 1730314708.89413 0
-  "memoria_tfg.xdv" 1730314706 28360 7408b1dd2ba0f3232eab16e19a9564c2 "xelatex"
+["xdvipdfmx"] 1730378759.79594 "memoria_tfg.xdv" "memoria_tfg.pdf" "memoria_tfg" 1730378761.55758 0
+  "memoria_tfg.xdv" 1730378759 33344 2aa42de5f015f4bb6e3a4d6149578528 "xelatex"
   (generated)
   "memoria_tfg.pdf"
   (rewritten before read)
-["xelatex"] 1730314704.09706 "c:/Users/oscar/Desktop/DR/P2/memoria_tfg.tex" "memoria_tfg.xdv" "memoria_tfg" 1730314708.88247 0
+["xelatex"] 1730378757.28301 "c:/Users/oscar/Desktop/DR/P2/memoria_tfg.tex" "memoria_tfg.xdv" "memoria_tfg" 1730378761.54979 0
   "C:/Users/oscar/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1727946186 25300196 53318ed4743b0ef445d7f763f7adb2ce ""
   "C:/Users/oscar/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/helvetic/phvr8t.tfm" 1136768654 7040 b2bd27e2bfe6f6948cbc3239cae7444f ""
   "C:/Users/oscar/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768654 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
@@ -247,18 +247,18 @@
   "bibliografia/acronimos.tex" 1728924323 394 3f341dd8dab229563a54db0f007d2a4e ""
   "bibliografia/glosario.tex" 1728924323 551 33d59db273bd224cf908073c9d264c05 ""
   "c:/Users/oscar/Desktop/DR/P2/memoria_tfg.tex" 1730310932 4679 4bc4edc95a18fe33132d2b1fc6f6d7d6 ""
-  "contido/ipv4.aux" 1730314706 3072 09917b76962c977969aa38478dfd9b4a "xelatex"
-  "contido/ipv4.tex" 1730314700 1901 f72ea96c19ad5ddadadf1e0c542dcfa5 ""
+  "contido/ipv4.aux" 1730378759 3494 00f4fee0dc8b1eb330fe9e9ea7a615a2 "xelatex"
+  "contido/ipv4.tex" 1730378756 2260 68d942bcb51155fecc74baad331695fc ""
   "estilo_tfg.sty" 1728924323 9056 a1f5c1ae20c20ff41d2cd27d6c892007 ""
   "imaxes/captura_ejer1_1.png" 1730312197 157935 aaa7270ff0273a06db742b50dd18682b ""
   "imaxes/euro_inf_seal_bachelor_light background.png" 1728924323 299304 4e5d2dd0c992ca358c35cfd236035fd2 ""
   "imaxes/udc.png" 1728924323 24371 11c539dc2530db5e5948b184f75640a3 ""
-  "memoria_tfg.aux" 1730314706 580 469fdde18fcd1531b6101a5bdc043294 "xelatex"
-  "memoria_tfg.lof" 1730314706 174 5ac8cad4812db30d7032320a925f5e2c "xelatex"
-  "memoria_tfg.out" 1730314706 101 1d1e6a7cd1508eac89fb3dc954f5a757 "xelatex"
+  "memoria_tfg.aux" 1730378759 580 469fdde18fcd1531b6101a5bdc043294 "xelatex"
+  "memoria_tfg.lof" 1730378759 174 5ac8cad4812db30d7032320a925f5e2c "xelatex"
+  "memoria_tfg.out" 1730378759 163 8d165c7d7cf447a7fbc6e8c62817abf5 "xelatex"
   "memoria_tfg.tex" 1730310932 4679 4bc4edc95a18fe33132d2b1fc6f6d7d6 ""
-  "memoria_tfg.toc" 1730314706 772 c402a3bc994b683e77e6f1c2e64c1281 "xelatex"
-  "portada/portada.aux" 1730314706 1655 712e5f98b65a2a4abac64c4fc7cf71ec "xelatex"
+  "memoria_tfg.toc" 1730378759 1112 50e76b10721ff0b4e2d5d03ebf74b3a5 "xelatex"
+  "portada/portada.aux" 1730378759 1655 712e5f98b65a2a4abac64c4fc7cf71ec "xelatex"
   "portada/portada.tex" 1728924323 942 c7b2e8d1afd394e0034651357215e2d6 ""
   (generated)
   "contido/ipv4.aux"
