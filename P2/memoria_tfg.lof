@@ -1,3 +1,5 @@
 \addvspace {10\p@ }
 \setforeignlanguage {spanish}
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Tráfico DHCP entre host[0] y los servidores}}{1}{figure.caption.3}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Tráfico DHCP entre host[0] y los servidores cuando host[2] recibe la ip servidor local}}{4}{figure.caption.4}%
