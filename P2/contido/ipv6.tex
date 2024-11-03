@@ -7,9 +7,6 @@ direcciones MAC e IP. Utilizando la dirección IP de host[0] como ejemplo, expli
 los campos y bits relevantes. Utiliza para explicarlo la notación IPv6 no abreviada (16 bytes:
 xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx)}
 
-<<<<<<< HEAD
-Testeo
-=======
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=135mm, scale=0.75]{imaxes/captura_ejer2_1.png}
@@ -17,7 +14,7 @@ Testeo
     \label{fig:direccion_ipv6_host0}
 \end{figure}
 
-En el principio de la simulación, la direcciones que se muestran son direcciones unicast local de enlace. Estas son direcciones se generan automáticamente una vez que un dispositivo se conecta a una red. La estructura de este tipo de direccione empiezan por FE80:: y este tipo de direcciones no se enrutan.
+En el principio de la simulación, la direcciones que se muestran son direcciones unicast local de enlace. Estas son direcciones se generan automáticamente una vez que un dispositivo se conecta a una red. La estructura de este tipo de direcciones empiezan por FE80:: y no se enrutan.
 
 La segunda parte de la dirección se forma a partir de la dirección MAC del dispositivo. Para esto, fijamos el séptimo bit a 1 e insertamos 0XFFFE entre las dos mitades de la dirección MAC del dispositivo. 
 
@@ -26,9 +23,7 @@ Como ejemplo, vamos a ver la dirección unicast local de enlace que genera el di
 Como se explicó anteriormente, una vez hecho el primer cambio, ahora añadimos 0XFFFE  y posteriormente los últimos 3 bytes de la dirección MAC, por lo que queda como dirección final unicast local de enlace FE80::2E8A:21FF:FE7A:8B9C
 
 
->>>>>>> 5f9a113 (ejercicio 2_2 ipv6)
-
-\section{Ejercicio 2.2}
+\section{Ejercicio 2.2}\label{chap:ejer22}
 \subsection{Asigna al host[2] la misma dirección MAC que al host[0] y arranca la simulación. ¿Qué error ocurre antes de
 que haya transcurrido el primer segundo de simulación? Muestra una captura del error que aparece. ¿Qué
 paquete (tipo, origen y destino) provoca el error? ¿Por qué?}
@@ -37,13 +32,21 @@ paquete (tipo, origen y destino) provoca el error? ¿Por qué?}
     \centering
     \includegraphics[width=135mm, scale=0.75]{imaxes/captura_ejer2_2.png}
     \caption{Fallo en la red con MAC host[2] igual a la de host[0]}
-    \label{fig:direccion_ipv6_host0}
+    \label{fig:fallo_ipv6_host2}
 \end{figure}
+
+Tal y como se muestra en la imagen \ref{fig:fallo_ipv6_host2}, hay un fallo de direcciones duplicadas cuando el host[2] intenta asignarse una dirección IPv6. 
+
+El paquete en concreto que provoca el error es de tipo ICMPv6 con mensaje NS (Neighbor Solicitation), donde el origen de momento es el host[2] (en ese momento sin ninguna dirección) y como destino una dirección multicast. Este error ocurre porque el host[2], cuando crea dirección su dirección, le comunica a sus vecinos de la red (DAD) su nueva dirección entonces se encuentra que el host[0] tiene la misma dirección IPv6 que el se asigno por lo que ocurre un conflito de IPs.
 
 \section{Ejercicio 2.3}
 \subsection{Cambia la MAC del host[2] de manera que coincida con la de host[0] en los últimos 3 bytes y difiera en los 3
 primeros bytes (mantén esta MAC para el resto de las cuestiones). Asigna a serverremote la misma MAC que a
 host[0]. ¿Vuelve a ocurrir el error de dirección duplicada con serverremote y host[0]? ¿Por qué?}
+
+En este caso, al poner la misma MAC al host[0] y al server remote no produce ningún error porque son dispositivos que están en diferentes redes. 
+El conflito que sucedía en el ejercicio \ref{chap:ejer22} es porque los dos dispositivos estaban en la misma red por lo que salta el error de 
+direcciones duplicadas. Esto es como en IPv4 con las IPs privadas, en la misma red no puede haber dos IPs iguales pero si hay dos redes diferentes, puede coincidir una IP privada de un dispositivo que está en la red1 con otra IP privada de otro dispositivo que está en la red2
 
 \section{Ejercicio 2.4}
 \subsection{¿Cuánto tiempo transcurre desde el principio de la simulación hasta que el host[0] su IP link-local definitiva
