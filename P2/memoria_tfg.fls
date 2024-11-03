@@ -548,6 +548,12 @@ OUTPUT contido\ipv6.aux
 INPUT .\contido\ipv6.tex
 INPUT .\contido\ipv6.tex
 INPUT contido\ipv6.tex
+INPUT .\imaxes\captura_ejer2_1.png
+INPUT .\imaxes\captura_ejer2_1.png
+INPUT .\imaxes\captura_ejer2_1.png
+INPUT .\imaxes\captura_ejer2_2.png
+INPUT .\imaxes\captura_ejer2_2.png
+INPUT .\imaxes\captura_ejer2_2.png
 INPUT memoria_tfg.aux
 INPUT .\portada\portada.aux
 INPUT .\portada\portada.aux

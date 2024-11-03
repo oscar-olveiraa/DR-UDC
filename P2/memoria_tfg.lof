@@ -4,3 +4,7 @@
 \setforeignlanguage {spanish}
 \contentsline {figure}{\numberline {1.2}{\ignorespaces Tráfico DHCP entre host[0] y los servidores cuando host[2] recibe la ip servidor local}}{4}{figure.caption.4}%
 \addvspace {10\p@ }
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Escenario inicial dispositivos con IPv6}}{6}{figure.caption.5}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Fallo en la red con MAC host[2] igual a la de host[0]}}{7}{figure.caption.6}%
