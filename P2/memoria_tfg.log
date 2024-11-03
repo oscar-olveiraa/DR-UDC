@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.4)  2 NOV 2024 14:11
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.4)  3 NOV 2024 11:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/oscar/DR/P2/memoria_tfg.tex
-(c:/Users/oscar/DR/P2/memoria_tfg.tex
+**c:/Users/oscar/DR-UDC/P2/memoria_tfg.tex
+(c:/Users/oscar/DR-UDC/P2/memoria_tfg.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
 (C:\Users\oscar\miktex\tex/latex/base\report.cls
@@ -1605,7 +1605,7 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@temp=\box133
 \tcb@temp=\box134
 \tcb@temp=\box135
-) (memoria_tfg.aux (portada/portada.aux) (contido/ipv4.aux))
+) (memoria_tfg.aux (portada/portada.aux) (contido/ipv4.aux) (contido/ipv6.aux))
 \openout1 = `memoria_tfg.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
@@ -1840,26 +1840,55 @@ File: imaxes/captura_ejer1_5.png Graphic file (type bmp)
 [3]
 
 [4]
+\openout2 = `contido/ipv6.aux'.
+
+ (contido/ipv6.tex
+Capítulo 2.
+
+Overfull \hbox (15.84203pt too wide) in paragraph at lines 8--8
+\TU/LinLibertine(0)/b/n/12 IPv6 no abreviada (16 bytes: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx)| 
+ []
+
+
+Overfull \hbox (0.17104pt too wide) in paragraph at lines 39--39
+|[]\TU/LinLibertine(0)/b/n/12 Configura host[0] para que se conecte al servidor server remote usando
+ []
+
+)
+
+[5
+
+
+
+
+]
+
+[6]
+Overfull \vbox (197.44763pt too high) has occurred while \output is active []
+
+
+
+[7]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-(memoria_tfg.aux (portada/portada.aux) (contido/ipv4.aux))
+(memoria_tfg.aux (portada/portada.aux) (contido/ipv4.aux) (contido/ipv6.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
 Package rerunfilecheck Info: File `memoria_tfg.out' has not changed.
-(rerunfilecheck)             Checksum: 5BFB5718DC832A6A3AB730FB61284540;349.
+(rerunfilecheck)             Checksum: EAFF2AC71139CC565F65700922C51DDB;827.
  ) 
 Here is how much of TeX's memory you used:
- 47761 strings out of 409028
- 980809 string characters out of 5761389
- 1358887 words of memory out of 5000000
- 69766 multiletter control sequences out of 15000+600000
+ 47788 strings out of 409028
+ 981501 string characters out of 5761389
+ 1359927 words of memory out of 5000000
+ 69786 multiletter control sequences out of 15000+600000
  567720 words of font info for 112 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 106i,12n,145p,2389b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 106i,12n,145p,2393b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on memoria_tfg.xdv (7 pages, 75828 bytes).
+Output written on memoria_tfg.xdv (10 pages, 111420 bytes).
