@@ -10,7 +10,7 @@
 \contentsline {subsection}{\numberline {1.4.1}¿Cuáles son las direcciones origen y destino de estos paquetes (solicitud y respuesta)? ¿Tienen IP origen o destino? ¿Por qué?}{4}{subsection.1.4.1}%
 \contentsline {section}{\numberline {1.5}Ejercicio 1.5}{5}{section.1.5}%
 \contentsline {subsection}{\numberline {1.5.1}Configura el servidor DHCP en serverlocal con numReservedAddresses = 10 y el cliente DHCP en host[2] para que arranque antes que los otros clientes DHCP. Esto hará que host[2] reciba la IP fija asignada a serverlocal (192.168.0.10). ¿Ocurre algún error cuando el host[2] recibe la IP de serverlocal? Configura el cliente TCP en host[0] para que se conecte a serverlocal y describe paso a paso qué ocurre durante el establecimiento de conexión TCP a partir de t = 6 segundos debido a esta duplicidad.}{5}{subsection.1.5.1}%
-\contentsline {chapter}{\numberline {2}IPv6}{7}{chapter.2}%
+\contentsline {chapter}{\numberline {2}IPv6-SLAAC}{7}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Ejercicio 2.1}{7}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Muestra una captura del escenario en el momento inicial de la simulación en la que se vean todas las direcciones MAC e IP. Utilizando la dirección IP de host[0] como ejemplo, explica cómo se construye, destacando los campos y bits relevantes. Utiliza para explicarlo la notación IPv6 no abreviada (16 bytes: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx)}{7}{subsection.2.1.1}%
 \contentsline {section}{\numberline {2.2}Ejercicio 2.2}{8}{section.2.2}%
@@ -23,5 +23,5 @@
 \contentsline {subsection}{\numberline {2.5.1}¿En qué instante de la simulación obtienen los equipos sus direcciones IP globales? ¿Cómo obtienen esta última? Muestra la tabla de interfaces de nodo host[0] en la que se vea su estado antes y después de obtener la dirección global y explica qué cambia.}{10}{subsection.2.5.1}%
 \contentsline {section}{\numberline {2.6}Ejercicio 2.6}{10}{section.2.6}%
 \contentsline {subsection}{\numberline {2.6.1}Explica cómo se construye la IP global usando el nodo host[0] como ejemplo, de nuevo usando la notación IPv6 no abreviada}{10}{subsection.2.6.1}%
-\contentsline {section}{\numberline {2.7}Ejercicio 2.7}{10}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}Configura host[0] para que se conecte al servidor server remote usando su dirección fe80::x:x:x:x: (asegúrate de que la dirección MAC de server remote es única). ¿Qué ocurre? Repite lo mismo para server local. ¿Qué ocurre?}{10}{subsection.2.7.1}%
+\contentsline {section}{\numberline {2.7}Ejercicio 2.7}{11}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Configura host[0] para que se conecte al servidor server remote usando su dirección fe80::x:x:x:x: (asegúrate de que la dirección MAC de server remote es única). ¿Qué ocurre? Repite lo mismo para server local. ¿Qué ocurre?}{11}{subsection.2.7.1}%

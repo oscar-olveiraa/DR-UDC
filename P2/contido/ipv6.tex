@@ -1,5 +1,5 @@
-\chapter{IPv6}
-\label{chap:ipv6}
+\chapter{IPv6-SLAAC}
+\label{chap:ipv6_slaac}
 
 \section{Ejercicio 2.1}
 \subsection{Muestra una captura del escenario en el momento inicial de la simulación en la que se vean todas las
@@ -14,7 +14,7 @@ xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx)}
     \label{fig:direccion_ipv6_host0}
 \end{figure}
 
-En el principio de la simulación, la direcciones que se muestran son direcciones unicast local de enlace. Estas son direcciones se generan automáticamente una vez que un dispositivo se conecta a una red. La estructura de este tipo de direcciones empiezan por FE80:: y no se enrutan.
+En el principio de la simulación, la direcciones que se muestran son direcciones unicast local de enlace. Estas son direcciones se generan automáticamente una vez que un dispositivo se conecta a una red. La estructura de este tipo de direcciones tienen como prefijo FE80::, no se enrutan y son únicas en ese enlace específico.
 
 La segunda parte de la dirección se forma a partir de la dirección MAC del dispositivo. Para esto, fijamos el séptimo bit a 1 e insertamos 0XFFFE entre las dos mitades de la dirección MAC del dispositivo. 
 
@@ -37,7 +37,7 @@ paquete (tipo, origen y destino) provoca el error? ¿Por qué?}
 
 Tal y como se muestra en la imagen \ref{fig:fallo_ipv6_host2}, hay un fallo de direcciones duplicadas cuando el host[2] intenta asignarse una dirección IPv6. 
 
-El paquete en concreto que provoca el error es de tipo ICMPv6 con mensaje NS (Neighbor Solicitation), donde el origen de momento es el host[2] (en ese momento sin ninguna dirección) y como destino una dirección multicast. Este error ocurre porque el host[2], cuando crea dirección su dirección, le comunica a sus vecinos de la red (DAD) su nueva dirección entonces se encuentra que el host[0] tiene la misma dirección IPv6 que el se asigno por lo que ocurre un conflito de IPs.
+El paquete en concreto que provoca el error es de tipo ICMPv6 con mensaje NS (Neighbor Solicitation), donde el origen de momento es el host[2] (en ese momento sin ninguna dirección) y como destino una dirección multicast. Este error ocurre porque el host[2], cuando crea su dirección, le comunica a sus vecinos de la red (DAD) como es su dirección entonces se encuentra que el host[0] tiene la misma dirección IPv6 que el se asigno por lo que ocurre un conflito de IPs.
 
 \section{Ejercicio 2.3}
 \subsection{Cambia la MAC del host[2] de manera que coincida con la de host[0] en los últimos 3 bytes y difiera en los 3
@@ -63,6 +63,15 @@ dirección global y explica qué cambia.}
 \section{Ejercicio 2.6}
 \subsection{Explica cómo se construye la IP global usando el nodo host[0] como ejemplo, de nuevo usando la notación
 IPv6 no abreviada}
+
+Una vez que el equipo manda un mensaje ICMPv6 con mensaje NS (Neighbor Solicitation) y no ocurre ningún fallo (no hay conflicto de IPs), procede a mandar un paquete ICMPv6 con mensaje RS (Router Solicitation), para que el router le asigne unha IPv6 global (este tipo de IPs ya son enrrutables y únicas a nivel global). El router contesta con un paquete ICMPv6 con mensaje RA (Router Advertisement) indicando el prefijo global de red (los primeros 64 bits de la dirección de la red al que está conectada host[0], en este caso AAAA:0006:0065:0000). Una vez que el host[0] obtiene el prefijo de la red, construye su IPv6 global substituyendo el prefijo de red del enlace local por la de la red quedando su dirección como: AAAA:0006:0065:0000:2E8A:21FF:FE7A:8B9C. Esto se puede ver en la imagen \ref{fig:ip_global_host0}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=135mm, scale=0.75]{imaxes/captura_ejer2_6.png}
+    \caption{Foto red con direcciones IPv6 globales asignadas}
+    \label{fig:ip_global_host0}
+\end{figure}
 
 \section{Ejercicio 2.7}
 \subsection{Configura host[0] para que se conecte al servidor server remote usando su dirección fe80::x:x:x:x:

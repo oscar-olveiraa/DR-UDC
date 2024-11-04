@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.3)  3 NOV 2024 21:50
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.3)  4 NOV 2024 12:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1892,15 +1892,20 @@ File: imaxes/captura_ejer2_2.png Graphic file (type bmp)
 ]
 
 [8]
-Overfull \hbox (0.17104pt too wide) in paragraph at lines 70--70
+
+[9]
+File: imaxes/captura_ejer2_6.png Graphic file (type bmp)
+<imaxes/captura_ejer2_6.png>
+
+
+[10]
+Overfull \hbox (0.17104pt too wide) in paragraph at lines 79--79
 |[]\TU/LinLibertine(0)/b/n/12 Configura host[0] para que se conecte al servidor server remote usando
  []
 
 )
 
-[9]
-
-[10]
+[11]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -1912,15 +1917,15 @@ LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
 Package rerunfilecheck Info: File `memoria_tfg.out' has not changed.
-(rerunfilecheck)             Checksum: EAFF2AC71139CC565F65700922C51DDB;827.
+(rerunfilecheck)             Checksum: B96F8FB08EF7852C3E4879AE3778C185;833.
  ) 
 Here is how much of TeX's memory you used:
- 47908 strings out of 409029
- 988925 string characters out of 5756741
- 1361033 words of memory out of 5000000
- 69891 multiletter control sequences out of 15000+600000
+ 47918 strings out of 409029
+ 989227 string characters out of 5756741
+ 1361121 words of memory out of 5000000
+ 69900 multiletter control sequences out of 15000+600000
  568213 words of font info for 118 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  106i,12n,145p,2397b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on memoria_tfg.xdv (13 pages, 179100 bytes).
+Output written on memoria_tfg.xdv (14 pages, 190820 bytes).
