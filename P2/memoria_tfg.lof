@@ -16,3 +16,10 @@
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Fallo en la red con MAC host[2] igual a la de host[0]}}{9}{figure.caption.9}%
 \setforeignlanguage {spanish}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Foto red con direcciones IPv6 globales asignadas}}{11}{figure.caption.10}%
+\addvspace {10\p@ }
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Captura MAC origen y destino host[0]}}{12}{figure.caption.11}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Captura MAC origen y destino paquetes NS en host[1]}}{13}{figure.caption.12}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Captura paquetes RS y RA host[0]}}{14}{figure.caption.13}%

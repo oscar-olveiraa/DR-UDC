@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.3)  4 NOV 2024 12:16
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.3)  8 NOV 2024 18:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1612,7 +1612,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box136
 \@float@everytoks=\toks64
 \@floatcapt=\box137
-) (memoria_tfg.aux (portada/portada.aux) (contido/ipv4.aux) (contido/ipv6.aux))
+) (memoria_tfg.aux (portada/portada.aux) (contido/ipv4.aux) (contido/ipv6.aux) (contido/ipv6_multicast.aux))
 \openout1 = `memoria_tfg.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
@@ -1906,26 +1906,61 @@ Overfull \hbox (0.17104pt too wide) in paragraph at lines 79--79
 )
 
 [11]
+\openout2 = `contido/ipv6_multicast.aux'.
+
+ (contido/ipv6_multicast.tex
+Capítulo 3.
+File: imaxes/captura_ejer3_1.png Graphic file (type bmp)
+<imaxes/captura_ejer3_1.png>
+
+
+[12
+
+
+
+
+]
+Overfull \hbox (2.89003pt too wide) in paragraph at lines 42--42
+|[]\TU/LinLibertine(0)/b/n/12 ¿Qué direcciones MAC destino tienen los paquetes NS anteriores? ¿Cuá-
+ []
+
+File: imaxes/captura_ejer3_4.png Graphic file (type bmp)
+<imaxes/captura_ejer3_4.png>
+
+Overfull \hbox (22.19514pt too wide) in paragraph at lines 51--52
+[]\TU/LinLibertine(0)/m/n/10 Como se puede observar en la imagen [][]3.2[][], todos los paquetes tienen como MAC destino FF:FF:FF:FF:FF:FF.
+ []
+
+
+
+[13]
+File: imaxes/captura_ejer3_6.png Graphic file (type bmp)
+<imaxes/captura_ejer3_6.png>
+
+
+[14])
+
+[15]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-(memoria_tfg.aux (portada/portada.aux) (contido/ipv4.aux) (contido/ipv6.aux))
+(memoria_tfg.aux (portada/portada.aux) (contido/ipv4.aux) (contido/ipv6.aux) (contido/ipv6_multicast.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
 Package rerunfilecheck Info: File `memoria_tfg.out' has not changed.
-(rerunfilecheck)             Checksum: B96F8FB08EF7852C3E4879AE3778C185;833.
+(rerunfilecheck)             Checksum: 94712475D108B7386298B72466DC4F2B;1580.
  ) 
 Here is how much of TeX's memory you used:
- 47918 strings out of 409029
- 989227 string characters out of 5756741
- 1361121 words of memory out of 5000000
- 69900 multiletter control sequences out of 15000+600000
+ 47975 strings out of 409029
+ 991042 string characters out of 5756741
+ 1362411 words of memory out of 5000000
+ 69947 multiletter control sequences out of 15000+600000
  568213 words of font info for 118 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  106i,12n,145p,2397b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on memoria_tfg.xdv (14 pages, 190820 bytes).
+Output written on memoria_tfg.xdv (18 pages, 283532 bytes).

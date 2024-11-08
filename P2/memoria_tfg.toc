@@ -25,3 +25,26 @@
 \contentsline {subsection}{\numberline {2.6.1}Explica cómo se construye la IP global usando el nodo host[0] como ejemplo, de nuevo usando la notación IPv6 no abreviada}{10}{subsection.2.6.1}%
 \contentsline {section}{\numberline {2.7}Ejercicio 2.7}{11}{section.2.7}%
 \contentsline {subsection}{\numberline {2.7.1}Configura host[0] para que se conecte al servidor server remote usando su dirección fe80::x:x:x:x: (asegúrate de que la dirección MAC de server remote es única). ¿Qué ocurre? Repite lo mismo para server local. ¿Qué ocurre?}{11}{subsection.2.7.1}%
+\contentsline {chapter}{\numberline {3}IPv6-Multicast}{12}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Ejercicio 3.1}{12}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}En los primeros 2 segundos de simulación se envían varios paquetes NS. Muestra una captura del tráfico de paquetes en Wireshark en la que se vean las direcciones IP y MAC origen y destino de los NS enviados desde cada uno de los nodos host[*]. (Nota: para mostrar las direcciones MAC añade dos nuevas columnas: Hw src addr (unresolved) y Hw dest addr (unresolved). Colócalas a la derecha de las direcciones IP.) ¿De qué tipo son las direcciones IP? ¿Cómo se construyen?}{12}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Ejercicio 3.2}{13}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}¿Coincide alguna de las direcciones IP destino de los diferentes paquetes NS? ¿Por qué? ¿Qué consecuencia tiene esto?}{13}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.3}Ejercicio 3.3}{13}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}¿Por qué se envían los NS a esas direcciones IP?}{13}{subsection.3.3.1}%
+\contentsline {section}{\numberline {3.4}Ejercicio 3.4}{13}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}¿Qué direcciones MAC destino tienen los paquetes NS anteriores? ¿Cuáles deberían tener según lo visto en clases de teoría? (Utiliza el paquete NS que sale desde host[1] como ejemplo y escribe los 6 bytes que debería tener la dirección MAC en formato hexadecimal.)}{13}{subsection.3.4.1}%
+\contentsline {section}{\numberline {3.5}Ejercicio 3.5}{14}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}¿Qué consecuencia tiene esta diferencia con respecto a lo visto en clase de teoría?}{14}{subsection.3.5.1}%
+\contentsline {section}{\numberline {3.6}Ejercicio 3.6}{14}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Muestra las direcciones IP y MAC destino de los mensajes RS y RA que aparecen en torno al segundo 2 de simulación. ¿De qué tipo son las direcciones IP?}{14}{subsection.3.6.1}%
+\contentsline {section}{\numberline {3.7}Ejercicio 3.7}{15}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}¿Por qué el RA de respuesta a un RS no usa IP destino unicast?}{15}{subsection.3.7.1}%
+\contentsline {section}{\numberline {3.8}Ejercicio 3.8}{15}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}¿Qué direcciones MAC destino deberían tener los RS según lo visto en clases de teoría? ¿Y los RA?}{15}{subsection.3.8.1}%
+\contentsline {section}{\numberline {3.9}Ejercicio 3.9}{15}{section.3.9}%
+\contentsline {subsection}{\numberline {3.9.1} Aproximadamente en t = 6 s el router envía dos NS. ¿De qué tipo son las direcciones IP destino de estos paquetes? Explica cómo se construyen (notación IPv6 no abreviada).}{15}{subsection.3.9.1}%
+\contentsline {section}{\numberline {3.10}Ejercicio 3.10}{15}{section.3.10}%
+\contentsline {subsection}{\numberline {3.10.1}¿En qué equipos llega el segundo paquete NS enviado por el router al módulo ipv6? ¿Y al submódulo ipv6.neighborDiscovery? ¿Por qué? Nota: para ver el recorrido del paquete en el módulo ipv6, haz doble click en el nodo deseado y luego en el módulo ipv6. Puedes mostrar varios nodos a la vez en diferentes ventanas con botón derecho → Open Graphical View for ‘ipv6’ una vez dentro de ese nivel.)}{15}{subsection.3.10.1}%
+\contentsline {section}{\numberline {3.11}Ejercicio 3.11}{15}{section.3.11}%
+\contentsline {subsection}{\numberline {3.11.1}¿En qué equipos llegaría el mensaje al módulo ipv6 si INET implementase direcciones MAC multicast (33- 33-xx-xx-xx-xx)? ¿Por qué?}{15}{subsection.3.11.1}%
