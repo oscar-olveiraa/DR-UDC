@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.3)  8 NOV 2024 18:51
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.3)  10 NOV 2024 23:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1612,33 +1612,33 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box136
 \@float@everytoks=\toks64
 \@floatcapt=\box137
-) (memoria_tfg.aux (portada/portada.aux) (contido/ipv4.aux) (contido/ipv6.aux) (contido/ipv6_multicast.aux))
+) (memoria_tfg.aux (portada/portada.aux) (contido/ipv4.aux) (contido/ipv6.aux) (contido/ipv6_multicast.aux) (contido/ipv6_nd.aux))
 \openout1 = `memoria_tfg.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 53.
  (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -1646,56 +1646,56 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 51.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 51.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 51.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 51.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 51.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 51.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 51.
-LaTeX Font Info:    Redeclaring math accent \check on input line 51.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 51.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 51.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 51.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 51.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 53.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 53.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 53.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 53.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 53.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 53.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 53.
+LaTeX Font Info:    Redeclaring math accent \check on input line 53.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 53.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 53.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 53.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 53.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 51.
+(Font)              `operators' in the math version `normal' on input line 53.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/LinLibertine(0)/m/n on input line 51.
+(Font)                  OT1/cmr/m/n --> TU/LinLibertine(0)/m/n on input line 53.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 51.
+(Font)              `operators' in the math version `bold' on input line 53.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/LinLibertine(0)/m/n on input line 51.
+(Font)                  OT1/cmr/bx/n --> TU/LinLibertine(0)/m/n on input line 53.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/LinLibertine(0)/m/n --> TU/LinLibertine(0)/m/n on input line 51.
+(Font)                  TU/LinLibertine(0)/m/n --> TU/LinLibertine(0)/m/n on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/LinLibertine(0)/m/it on input line 51.
+(Font)                  OT1/cmr/m/it --> TU/LinLibertine(0)/m/it on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/LinLibertine(0)/b/n on input line 51.
+(Font)                  OT1/cmr/bx/n --> TU/LinLibertine(0)/b/n on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/LinBiolinum(0)/m/n on input line 51.
+(Font)                  OT1/cmss/m/n --> TU/LinBiolinum(0)/m/n on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/LinLibertine(5)/m/n on input line 51.
+(Font)                  OT1/cmtt/m/n --> TU/LinLibertine(5)/m/n on input line 53.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/LinLibertine(0)/m/n --> TU/LinLibertine(0)/b/n on input line 51.
+(Font)                  TU/LinLibertine(0)/m/n --> TU/LinLibertine(0)/b/n on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/LinLibertine(0)/b/it on input line 51.
+(Font)                  OT1/cmr/bx/it --> TU/LinLibertine(0)/b/it on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/LinBiolinum(0)/b/n on input line 51.
+(Font)                  OT1/cmss/bx/n --> TU/LinBiolinum(0)/b/n on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/LinLibertine(5)/b/n on input line 51.
+(Font)                  OT1/cmtt/m/n --> TU/LinLibertine(5)/b/n on input line 53.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1705,15 +1705,15 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(113.81102pt, 412.56497pt, 71.13188pt)
-* v-part:(T,H,B)=(113.81102pt, 617.4248pt, 113.81102pt)
+* h-part:(L,W,R)=(78.24507pt, 455.24411pt, 64.01869pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=412.56497pt
-* \textheight=617.4248pt
-* \oddsidemargin=41.54103pt
-* \evensidemargin=41.54103pt
-* \topmargin=4.54103pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=5.97508pt
+* \evensidemargin=5.97508pt
+* \topmargin=-40.1381pt
 * \headheight=14.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -1741,7 +1741,7 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 51.
+Package hyperref Info: Link coloring ON on input line 53.
  (memoria_tfg.out) (memoria_tfg.out)
 \@outlinefile=\write7
 \openout7 = `memoria_tfg.out'.
@@ -1794,9 +1794,9 @@ LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
 
 ])
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 70.
+(Font)              scaled to size 10.0pt on input line 72.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
-(Font)              scaled to size 24.88pt on input line 70.
+(Font)              scaled to size 24.88pt on input line 72.
  (memoria_tfg.toc
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
 (Font)              scaled to size 7.0pt on input line 3.
@@ -1858,10 +1858,15 @@ File: imaxes/ejercicio1_3_2.png Graphic file (type bmp)
 
 
 [3]
-
-[4]
 File: imaxes/ejercicio1_4.png Graphic file (type bmp)
 <imaxes/ejercicio1_4.png>
+
+
+[4]
+Overfull \hbox (9.52692pt too wide) in paragraph at lines 84--84
+\TU/LinLibertine(0)/b/n/12 DHCP. Esto hará que host[2] reciba la IP fija asignada a serverlocal (192.168.0.10).
+ []
+
 File: imaxes/captura_ejer1_5.png Graphic file (type bmp)
 <imaxes/captura_ejer1_5.png>
 )
@@ -1873,15 +1878,8 @@ File: imaxes/captura_ejer1_5.png Graphic file (type bmp)
 
  (contido/ipv6.tex
 Capítulo 2.
-
-Overfull \hbox (15.84203pt too wide) in paragraph at lines 8--8
-\TU/LinLibertine(0)/b/n/12 IPv6 no abreviada (16 bytes: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx)| 
- []
-
 File: imaxes/captura_ejer2_1.png Graphic file (type bmp)
 <imaxes/captura_ejer2_1.png>
-File: imaxes/captura_ejer2_2.png Graphic file (type bmp)
-<imaxes/captura_ejer2_2.png>
 
 
 [7
@@ -1890,22 +1888,57 @@ File: imaxes/captura_ejer2_2.png Graphic file (type bmp)
 
 
 ]
+Overfull \hbox (14.22269pt too wide) in paragraph at lines 21--22
+\TU/LinLibertine(0)/m/n/10 en la imagen [][]2.1[][], su dirección está formada como primera parte FE80:: y la segunda parte como 2E8A:21FF:FE7A:8B9C.
+ []
+
+File: imaxes/captura_ejer2_2.png Graphic file (type bmp)
+<imaxes/captura_ejer2_2.png>
+
 
 [8]
+LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 58.
+File: imaxes/ejercicio2_4_1.png Graphic file (type bmp)
+<imaxes/ejercicio2_4_1.png>
+
 
 [9]
+File: imaxes/ejercicio2_4_2.png Graphic file (type bmp)
+<imaxes/ejercicio2_4_2.png>
+LaTeX Font Info:    Font shape `TU/LinLibertine(5)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 78.
+LaTeX Font Info:    Font shape `TU/LinLibertine(5)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 78.
+
+
+[10]
+File: imaxes/ejercicio2_5_1.png Graphic file (type bmp)
+<imaxes/ejercicio2_5_1.png>
+
+
+[11]
 File: imaxes/captura_ejer2_6.png Graphic file (type bmp)
 <imaxes/captura_ejer2_6.png>
 
 
-[10]
-Overfull \hbox (0.17104pt too wide) in paragraph at lines 79--79
-|[]\TU/LinLibertine(0)/b/n/12 Configura host[0] para que se conecte al servidor server remote usando
- []
+[12]
+File: imaxes/ejercicio2_7_1.png Graphic file (type bmp)
+<imaxes/ejercicio2_7_1.png>
 
+
+[13]
+File: imaxes/ejercicio2_7_3.png Graphic file (type bmp)
+<imaxes/ejercicio2_7_3.png>
+File: imaxes/ejercicio2_7_2.png Graphic file (type bmp)
+<imaxes/ejercicio2_7_2.png>
+File: imaxes/fallo1.png Graphic file (type bmp)
+<imaxes/fallo1.png>
+File: imaxes/fallo2.png Graphic file (type bmp)
+<imaxes/fallo2.png>
 )
 
-[11]
+[14]
 \openout2 = `contido/ipv6_multicast.aux'.
 
  (contido/ipv6_multicast.tex
@@ -1914,53 +1947,87 @@ File: imaxes/captura_ejer3_1.png Graphic file (type bmp)
 <imaxes/captura_ejer3_1.png>
 
 
-[12
+[15
 
 
 
 
 ]
-Overfull \hbox (2.89003pt too wide) in paragraph at lines 42--42
-|[]\TU/LinLibertine(0)/b/n/12 ¿Qué direcciones MAC destino tienen los paquetes NS anteriores? ¿Cuá-
- []
-
 File: imaxes/captura_ejer3_4.png Graphic file (type bmp)
 <imaxes/captura_ejer3_4.png>
 
-Overfull \hbox (22.19514pt too wide) in paragraph at lines 51--52
-[]\TU/LinLibertine(0)/m/n/10 Como se puede observar en la imagen [][]3.2[][], todos los paquetes tienen como MAC destino FF:FF:FF:FF:FF:FF.
- []
 
-
-
-[13]
+[16]
 File: imaxes/captura_ejer3_6.png Graphic file (type bmp)
 <imaxes/captura_ejer3_6.png>
 
 
-[14])
+[17])
 
-[15]
+[18]
+\openout2 = `contido/ipv6_nd.aux'.
+
+ (contido/ipv6_nd.tex
+Capítulo 4.
+File: imaxes/captura_ejer4_1.png Graphic file (type bmp)
+<imaxes/captura_ejer4_1.png>
+
+
+[19
+
+
+
+
+]
+Overfull \hbox (8.5pt too wide) in paragraph at lines 37--38
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (8.5pt too wide) in paragraph at lines 45--52
+[][][][][][] 
+ []
+
+
+Overfull \hbox (8.5pt too wide) in paragraph at lines 59--71
+[][][][][][] 
+ []
+
+
+Overfull \hbox (8.5pt too wide) in paragraph at lines 59--71
+[][][][][][] 
+ []
+
+
+Overfull \hbox (51.45265pt too wide) in paragraph at lines 72--73
+[]\TU/LinLibertine(0)/m/n/10 Un segundo después de enviar el NS, el nodo ha recibido la respuesta de la dirección AAAA:6:65:0:AA54:18FF:FED4:E5F6,
+ []
+
+
+
+[20])
+
+[21]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-(memoria_tfg.aux (portada/portada.aux) (contido/ipv4.aux) (contido/ipv6.aux) (contido/ipv6_multicast.aux))
+(memoria_tfg.aux (portada/portada.aux) (contido/ipv4.aux) (contido/ipv6.aux) (contido/ipv6_multicast.aux) (contido/ipv6_nd.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
 Package rerunfilecheck Info: File `memoria_tfg.out' has not changed.
-(rerunfilecheck)             Checksum: 94712475D108B7386298B72466DC4F2B;1580.
+(rerunfilecheck)             Checksum: 89DB6CB9B7492C8E325330E1D75A16C1;2014.
  ) 
 Here is how much of TeX's memory you used:
- 47975 strings out of 409029
- 991042 string characters out of 5756741
- 1362411 words of memory out of 5000000
- 69947 multiletter control sequences out of 15000+600000
- 568213 words of font info for 118 fonts, out of 8000000 for 9000
+ 48110 strings out of 409029
+ 994741 string characters out of 5756741
+ 1530162 words of memory out of 5000000
+ 70063 multiletter control sequences out of 15000+600000
+ 568237 words of font info for 121 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 106i,12n,145p,2397b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 106i,13n,145p,2397b,1175s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on memoria_tfg.xdv (18 pages, 283532 bytes).
+Output written on memoria_tfg.xdv (24 pages, 473796 bytes).

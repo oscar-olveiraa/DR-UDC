@@ -8,18 +8,45 @@
 \setforeignlanguage {spanish}
 \contentsline {figure}{\numberline {1.4}{\ignorespaces Detalle del intercambio de paquetes ARP entre host[0] y server\_local}}{5}{figure.caption.6}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Tráfico DHCP entre host[0] y los servidores cuando host[2] recibe la ip servidor local}}{6}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Tráfico DHCP entre host[0] y los servidores cuando host[2] recibe la ip servidor local}}{5}{figure.caption.7}%
 \addvspace {10\p@ }
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Escenario inicial dispositivos con IPv6}}{8}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Escenario inicial dispositivos con IPv6}}{7}{figure.caption.8}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Fallo en la red con MAC host[2] igual a la de host[0]}}{9}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Fallo en la red con MAC host[2] igual a la de host[0]}}{8}{figure.caption.9}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Foto red con direcciones IPv6 globales asignadas}}{11}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Captura de paquetes entrantes y salientes de host[0]}}{10}{figure.caption.10}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Mensaje de fin de DAD para host[0]}}{10}{figure.caption.11}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Tabla de interfaces de host[0] en t=0}}{10}{figure.caption.12}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Tabla de interfaces de host[0] en t=3}}{10}{figure.caption.13}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Evento de obtención de dirección global para host[0]}}{11}{figure.caption.14}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Tabla de interfaces de host[0] en t=3}}{12}{figure.caption.15}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Tabla de interfaces de host[0] en t=4}}{12}{figure.caption.16}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Foto red con direcciones IPv6 globales asignadas}}{13}{figure.caption.17}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Configuración establecida para este ejercicio}}{14}{figure.caption.18}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Captura de paquetes en la conexión host[0] a server\_remote}}{14}{figure.caption.19}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Captura de paquetes en la conexión host[0] a server\_local}}{14}{figure.caption.20}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Routing table de host[0] al inicio de la simulación}}{14}{figure.caption.21}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Routing table de host[0] tras obtener la dirección unicast global}}{14}{figure.caption.22}%
 \addvspace {10\p@ }
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Captura MAC origen y destino host[0]}}{12}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Captura MAC origen y destino host[0]}}{15}{figure.caption.23}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Captura MAC origen y destino paquetes NS en host[1]}}{13}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Captura MAC origen y destino paquetes NS en host[1]}}{16}{figure.caption.24}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Captura paquetes RS y RA host[0]}}{14}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Captura paquetes RS y RA host[0]}}{17}{figure.caption.25}%
+\addvspace {10\p@ }
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Paquete NS en t=6s}}{19}{figure.caption.26}%
