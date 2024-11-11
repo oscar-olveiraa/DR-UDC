@@ -61,8 +61,8 @@
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Paquete de NS entrando al módulo neighborDiscovery en host[2]}}{21}{figure.caption.31}%
 \addvspace {10\p@ }
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Paquete NS en t=6s}}{22}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Ventana logs paquete NS en t=6s}}{22}{figure.caption.32}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Neighbor cache ante de enviar NS}}{23}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Neighbor cache del router después enviar NS}}{23}{figure.caption.33}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Neighbor cache ante de enviar NS}}{23}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Neighbor cache del router al recibir respuesta del paquete NS}}{23}{figure.caption.34}%
