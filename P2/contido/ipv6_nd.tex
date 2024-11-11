@@ -1,7 +1,7 @@
 \chapter{IPv6-Neighbor Discovery}
 \label{chap:ipv6_nd}
 
-\section{Ejercico 4.1}
+\section{Ejercicio 4.1}
 \subsection{¿Por qué es necesario el NS que se envía en t = 6 s? Muestra una captura del log del nodo que lo envía que muestre el motivo del envío. ¿Qué paquete cumple la misma función en IPv4?}
 
 \begin{figure}[H]
@@ -16,14 +16,14 @@ Como se puede ver en la imagen \ref{fig:paquete_ns_t6}, el nodo que envia el paq
 
 En el caso de IPv4, el mensaje que realiza una función similar al NS (Neighbor Solicitation) de IPv6 es el mensaje de solicitud ARP (ARP Request). Tanto el NS en IPv6 como la solicitud ARP en IPv4 se utilizan para descubrir la dirección física (de la capa de enlace) que corresponde a una dirección IP o de red específica.
 
-\section{Ejercico 4.2}
+\section{Ejercicio 4.2}
 \subsection{¿Por qué no se usa una IP unicast para ese mensaje, si ya es conocida?}
 
-No se utiliza la direccion unicast aunque sea conocida ya que en IPv6 se emplea una dirección de multicast especial para la resolución de direcciones. Esto se hace para evitar enviar el mensaje a todos los dispositivos de la red. Esta dirección multicast es escuchada solo por el dispositivo que posee la dirección de destino, limitando el tráfico de resolución de direcciones a los dispositivos interesados y asi no sobrecargar la red, ganando asi eficiencia y recursos.
+No se utiliza la dirección unicast aunque sea conocida ya que en IPv6 se emplea una dirección de multicast especial para la resolución de direcciones. Esto se hace para evitar enviar el mensaje a todos los dispositivos de la red. Esta dirección multicast es escuchada solo por el dispositivo que posee la dirección de destino, limitando el tráfico de resolución de direcciones a los dispositivos interesados y asi no sobrecargar la red, ganando asi eficiencia y recursos.
 
 
-\section{Ejercico 4.3}
-\subsection{Muestra capturas de la neighbor cache del nodo que envió el NS un segundo antes de enviarlo, justo después de enviarlo pero antes de recibir el paquete de respuesta y justo después de recibir la respuesta y explica las diferencias entre los 3 estados. (Nota: para ver la neighbor cache haz doble click sobre el nodo → ipv6 → neighbourDiscovery, y a continuación expande owned objects en la ventana inferior izquierda. La neighbor cache es el atributo neighbourMap.)}
+\section{Ejercicio 4.3}
+\subsection{Muestra capturas de la neighbor cache del nodo que envió el NS un segundo antes de enviarlo, justo después de enviarlo pero antes de recibir el paquete de respuesta y justo después de recibir la respuesta y explica las diferencias entre los 3 estados. (Nota: para ver la neighbor cache haz doble click sobre el nodo → ipv6 → neighborDiscovery, y a continuación expande owned objects en la ventana inferior izquierda. La neighbor cache es el atributo neighbourMap.)}
 
 
 \begin{enumerate}
@@ -93,21 +93,61 @@ if=101 fe80::8aa:ff:fe00:6 ==> 0A-AA-00-00-00-06 ROUTERDefaultRtr DELAY reachabi
 
 
 
-\section{Ejercico 4.4}
+\section{Ejercicio 4.4}
 \subsection{¿Envía el host[1] algún otro mensaje NS después del instante t = 6 s? ¿Cuál es su objetivo? Muestra una captura del mensaje en Wireshark y una captura del log en la que se muestre el motivo del envío.}
 
+En la figura \ref{fig:postNShost0}, se observa que host[0] vuelve a enviar un paquete de NS en t = 11 (También se repite en t = 47, y así sucesivamente). El motivo del envío, es la finalización del NUD (Neighbor Unreachability Detection), como refleja la figura \ref{fig:NS_purpose}. Este timeout define el tiempo que pasa en DELAY la entrada de la dirección unicast del router en la tabla de caché de neighborDiscovery de host[0] (Normalmente 5s).
 
-\section{Ejercico 4.5}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=135mm, scale=0.75]{imaxes/ejercicio4_4_1.png}
+    \caption{Intercambio de NS y NA entre host[0] y Router}
+    \label{fig:postNShost0}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=135mm, scale=0.75]{imaxes/ejercicio4_4_2.png}
+    \caption{Motivo del envío del Ns}
+    \label{fig:NS_purpose}
+\end{figure}
+
+\section{Ejercicio 4.5}
 \subsection{¿Es la IP destino de este NS del mismo tipo que en los NS enviados anteriormente? ¿Por qué?}
 
+La IP de destino en el NS en t=11 está en formato unicast link-local, diferenciándose este paquete de los enviados anteriormente en la simulación, que se enviaban a multicast de nodo solicitado. Esto, es debido a que ahora host[0] sí conoce la dirección del router, simplemente quiere saber si está activo y en la misma dirección que host[0] conoce. Las direcciones multicast se necesitan cuando se quiere enviar un mensaje a varios nodos, que no es el caso en esta situación.
 
-\section{Ejercico 4.6}
+
+\section{Ejercicio 4.6}
 \subsection{Muestra capturas de la neighbor cache del host[1] en los siguientes instantes de tiempo:}
 
 \begin{enumerate}
     \item 7 segundos antes del envío del NS de la pregunta anterior.
-    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=135mm, scale=0.75]{imaxes/ejercicio4_5_1.png}
+        \caption{Estado de la tabla en t=4 (La ruta al router comienza en estado STALE)}
+        \label{fig:51}
+    \end{figure}
     \item 3 segundos antes del envío del NS.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=135mm, scale=0.75]{imaxes/ejercicio4_5_2.png}
+        \caption{Estado de la tabla en t=10 (La ruta pasa a estado DELAY hasta que pasen 5 segundos o se reciba un paquete de esa dirección)}
+        \label{fig:52}
+    \end{figure}
     \item Justo después del envío del NS y antes de recibir el NA respuesta.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=135mm, scale=0.75]{imaxes/ejercicio4_5_3.png}
+        \caption{Estado de la tabla en t=11, tras el envío del NS (La ruta pasa a estado PROBE y se mantendrá ahí hasta que se lleve a cabo el intercambio de paquetes NS y NA)}
+        \label{fig:53}
+    \end{figure}
     \item Justo después de recibir el NA respuestas
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=135mm, scale=0.75]{imaxes/ejercicio4_5_4.png}
+        \caption{Estado de la tabla en t=11, tras el envío del NA (La ruta pasa a estado Reachable, porque el router contesta con el NA)}
+        \label{fig:54}
+    \end{figure}
 \end{enumerate}
