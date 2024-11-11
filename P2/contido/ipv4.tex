@@ -27,7 +27,7 @@ Finalmente, la conexión sigue adelante con los mensajes TCP correspondientes y 
 \newline
 Tipos de paquetes:
 \begin{enumerate}
-    \item DHCPDISCOVER: Para decubrir servidores DHCP disponibles. El cliente (en este caso host[0]) manda un paquete con IP destino de broadcast.
+    \item DHCPDISCOVER: Para descubrir servidores DHCP disponibles. El cliente (en este caso host[0]) manda un paquete con IP destino de broadcast.
     \item DHCPOFFER: Respuesta del servidor a un paquete DHCPDISCOVER ofreciéndose como servidor DHCP. El servidor enviará un paquete donde la IP de origen será la del propio servidor (192.168.0.10) al destino 255.255.255.255, indicando además una IP ofrecida.
     \item DHCPREQUEST: El cliente confirma la elección de su servidor DHCP y le solicita la IP ofrecida. Esta comunicación sigue siendo broadcast para informar al resto de servidores DHCP, si los hubiere para que cancelen sus ofertas.
     \item DHCPACK: El servidor confirma la recepción de la petición por el cliente y le establece la IP solicitada. Este paquete tiene como destino la dirección de broadcast porque el cliente no ha recibido aún la IP, aunque se sabe a quién va dirigido gracias a un campo que incluye la MAC del cliente destino.
@@ -59,14 +59,14 @@ El router, que es el otro servidor DHCP, sí descubre que host[0] no coge su dir
 
 \subsection{¿De qué tipo son los primeros paquetes que se intercambian a partir de t = 6 segundos? ¿Cuál es su objetivo?}
 
-Los primeros paquetes que se intercambian a partir de 6s son paquetes ARP. El objetivo de estos paquetes es mapear una dirección IP con su correspondiente dirección MAC. Depués, se guarda esta información en la caché ARP de los dispositivos involucrados. El host[0] pregunta por la MAC de la máquina con la IP 192.168.0.10, que es el servidor local que funciona como servidor TCP. Posteriormente, el servidor local responde enviando un paquete ARP de respuesta unicast al host con su dirección MAC. Sin este paso, no se podería establecer la conexión.
+Los primeros paquetes que se intercambian a partir de 6s son paquetes ARP. El objetivo de estos paquetes es mapear una dirección IP con su correspondiente dirección MAC. Después, se guarda esta información en la caché ARP de los dispositivos involucrados. El host[0] pregunta por la MAC de la máquina con la IP 192.168.0.10, que es el servidor local que funciona como servidor TCP. Posteriormente, el servidor local responde enviando un paquete ARP de respuesta unicast al host con su dirección MAC. Sin este paso, no se podría establecer la conexión.
 
 \section{Ejercicio 1.4}
 
 \subsection{¿Cuáles son las direcciones origen y destino de estos paquetes (solicitud y respuesta)? ¿Tienen IP origen o destino? ¿Por qué?}
 
 En el paquete de solicitud, la dirección de origen es la MAC del cliente TCP host[0], mientras que la dirección de destino es ff:ff:ff:ff:ff:ff, es decir, la dirección de broadcast MAC, cualquier dispositivo en la LAN. En el paquete de respuesta, la dirección origen es la MAC de server\_local y la dirección de destino la MAC de host[0]. 
-Como ARP es un protocolo de capa de enlace, se envía a nivel ethernet y, por tanto, su origen y destino son, como se menciona anteriormente direcciones MAC y no IP. Sin embargo, las direcciones IP origen y destino sí estan incluídas en el protocolo ARP, y por lo tanto en el paquete, dentro de los campos sender/target IP address, como se aprecia en la imagen.
+Como ARP es un protocolo de capa de enlace, se envía a nivel ethernet y, por tanto, su origen y destino son, como se menciona anteriormente direcciones MAC y no IP. Sin embargo, las direcciones IP origen y destino sí están incluidas en el protocolo ARP, y por lo tanto en el paquete, dentro de los campos sender/target IP address, como se aprecia en la imagen.
 
 \begin{figure}[H]
     \centering
@@ -83,7 +83,7 @@ serverlocal (192.168.0.10). ¿Ocurre algún error cuando el host[2] recibe la IP
 cliente TCP en host[0] para que se conecte a serverlocal y describe paso a paso qué ocurre durante el
 establecimiento de conexión TCP a partir de t = 6 segundos debido a esta duplicidad.}
 
-Configurando la red para que el host[2] reciba de primero la IP con un numReservedAddresses = 10, efectivamente recibe la IP estática del servidor local tal y como lo menciona en el enunciado y no ocurre ningún error aunque tengamos dos dispositivos con la misma IP. No obstante, aunque no ocurra ningún error, esto puede desencadenar problemas en la red ya que habería un confrito de IPs como por ejemplo problemas de rendimiento en la red (retrasos en el procesamiento de paquetería o aumento de tráfico ARP al no poder resolver la MAC del disposivo),  pérdida de conexión, inconsistencias en las tablas ARP, etc.
+Configurando la red para que el host[2] reciba de primero la IP con un numReservedAddresses = 10, efectivamente recibe la IP estática del servidor local tal y como lo menciona en el enunciado y no ocurre ningún error aunque tengamos dos dispositivos con la misma IP. No obstante, aunque no ocurra ningún error, esto puede desencadenar problemas en la red ya que habría un conflicto de IPs como por ejemplo problemas de rendimiento en la red (retrasos en el procesamiento de paquetería o aumento de tráfico ARP al no poder resolver la MAC del dispositivo),  pérdida de conexión, inconsistencias en las tablas ARP, etc.
 
 \begin{figure}[!ht]
     \centering
@@ -92,4 +92,4 @@ Configurando la red para que el host[2] reciba de primero la IP con un numReserv
     \label{fig:captura2_host0}
 \end{figure}
 
-Configurando el cliente TCP en el host[0], como se puede ver en la imagen \ref{fig:captura2_host0}, el host[0] manda un paquete ARP modo broadcast para averiguar la MAC del dispositivo con la ip 192.168.0.10. Le contesta primero el servidor local, por lo que empieza la conexión en capa 4; pero, poco después, el host[2] contesta también al broadcast mandado por el host[0], ya que él tiene la misma IP asignada que el servidor local, por lo que se interrumpe la conexión del host[0] con el servidor local mandando un RST,ACK. Pasados 4 segundos (ya que establecemos un idleInterval de 4 segundos), se vuelve establecer la conexión entre host[0] y el server local haciendose esta de manera exitosa ya que en la tabla ARP del host[0] se almacenó como dispositivo correspondiente a la IP 192.168.0.10, la MAC de servidor local ya que fue el primer dispositivo en responde al mandar paquetes ARP en modo broadcast .
+Configurando el cliente TCP en el host[0], como se puede ver en la imagen \ref{fig:captura2_host0}, el host[0] manda un paquete ARP modo broadcast para averiguar la MAC del dispositivo con la ip 192.168.0.10. Le contesta primero el servidor local, por lo que empieza la conexión en capa 4; pero, poco después, el host[2] contesta también al broadcast mandado por el host[0], ya que él tiene la misma IP asignada que el servidor local, por lo que se interrumpe la conexión del host[0] con el servidor local mandando un RST,ACK. Pasados 4 segundos (ya que establecemos un idleInterval de 4 segundos), se vuelve establecer la conexión entre host[0] y el server local haciéndose esta de manera exitosa ya que en la tabla ARP del host[0] se almacenó como dispositivo correspondiente a la IP 192.168.0.10, la MAC de servidor local ya que fue el primer dispositivo en responde al mandar paquetes ARP en modo broadcast .

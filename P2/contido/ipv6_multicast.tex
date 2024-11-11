@@ -53,7 +53,7 @@ Como se puede observar en la imagen \ref{fig:ip_mac_host1}, todos los paquetes t
 \section{Ejercicio 3.5}
 \subsection{¿Qué consecuencia tiene esta diferencia con respecto a lo visto en clase de teoría?}
 
-Resulta que las consecuencias de usar dirección MAC broadcast es que todo el mundo recibe paquetes que en realidad no tendrian que recibir por lo que se sobrecarga la red. Usando la direccion MAC que se especifica en la teoria, solamente se mandaría el paquete a ese host.
+Resulta que las consecuencias de usar dirección MAC broadcast es que todo el mundo recibe paquetes que en realidad no tendrían que recibir por lo que se sobrecarga la red. Usando la dirección MAC que se especifica en la teoría, solamente se mandaría el paquete a ese host.
 
 \section{Ejercicio 3.6} 
 \subsection{Muestra las direcciones IP y MAC destino de los mensajes RS y RA que aparecen en torno al segundo 2 de
@@ -66,9 +66,9 @@ simulación. ¿De qué tipo son las direcciones IP?}
     \label{fig:rs_ra_h1}
 \end{figure}
 
-Como se puede observar en la imagen \ref{fig:rs_ra_h1}, en el caso de los paquetes ICPMv6 con mensaje RS tienen como dirección destino la direccion multicast FF02::2 y como MAC de destino, la dirección FF:FF:FF:FF:FF:FF. En este caso, las direcciones multicast son de este tipo ya que son direcciones a las que van dirigidos los paquetes a todos los routers de la misma red de en enlace para así optimizar el proceso de descubrimiento de routers y no malgastar ancho de banda.
+Como se puede observar en la imagen \ref{fig:rs_ra_h1}, en el caso de los paquetes ICPMv6 con mensaje RS tienen como dirección destino la dirección multicast FF02::2 y como MAC de destino, la dirección FF:FF:FF:FF:FF:FF. En este caso, las direcciones multicast son de este tipo ya que son direcciones a las que van dirigidos los paquetes a todos los routers de la misma red de en enlace para así optimizar el proceso de descubrimiento de routers y no malgastar ancho de banda.
 
-En el caso de los paquetes ICMPv6 con mensaje RA, estos tienen como dirección destino la dirección multicast FF02::1 y como MAC de destino la dirección FF:FF:FF:FF:FF:FF. En este caso, la dirección multicast tiene esta estructra ya que va dirigido a todo dispositivo que está en el mismo enlace de red. 
+En el caso de los paquetes ICMPv6 con mensaje RA, estos tienen como dirección destino la dirección multicast FF02::1 y como MAC de destino la dirección FF:FF:FF:FF:FF:FF. En este caso, la dirección multicast tiene esta estructura ya que va dirigido a todo dispositivo que está en el mismo enlace de red. 
 
 \section{Ejercicio 3.7}
 \subsection{¿Por qué el RA de respuesta a un RS no usa IP destino unicast?}
@@ -84,10 +84,10 @@ La MAC destino del paquete RS debería ser 33:33:00:00:00:02, asegurando que sol
 \subsection{ Aproximadamente en t = 6 s el router envía dos NS. ¿De qué tipo son las direcciones IP destino de estos
 paquetes? Explica cómo se construyen (notación IPv6 no abreviada).}
 
-En IPv6, las direcciones de destino de los mensajes de Neighbor Solicitation son direcciones multicast de nodo solicitado. Estas direcciones se utilizan en el protocolo Neighbor Discovery para resolver la dirección MAC correspondiente a una dirección IPv6 de destino específica en la red local o para anunciar la presencia del emisor del paquete en el proceso de Duplicate Address Detection (El caso estudiado en este ejercicio es el especificado en primer lugar). Cada dirección unicast IPv6 tiene asociada una dirección multicast de nodo solicitado, las cuales, a su vez, se corresponden siempre con una direccion multicast Ethernet.\\
-Las direcciones multicast de nodo solicitado se forman añadiendo tras el prefijo \\
-FF02::1:FF00:0000/104 (ff02:0000:0000:0000:0000:0001:ffXX:XXXX) los 24 bits menos significativos de la dirección unicast correspondiente. \\
-En nuestro caso, como se observa en el paquete 15 de la figura \ref{fig:ns_from_router_to_host0}, la dirección de destino es, siguiendo la notacioón IPv6 no abreviada, 
+En IPv6, las direcciones de destino de los mensajes de Neighbor Solicitation son direcciones multicast de nodo solicitado. Estas direcciones se utilizan en el protocolo Neighbor Discovery para resolver la dirección MAC correspondiente a una dirección IPv6 de destino específica en la red local o para anunciar la presencia del emisor del paquete en el proceso de Duplicate Address Detection (El caso estudiado en este ejercicio es el especificado en primer lugar). Cada dirección unicast IPv6 tiene asociada una dirección multicast de nodo solicitado, las cuales, a su vez, se corresponden siempre con una dirección multicast Ethernet.\\
+Las direcciones multicast de nodo solicitado se forman añadiendo, tras el prefijo \\
+FF02::1:FF00:0000/104 (ff02:0000:0000:0000:0000:0001:ffXX:XXXX), los 24 bits menos significativos de la dirección unicast correspondiente. \\
+En nuestro caso, como se observa en el paquete 15 de la figura \ref{fig:ns_from_router_to_host0}, la dirección de destino es, siguiendo la notación IPv6 no abreviada, 
 ff02:0000:0000:0000:0000:0001:ff7a:8b9c. De esta forma, el paquete será procesado solo por aquellos equipos cuya dirección unicast termine por 7a:8b9c, aunque sea enviado a todos los nodos en la red del destinatario.
 
 \begin{figure}[H]
@@ -105,7 +105,7 @@ botón derecho → Open Graphical View for ‘ipv6’ una vez dentro de ese nive
 
 En primer lugar, cabe destacar que el segundo paquete NS al que nos referiremos en este ejercicio es el que aparece en la figura \ref{fig:ns_from_router_to_host0}, es decir, el enviado del router al switch de la LAN a la que está host[0] conectado. Esto se sabe, porque, como se aprecia en la figura \ref{fig:ns_logs}, el primer paquete (Evento 569) es enviado hacia el servidor remoto; mientras que el evento 605 refleja el envío de ese segundo paquete hacia la dirección multicast de nodo solicitado de host[0].\\
 El paquete NS es primero enviado al switch, que, a su vez, lo reenvía a todos los hosts y a server\_local. Esto se debe a que INET no implementa correctamente direcciones MAC multicast, por lo que la dirección de nodo solicitado de destino equivale a la dirección broadcast de capa 2, ff:ff:ff:ff:ff:ff (Ver \ref{fig:ns_from_router_to_host0}). Podemos ver en detalle en las figuras \ref{fig:ns_ipv6_host0} y \ref{fig:ns_ipv6_host1}, que el paquete entra al módulo IPv6, tanto de host[0] como de host[1], que realmente no es el objetivo de esta transmisión (De igual forma ocurre en server\_local y host[2]).\\
-Por otra parte, se puede ver en la comparación representada en la figura \ref{fig:ns_ipv6ND_host0host1} entre host[0] y host[1], el paquete solo pasa al módulo neighborDiscovery en el caso de host[0], ya que es previamente procesado en el módulo IPv6, donde sí puede leerse su dirección destino de nodo solicitado. Sin embargo, debido a que host[0] y host[2] tienen los últimos 3 bytes de su MAC, y por lo tanto, de su direccción multicast de nodo solicitado, idénticos, el paquete es recibido también en el módulo IPv6 de host[2] (Ver \ref{fig:ns_ipv6ND_host2}).\\
+Por otra parte, se puede ver en la comparación representada en la figura \ref{fig:ns_ipv6ND_host0host1} entre host[0] y host[1], el paquete solo pasa al módulo neighborDiscovery en el caso de host[0], ya que es previamente procesado en el módulo IPv6, donde sí puede leerse su dirección destino de nodo solicitado. Sin embargo, debido a que host[0] y host[2] tienen los últimos 3 bytes de su MAC, y por lo tanto, de su dirección multicast de nodo solicitado, idénticos, el paquete es recibido también en el módulo IPv6 de host[2] (Ver \ref{fig:ns_ipv6ND_host2}).\\
 En resumen, el paquete NS alcanza el módulo IPv6 de host[0], host[1], host[2] y server\_local y el módulo neighborDiscovery de host[0] y host[2], únicamente. 
 
 \begin{figure}[H]
@@ -148,4 +148,4 @@ En resumen, el paquete NS alcanza el módulo IPv6 de host[0], host[1], host[2] y
 33-xx-xx-xx-xx)? ¿Por qué?}
 
 Si INET implementase este tipo de direcciones, el mensaje llegaría al modulo IPv6 (Prefijo 33-33) de los equipos que tengan asignada la dirección MAC 33-33-xx-xx-xx-xx, siendo los últimos 32 bits iguales a los últimos 32 de la dirección multicast de nodo solicitado del equipo. O lo que es lo mismo, el prefijo FF seguido de los últimos 24 bits de la dirección unicast correspondiente a la de nodo solicitado. \\
-Como la configuración actual asigna a host[0] y host[2] direcciones MACC que coinciden en los ultimos 3 bytes, el mensaje NS al que nos referimos, con destino 33-33-FF-7A-8B-9C, sería recibido por los módulos IPv6 de los equipos host[0] y host[2] únicamente y no a todos los equipos actualmente existentes en la LAN, como ocurre en la situación estudiada en el ejercicio anterior.
+Como la configuración actual asigna a host[0] y host[2] direcciones MAC que coinciden en los últimos 3 bytes, el mensaje NS al que nos referimos, con destino 33-33-FF-7A-8B-9C, sería recibido por los módulos IPv6 de los equipos host[0] y host[2] únicamente y no a todos los equipos actualmente existentes en la LAN, como ocurre en la situación estudiada en el ejercicio anterior.
