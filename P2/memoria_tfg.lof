@@ -47,6 +47,22 @@
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Captura MAC origen y destino paquetes NS en host[1]}}{16}{figure.caption.24}%
 \setforeignlanguage {spanish}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Captura paquetes RS y RA host[0]}}{17}{figure.caption.25}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Intercambio de paquetes en t=6 entre el router y host[0]}}{18}{figure.caption.26}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Paquetes enviados por el router en t=6 (Captura de log)}}{19}{figure.caption.27}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Paquete de NS entrando al módulo IPv6 de host[0]}}{19}{figure.caption.28}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Paquete de NS entrando al módulo IPv6 de host[1]}}{20}{figure.caption.29}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Comparación entre host[0] y host[1] de paquetes entrantes al módulo neighborDiscovery}}{20}{figure.caption.30}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Paquete de NS entrando al módulo neighborDiscovery en host[2]}}{21}{figure.caption.31}%
 \addvspace {10\p@ }
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Paquete NS en t=6s}}{19}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Paquete NS en t=6s}}{22}{figure.caption.32}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Neighbor cache ante de enviar NS}}{23}{figure.caption.33}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Neighbor cache ante de enviar NS}}{23}{figure.caption.34}%

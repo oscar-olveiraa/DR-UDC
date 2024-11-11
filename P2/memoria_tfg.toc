@@ -45,19 +45,19 @@
 \contentsline {section}{\numberline {3.9}Ejercicio 3.9}{18}{section.3.9}%
 \contentsline {subsection}{\numberline {3.9.1} Aproximadamente en t = 6 s el router envía dos NS. ¿De qué tipo son las direcciones IP destino de estos paquetes? Explica cómo se construyen (notación IPv6 no abreviada).}{18}{subsection.3.9.1}%
 \contentsline {section}{\numberline {3.10}Ejercicio 3.10}{18}{section.3.10}%
-\contentsline {subsection}{\numberline {3.10.1}¿En qué equipos llega el segundo paquete NS enviado por el router al módulo ipv6? ¿Y al submódulo ipv6.neighborDiscovery? ¿Por qué? Nota: para ver el recorrido del paquete en el módulo ipv6, haz doble click en el nodo deseado y luego en el módulo ipv6. Puedes mostrar varios nodos a la vez en diferentes ventanas con botón derecho → Open Graphical View for ‘ipv6’ una vez dentro de ese nivel.)}{18}{subsection.3.10.1}%
-\contentsline {section}{\numberline {3.11}Ejercicio 3.11}{18}{section.3.11}%
-\contentsline {subsection}{\numberline {3.11.1}¿En qué equipos llegaría el mensaje al módulo ipv6 si INET implementase direcciones MAC multicast (33- 33-xx-xx-xx-xx)? ¿Por qué?}{18}{subsection.3.11.1}%
-\contentsline {chapter}{\numberline {4}IPv6-Neighbor Discovery}{19}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Ejercico 4.1}{19}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}¿Por qué es necesario el NS que se envía en t = 6 s? Muestra una captura del log del nodo que lo envía que muestre el motivo del envío. ¿Qué paquete cumple la misma función en IPv4?}{19}{subsection.4.1.1}%
-\contentsline {section}{\numberline {4.2}Ejercico 4.2}{19}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}¿Por qué no se usa una IP unicast para ese mensaje, si ya es conocida?}{19}{subsection.4.2.1}%
-\contentsline {section}{\numberline {4.3}Ejercico 4.3}{20}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Muestra capturas de la neighbor cache del nodo que envió el NS un segundo antes de enviarlo, justo después de enviarlo pero antes de recibir el paquete de respuesta y justo después de recibir la respuesta y explica las diferencias entre los 3 estados. (Nota: para ver la neighbor cache haz doble click sobre el nodo → ipv6 → neighbourDiscovery, y a continuación expande owned objects en la ventana inferior izquierda. La neighbor cache es el atributo neighbourMap.)}{20}{subsection.4.3.1}%
-\contentsline {section}{\numberline {4.4}Ejercico 4.4}{21}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}¿Envía el host[1] algún otro mensaje NS después del instante t = 6 s? ¿Cuál es su objetivo? Muestra una captura del mensaje en Wireshark y una captura del log en la que se muestre el motivo del envío.}{21}{subsection.4.4.1}%
-\contentsline {section}{\numberline {4.5}Ejercico 4.5}{21}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}¿Es la IP destino de este NS del mismo tipo que en los NS enviados anteriormente? ¿Por qué?}{21}{subsection.4.5.1}%
-\contentsline {section}{\numberline {4.6}Ejercico 4.6}{21}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Muestra capturas de la neighbor cache del host[1] en los siguientes instantes de tiempo:}{21}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {3.10.1}¿En qué equipos llega el segundo paquete NS enviado por el router al módulo ipv6? ¿Y al submódulo ipv6.neighborDiscovery? ¿Por qué? (Nota: para ver el recorrido del paquete en el módulo ipv6, haz doble click en el nodo deseado y luego en el módulo ipv6. Puedes mostrar varios nodos a la vez en diferentes ventanas con botón derecho → Open Graphical View for ‘ipv6’ una vez dentro de ese nivel.)}{18}{subsection.3.10.1}%
+\contentsline {section}{\numberline {3.11}Ejercicio 3.11}{21}{section.3.11}%
+\contentsline {subsection}{\numberline {3.11.1}¿En qué equipos llegaría el mensaje al módulo ipv6 si INET implementase direcciones MAC multicast (33- 33-xx-xx-xx-xx)? ¿Por qué?}{21}{subsection.3.11.1}%
+\contentsline {chapter}{\numberline {4}IPv6-Neighbor Discovery}{22}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Ejercico 4.1}{22}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}¿Por qué es necesario el NS que se envía en t = 6 s? Muestra una captura del log del nodo que lo envía que muestre el motivo del envío. ¿Qué paquete cumple la misma función en IPv4?}{22}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Ejercico 4.2}{22}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}¿Por qué no se usa una IP unicast para ese mensaje, si ya es conocida?}{22}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.3}Ejercico 4.3}{23}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Muestra capturas de la neighbor cache del nodo que envió el NS un segundo antes de enviarlo, justo después de enviarlo pero antes de recibir el paquete de respuesta y justo después de recibir la respuesta y explica las diferencias entre los 3 estados. (Nota: para ver la neighbor cache haz doble click sobre el nodo → ipv6 → neighbourDiscovery, y a continuación expande owned objects en la ventana inferior izquierda. La neighbor cache es el atributo neighbourMap.)}{23}{subsection.4.3.1}%
+\contentsline {section}{\numberline {4.4}Ejercico 4.4}{24}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}¿Envía el host[1] algún otro mensaje NS después del instante t = 6 s? ¿Cuál es su objetivo? Muestra una captura del mensaje en Wireshark y una captura del log en la que se muestre el motivo del envío.}{24}{subsection.4.4.1}%
+\contentsline {section}{\numberline {4.5}Ejercico 4.5}{24}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}¿Es la IP destino de este NS del mismo tipo que en los NS enviados anteriormente? ¿Por qué?}{24}{subsection.4.5.1}%
+\contentsline {section}{\numberline {4.6}Ejercico 4.6}{24}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Muestra capturas de la neighbor cache del host[1] en los siguientes instantes de tiempo:}{24}{subsection.4.6.1}%

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.3)  10 NOV 2024 23:58
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.3)  11 NOV 2024 18:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1612,7 +1612,11 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box136
 \@float@everytoks=\toks64
 \@floatcapt=\box137
-) (memoria_tfg.aux (portada/portada.aux) (contido/ipv4.aux) (contido/ipv6.aux) (contido/ipv6_multicast.aux) (contido/ipv6_nd.aux))
+) (memoria_tfg.aux (portada/portada.aux) (contido/ipv4.aux) (contido/ipv6.aux) (contido/ipv6_multicast.aux) (contido/ipv6_nd.aux
+
+LaTeX Warning: Label `fig:cache_antes_ns' multiply defined.
+
+))
 \openout1 = `memoria_tfg.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
@@ -1888,10 +1892,6 @@ File: imaxes/captura_ejer2_1.png Graphic file (type bmp)
 
 
 ]
-Overfull \hbox (14.22269pt too wide) in paragraph at lines 21--22
-\TU/LinLibertine(0)/m/n/10 en la imagen [][]2.1[][], su dirección está formada como primera parte FE80:: y la segunda parte como 2E8A:21FF:FE7A:8B9C.
- []
-
 File: imaxes/captura_ejer2_2.png Graphic file (type bmp)
 <imaxes/captura_ejer2_2.png>
 
@@ -1962,9 +1962,30 @@ File: imaxes/captura_ejer3_6.png Graphic file (type bmp)
 <imaxes/captura_ejer3_6.png>
 
 
-[17])
+[17]
+File: imaxes/ejercicio3_9_1.png Graphic file (type bmp)
+<imaxes/ejercicio3_9_1.png>
+
 
 [18]
+File: imaxes/ejercicio3_10_1.png Graphic file (type bmp)
+<imaxes/ejercicio3_10_1.png>
+File: imaxes/ejercicio3_10_2.png Graphic file (type bmp)
+<imaxes/ejercicio3_10_2.png>
+File: imaxes/ejercicio3_10_3.png Graphic file (type bmp)
+<imaxes/ejercicio3_10_3.png>
+
+
+[19]
+File: imaxes/ejercicio3_10_4.png Graphic file (type bmp)
+<imaxes/ejercicio3_10_4.png>
+File: imaxes/ejercicio3_10_5.png Graphic file (type bmp)
+<imaxes/ejercicio3_10_5.png>
+
+
+[20])
+
+[21]
 \openout2 = `contido/ipv6_nd.aux'.
 
  (contido/ipv6_nd.tex
@@ -1973,41 +1994,36 @@ File: imaxes/captura_ejer4_1.png Graphic file (type bmp)
 <imaxes/captura_ejer4_1.png>
 
 
-[19
+[22
 
 
 
 
 ]
-Overfull \hbox (8.5pt too wide) in paragraph at lines 37--38
-[][][][][][][] 
- []
-
-
-Overfull \hbox (8.5pt too wide) in paragraph at lines 45--52
+Overfull \hbox (8.5pt too wide) in paragraph at lines 73--85
 [][][][][][] 
  []
 
 
-Overfull \hbox (8.5pt too wide) in paragraph at lines 59--71
+Overfull \hbox (8.5pt too wide) in paragraph at lines 73--85
 [][][][][][] 
  []
 
 
-Overfull \hbox (8.5pt too wide) in paragraph at lines 59--71
-[][][][][][] 
+Overfull \hbox (57.69179pt too wide) in paragraph at lines 88--89
+[]\TU/LinLibertine(0)/m/n/10 if=101 fe80::8aa:ff:fe00:6 ==> 0A-AA-00-00-00-06 ROUTERDefaultRtr DELAY reachabilityExp:0 rtrExp:1804.173601335969 
  []
 
 
-Overfull \hbox (51.45265pt too wide) in paragraph at lines 72--73
+Overfull \hbox (51.45265pt too wide) in paragraph at lines 90--91
 []\TU/LinLibertine(0)/m/n/10 Un segundo después de enviar el NS, el nodo ha recibido la respuesta de la dirección AAAA:6:65:0:AA54:18FF:FED4:E5F6,
  []
 
 
 
-[20])
+[23])
 
-[21]
+[24]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -2018,16 +2034,20 @@ This document will not have a glossary.
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `memoria_tfg.out' has not changed.
 (rerunfilecheck)             Checksum: 89DB6CB9B7492C8E325330E1D75A16C1;2014.
  ) 
 Here is how much of TeX's memory you used:
- 48110 strings out of 409029
- 994741 string characters out of 5756741
- 1530162 words of memory out of 5000000
- 70063 multiletter control sequences out of 15000+600000
+ 48172 strings out of 409029
+ 996548 string characters out of 5756741
+ 1530699 words of memory out of 5000000
+ 70119 multiletter control sequences out of 15000+600000
  568237 words of font info for 121 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 106i,13n,145p,2397b,1175s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 106i,13n,145p,2397b,1260s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on memoria_tfg.xdv (24 pages, 473796 bytes).
+Output written on memoria_tfg.xdv (27 pages, 538448 bytes).
