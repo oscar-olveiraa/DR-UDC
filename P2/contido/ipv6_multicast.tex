@@ -48,7 +48,7 @@ tener la dirección MAC en formato hexadecimal.)}
     \label{fig:ip_mac_host1}
 \end{figure}
 
-Como se puede observar en la imagen \ref{fig:ip_mac_host1}, todos los paquetes tienen como MAC destino FF:FF:FF:FF:FF:FF. Según se ha visto en la clase de teoría, las MAC tienen la estructura 33:33:FF como prefijo de la MAC y, después, los 3 últimos bytes son los 3 bytes menos significativos de la dirección multicast. En este caso, el destino es la dirección MAC broadcast, ya que Omnett no sabe como construir este tipo de direcciones MAC como se explica en la teoría, por eso todos los hosts reciben la misma paquetería. De la otra forma, cada uno recibiría su propia paquetería.
+Como se puede observar en la imagen \ref{fig:ip_mac_host1}, todos los paquetes tienen como MAC destino FF:FF:FF:FF:FF:FF. Según se ha visto en la clase de teoría, las MAC tienen la estructura 33:33:FF como prefijo de la MAC y, después, los 3 últimos bytes son los 3 bytes menos significativos de la dirección multicast, quedando la MAC de destino como 33:33:FF:4D:5E:6F. En este caso, el destino es la dirección MAC broadcast, ya que Omnett no sabe como construir este tipo de direcciones MAC como se explica en la teoría, por eso todos los hosts reciben la misma paquetería. De la otra forma, cada uno recibiría su propia paquetería.
 
 \section{Ejercicio 3.5}
 \subsection{¿Qué consecuencia tiene esta diferencia con respecto a lo visto en clase de teoría?}

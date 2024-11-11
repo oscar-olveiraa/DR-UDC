@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1731350463.779 "memoria_tfg.xdv" "memoria_tfg.pdf" "memoria_tfg" 1731350468.6014 0
-  "memoria_tfg.xdv" 1731350463 558400 096510551230c83a02e3a9e5440019a7 "xelatex"
+["xdvipdfmx"] 1731368212.73601 "memoria_tfg.xdv" "memoria_tfg.pdf" "memoria_tfg" 1731368216.97165 0
+  "memoria_tfg.xdv" 1731368212 558720 ba2506a78385d53e4887a5d3892ece50 "xelatex"
   (generated)
   "memoria_tfg.pdf"
   (rewritten before read)
-["xelatex"] 1731350459.73693 "c:/Users/oscar/Desktop/DR/P2/memoria_tfg.tex" "memoria_tfg.xdv" "memoria_tfg" 1731350468.58655 0
+["xelatex"] 1731368209.31473 "c:/Users/oscar/Desktop/DR/P2/memoria_tfg.tex" "memoria_tfg.xdv" "memoria_tfg" 1731368216.96193 0
   "C:/Users/oscar/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1727946186 25300196 53318ed4743b0ef445d7f763f7adb2ce ""
   "C:/Users/oscar/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/helvetic/phvr8t.tfm" 1136768654 7040 b2bd27e2bfe6f6948cbc3239cae7444f ""
   "C:/Users/oscar/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768654 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
@@ -250,14 +250,14 @@
   "bibliografia/acronimos.tex" 1728924323 394 3f341dd8dab229563a54db0f007d2a4e ""
   "bibliografia/glosario.tex" 1728924323 551 33d59db273bd224cf908073c9d264c05 ""
   "c:/Users/oscar/Desktop/DR/P2/memoria_tfg.tex" 1731256266 4797 ad323c90d2efccf072e897917bc63f27 ""
-  "contido/ipv4.aux" 1731350462 6598 ffc4961ca75d7514543ca3e75339120a "xelatex"
+  "contido/ipv4.aux" 1731368211 6598 ffc4961ca75d7514543ca3e75339120a "xelatex"
   "contido/ipv4.tex" 1731341385 9439 8f3592707c2660757f824f67b7918e78 ""
-  "contido/ipv6.aux" 1731350462 11340 97f22dc09e8e0fcb060f3734c7d5e35f "xelatex"
+  "contido/ipv6.aux" 1731368211 11340 97f22dc09e8e0fcb060f3734c7d5e35f "xelatex"
   "contido/ipv6.tex" 1731350458 16226 7713fe083998388819464f25de5515a9 ""
-  "contido/ipv6_multicast.aux" 1731350462 10007 261edb8a26276fdcc1227b14da037685 "xelatex"
-  "contido/ipv6_multicast.tex" 1731341385 12823 c500b2b0501262e1d7f795e179b897d7 ""
-  "contido/ipv6_nd.aux" 1731350463 8660 e9a063bbae81226328e90804282619fe "xelatex"
-  "contido/ipv6_nd.tex" 1731350264 7860 fc23d163053dde8216eb6e94749ffcd3 ""
+  "contido/ipv6_multicast.aux" 1731368212 10007 261edb8a26276fdcc1227b14da037685 "xelatex"
+  "contido/ipv6_multicast.tex" 1731367651 12874 e022016b7658ed0867fd6df7bb063e31 ""
+  "contido/ipv6_nd.aux" 1731368212 8663 b0cee3eaa442803ebd7c77a3c95f108a "xelatex"
+  "contido/ipv6_nd.tex" 1731368205 7846 07ce3f92e58c71f471f267445d0f16ca ""
   "estilo_tfg.sty" 1728924323 9056 a1f5c1ae20c20ff41d2cd27d6c892007 ""
   "imaxes/captura_ejer1_1.png" 1730312197 157935 aaa7270ff0273a06db742b50dd18682b ""
   "imaxes/captura_ejer1_5.png" 1730660449 67960 dd1f27a7fef40be8fd5341c5c620829b ""
@@ -296,12 +296,12 @@
   "imaxes/fallo1.png" 1731243742 31576 ad5afa8d98137cfc35768d586c419f60 ""
   "imaxes/fallo2.png" 1731243742 40876 f106da139ffc98ca5be1041083c72a7f ""
   "imaxes/udc.png" 1728924323 24371 11c539dc2530db5e5948b184f75640a3 ""
-  "memoria_tfg.aux" 1731350463 672 adb0572005b370608bc78e2420c449b8 "xelatex"
-  "memoria_tfg.lof" 1731350463 6637 0616ef2ac144e551262da76d3b772b22 "xelatex"
-  "memoria_tfg.out" 1731350463 2020 865b4f0d032ceb06f2e50ddf62db212e "xelatex"
+  "memoria_tfg.aux" 1731368212 672 adb0572005b370608bc78e2420c449b8 "xelatex"
+  "memoria_tfg.lof" 1731368212 6637 0616ef2ac144e551262da76d3b772b22 "xelatex"
+  "memoria_tfg.out" 1731368212 2020 865b4f0d032ceb06f2e50ddf62db212e "xelatex"
   "memoria_tfg.tex" 1731256266 4797 ad323c90d2efccf072e897917bc63f27 ""
-  "memoria_tfg.toc" 1731350463 11219 cb1392da39f5b65fc5ea97bf0c13a7de "xelatex"
-  "portada/portada.aux" 1731350462 1683 9f9ab95e816410912d84168b55c8d75e "xelatex"
+  "memoria_tfg.toc" 1731368212 11219 cb1392da39f5b65fc5ea97bf0c13a7de "xelatex"
+  "portada/portada.aux" 1731368211 1683 9f9ab95e816410912d84168b55c8d75e "xelatex"
   "portada/portada.tex" 1728924323 942 c7b2e8d1afd394e0034651357215e2d6 ""
   (generated)
   "contido/ipv4.aux"
