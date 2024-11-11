@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.3)  11 NOV 2024 19:16
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.3)  11 NOV 2024 19:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1612,7 +1612,11 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box136
 \@float@everytoks=\toks64
 \@floatcapt=\box137
-) (memoria_tfg.aux (portada/portada.aux) (contido/ipv4.aux) (contido/ipv6.aux) (contido/ipv6_multicast.aux) (contido/ipv6_nd.aux))
+) (memoria_tfg.aux (portada/portada.aux) (contido/ipv4.aux) (contido/ipv6.aux) (contido/ipv6_multicast.aux) (contido/ipv6_nd.aux
+
+LaTeX Warning: Label `fig:paquete_ns_t6' multiply defined.
+
+))
 \openout1 = `memoria_tfg.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
@@ -1812,15 +1816,23 @@ LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
 
 
 
-] (memoria_tfg.lof)
+] (memoria_tfg.lof
+
+[2
+
+])
 \tf@lof=\write9
 \openout9 = `memoria_tfg.lof'.
 
 
 
-[2
-
-]
+LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 75.
+LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/sl' in size <9> not available
+(Font)              Font shape `TU/LinLibertine(0)/m/it' tried instead on input line 75.
+LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
+(Font)              scaled to size 9.0pt on input line 75.
+[3]
 \openout2 = `contido/ipv4.aux'.
 
  (contido/ipv4.tex
@@ -1844,12 +1856,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--29
 
 
 
-LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 36.
-LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/sl' in size <9> not available
-(Font)              Font shape `TU/LinLibertine(0)/m/it' tried instead on input line 36.
-LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 36.
 [2]
 File: imaxes/ejercicio1_3_1.png Graphic file (type bmp)
 <imaxes/ejercicio1_3_1.png>
@@ -1988,6 +1994,8 @@ File: imaxes/ejercicio3_10_5.png Graphic file (type bmp)
 Capítulo 4.
 File: imaxes/captura_ejer4_1.png Graphic file (type bmp)
 <imaxes/captura_ejer4_1.png>
+File: imaxes/captura_ejer4_33.png Graphic file (type bmp)
+<imaxes/captura_ejer4_33.png>
 
 
 [22
@@ -2002,9 +2010,25 @@ File: imaxes/captura_ejer4_32.png Graphic file (type bmp)
 <imaxes/captura_ejer4_32.png>
 
 
-[23])
+[23]
+File: imaxes/ejercicio4_4_1.png Graphic file (type bmp)
+<imaxes/ejercicio4_4_1.png>
+File: imaxes/ejercicio4_4_2.png Graphic file (type bmp)
+<imaxes/ejercicio4_4_2.png>
+File: imaxes/ejercicio4_5_1.png Graphic file (type bmp)
+<imaxes/ejercicio4_5_1.png>
+File: imaxes/ejercicio4_5_2.png Graphic file (type bmp)
+<imaxes/ejercicio4_5_2.png>
+
 
 [24]
+File: imaxes/ejercicio4_5_3.png Graphic file (type bmp)
+<imaxes/ejercicio4_5_3.png>
+File: imaxes/ejercicio4_5_4.png Graphic file (type bmp)
+<imaxes/ejercicio4_5_4.png>
+)
+
+[25]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -2015,16 +2039,20 @@ This document will not have a glossary.
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `memoria_tfg.out' has not changed.
-(rerunfilecheck)             Checksum: 89DB6CB9B7492C8E325330E1D75A16C1;2014.
+(rerunfilecheck)             Checksum: 865B4F0D032CEB06F2E50DDF62DB212E;2020.
  ) 
 Here is how much of TeX's memory you used:
- 48190 strings out of 409029
- 997114 string characters out of 5756741
- 1530904 words of memory out of 5000000
- 70135 multiletter control sequences out of 15000+600000
+ 48260 strings out of 409029
+ 999078 string characters out of 5756741
+ 1531562 words of memory out of 5000000
+ 70198 multiletter control sequences out of 15000+600000
  568237 words of font info for 121 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  106i,13n,145p,2397b,1175s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on memoria_tfg.xdv (27 pages, 525408 bytes).
+Output written on memoria_tfg.xdv (29 pages, 558400 bytes).

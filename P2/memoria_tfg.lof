@@ -63,6 +63,20 @@
 \setforeignlanguage {spanish}
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Ventana logs paquete NS en t=6s}}{22}{figure.caption.32}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Neighbor cache del router después enviar NS}}{23}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Neighbor cache del router antes de enviar NS}}{23}{figure.caption.33}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Neighbor cache del router al recibir respuesta del paquete NS}}{23}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Neighbor cache del router después enviar NS}}{23}{figure.caption.34}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Neighbor cache del router al recibir respuesta del paquete NS}}{23}{figure.caption.35}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Intercambio de NS y NA entre host[0] y Router}}{24}{figure.caption.36}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Motivo del envío del Ns}}{24}{figure.caption.37}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Estado de la tabla en t=4 (La ruta al router comienza en estado STALE)}}{24}{figure.caption.38}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Estado de la tabla en t=10 (La ruta pasa a estado DELAY hasta que pasen 5 segundos o se reciba un paquete de esa dirección)}}{25}{figure.caption.39}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Estado de la tabla en t=11, tras el envío del NS (La ruta pasa a estado PROBE y se mantendrá ahí hasta que se lleve a cabo el intercambio de paquetes NS y NA)}}{25}{figure.caption.40}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Estado de la tabla en t=11, tras el envío del NA (La ruta pasa a estado Reachable, porque el router contesta con el NA)}}{25}{figure.caption.41}%
