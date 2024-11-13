@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.7)  11 NOV 2024 19:13
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.7)  13 NOV 2024 19:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**d:/UNIVERSIDAD/GEI_24_25/DR/DR/P2/memoria_tfg.tex
-(d:/UNIVERSIDAD/GEI_24_25/DR/DR/P2/memoria_tfg.tex
+**d:/UNIVERSIDAD/GEI_24_25/DR/DR/P3/memoria_tfg.tex
+(d:/UNIVERSIDAD/GEI_24_25/DR/DR/P3/memoria_tfg.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
 (D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/base\report.cls
@@ -1955,12 +1955,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box136
 \@float@everytoks=\toks64
 \@floatcapt=\box137
-) (memoria_tfg.aux (portada/portada.aux) (contido/ipv4.aux) (contido/ipv6.aux)
-(contido/ipv6_multicast.aux) (contido/ipv6_nd.aux
-
-LaTeX Warning: Label `fig:cache_antes_ns' multiply defined.
-
-))
+) (memoria_tfg.aux (portada/portada.aux) (contido/aodv.aux) (contido/dsdv.aux)
+(contido/aodv_vs_dsdv.aux) (contido/aodv_vs_dsdv_graphics.aux))
 \openout1 = `memoria_tfg.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
@@ -1974,7 +1970,8 @@ LaTeX Font Info:    ... okay on input line 53.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 5
 3.
- (D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/base\ts1cmr.fd
+
+(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 53.
@@ -2181,262 +2178,61 @@ LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
 
 
 
-] (memoria_tfg.lof
-
-[2
-
-])
+] (memoria_tfg.lof)
 \tf@lof=\write9
 \openout9 = `memoria_tfg.lof'.
 
 
 
-LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 75.
-LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/sl' in size <9> not availa
-ble
-(Font)              Font shape `TU/LinLibertine(0)/m/it' tried instead on input
- line 75.
-LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 75.
-[3]
-\openout2 = `contido/ipv4.aux'.
+[2
 
- (contido/ipv4.tex
+]
+\openout2 = `contido/aodv.aux'.
+
+ (contido/aodv.tex
 Capítulo 1.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
 (Font)              scaled to size 14.4pt on input line 1.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
 (Font)              scaled to size 14.4pt on input line 4.
-File: imaxes/captura_ejer1_1.png Graphic file (type bmp)
-<imaxes/captura_ejer1_1.png>
-
+)
 
 [1
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 25--29
+\openout2 = `contido/dsdv.aux'.
 
- []
+ (contido/dsdv.tex)
+\openout2 = `contido/aodv_vs_dsdv.aux'.
 
+ (contido/aodv_vs_dsdv.tex)
+\openout2 = `contido/aodv_vs_dsdv_graphics.aux'.
 
 
-[2]
-File: imaxes/ejercicio1_3_1.png Graphic file (type bmp)
-<imaxes/ejercicio1_3_1.png>
-File: imaxes/ejercicio1_3_2.png Graphic file (type bmp)
-<imaxes/ejercicio1_3_2.png>
-
-
-[3]
-File: imaxes/ejercicio1_4.png Graphic file (type bmp)
-<imaxes/ejercicio1_4.png>
-
-
-[4]
-Overfull \hbox (9.52692pt too wide) in paragraph at lines 84--84
-\TU/LinLibertine(0)/b/n/12 DHCP. Esto hará que host[2] reciba la IP fija asigna
-da a serverlocal (192.168.0.10).
- []
-
-File: imaxes/captura_ejer1_5.png Graphic file (type bmp)
-<imaxes/captura_ejer1_5.png>
-)
-
-[5]
-
-[6]
-\openout2 = `contido/ipv6.aux'.
-
- (contido/ipv6.tex
-Capítulo 2.
-File: imaxes/captura_ejer2_1.png Graphic file (type bmp)
-<imaxes/captura_ejer2_1.png>
-
-
-[7
-
-
-
-
-]
-File: imaxes/captura_ejer2_2.png Graphic file (type bmp)
-<imaxes/captura_ejer2_2.png>
-
-
-[8]
-LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 58.
-File: imaxes/ejercicio2_4_1.png Graphic file (type bmp)
-<imaxes/ejercicio2_4_1.png>
-
-
-[9]
-File: imaxes/ejercicio2_4_2.png Graphic file (type bmp)
-<imaxes/ejercicio2_4_2.png>
-LaTeX Font Info:    Font shape `TU/LinLibertine(5)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 78.
-LaTeX Font Info:    Font shape `TU/LinLibertine(5)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 78.
-
-
-[10]
-File: imaxes/ejercicio2_5_1.png Graphic file (type bmp)
-<imaxes/ejercicio2_5_1.png>
-
-
-[11]
-File: imaxes/captura_ejer2_6.png Graphic file (type bmp)
-<imaxes/captura_ejer2_6.png>
-
-
-[12]
-File: imaxes/ejercicio2_7_1.png Graphic file (type bmp)
-<imaxes/ejercicio2_7_1.png>
-
-
-[13]
-File: imaxes/ejercicio2_7_3.png Graphic file (type bmp)
-<imaxes/ejercicio2_7_3.png>
-File: imaxes/ejercicio2_7_2.png Graphic file (type bmp)
-<imaxes/ejercicio2_7_2.png>
-File: imaxes/fallo1.png Graphic file (type bmp)
-<imaxes/fallo1.png>
-File: imaxes/fallo2.png Graphic file (type bmp)
-<imaxes/fallo2.png>
-)
-
-[14]
-\openout2 = `contido/ipv6_multicast.aux'.
-
- (contido/ipv6_multicast.tex
-Capítulo 3.
-File: imaxes/captura_ejer3_1.png Graphic file (type bmp)
-<imaxes/captura_ejer3_1.png>
-
-
-[15
-
-
-
-
-]
-File: imaxes/captura_ejer3_4.png Graphic file (type bmp)
-<imaxes/captura_ejer3_4.png>
-
-
-[16]
-File: imaxes/captura_ejer3_6.png Graphic file (type bmp)
-<imaxes/captura_ejer3_6.png>
-
-
-[17]
-File: imaxes/ejercicio3_9_1.png Graphic file (type bmp)
-<imaxes/ejercicio3_9_1.png>
-
-
-[18]
-File: imaxes/ejercicio3_10_1.png Graphic file (type bmp)
-<imaxes/ejercicio3_10_1.png>
-File: imaxes/ejercicio3_10_2.png Graphic file (type bmp)
-<imaxes/ejercicio3_10_2.png>
-File: imaxes/ejercicio3_10_3.png Graphic file (type bmp)
-<imaxes/ejercicio3_10_3.png>
-
-
-[19]
-File: imaxes/ejercicio3_10_4.png Graphic file (type bmp)
-<imaxes/ejercicio3_10_4.png>
-File: imaxes/ejercicio3_10_5.png Graphic file (type bmp)
-<imaxes/ejercicio3_10_5.png>
-
-
-[20])
-
-[21]
-\openout2 = `contido/ipv6_nd.aux'.
-
- (contido/ipv6_nd.tex
-Capítulo 4.
-File: imaxes/captura_ejer4_1.png Graphic file (type bmp)
-<imaxes/captura_ejer4_1.png>
-
-
-[22
-
-
-
-
-]
-Overfull \hbox (8.5pt too wide) in paragraph at lines 73--85
-[][][][][][] 
- []
-
-
-Overfull \hbox (8.5pt too wide) in paragraph at lines 73--85
-[][][][][][] 
- []
-
-
-Overfull \hbox (57.69179pt too wide) in paragraph at lines 88--89
-[]\TU/LinLibertine(0)/m/n/10 if=101 fe80::8aa:ff:fe00:6 ==> 0A-AA-00-00-00-06 R
-OUTERDefaultRtr DELAY reachabilityExp:0 rtrExp:1804.173601335969 
- []
-
-
-Overfull \hbox (51.45265pt too wide) in paragraph at lines 90--91
-[]\TU/LinLibertine(0)/m/n/10 Un segundo después de enviar el NS, el nodo ha rec
-ibido la respuesta de la dirección AAAA:6:65:0:AA54:18FF:FED4:E5F6,
- []
-
-
-
-[23]
-File: imaxes/ejercicio4_4_1.png Graphic file (type bmp)
-<imaxes/ejercicio4_4_1.png>
-File: imaxes/ejercicio4_4_2.png Graphic file (type bmp)
-<imaxes/ejercicio4_4_2.png>
-File: imaxes/ejercicio4_5_1.png Graphic file (type bmp)
-<imaxes/ejercicio4_5_1.png>
-File: imaxes/ejercicio4_5_2.png Graphic file (type bmp)
-<imaxes/ejercicio4_5_2.png>
-
-
-[24]
-File: imaxes/ejercicio4_5_3.png Graphic file (type bmp)
-<imaxes/ejercicio4_5_3.png>
-File: imaxes/ejercicio4_5_4.png Graphic file (type bmp)
-<imaxes/ejercicio4_5_4.png>
-)
-
-[25]
+(contido/aodv_vs_dsdv_graphics.tex)
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-(memoria_tfg.aux (portada/portada.aux) (contido/ipv4.aux) (contido/ipv6.aux)
-(contido/ipv6_multicast.aux) (contido/ipv6_nd.aux))
+(memoria_tfg.aux (portada/portada.aux) (contido/aodv.aux) (contido/dsdv.aux)
+(contido/aodv_vs_dsdv.aux) (contido/aodv_vs_dsdv_graphics.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `memoria_tfg.out' has not changed.
-(rerunfilecheck)             Checksum: 865B4F0D032CEB06F2E50DDF62DB212E;2020.
+(rerunfilecheck)             Checksum: 9C3D0FC50B0B75EDDA994B261CB7065E;89.
  ) 
 Here is how much of TeX's memory you used:
- 48232 strings out of 409029
- 996084 string characters out of 5758771
- 1531441 words of memory out of 5000000
- 70173 multiletter control sequences out of 15000+600000
- 568237 words of font info for 121 fonts, out of 8000000 for 9000
+ 47865 strings out of 409029
+ 986148 string characters out of 5758771
+ 1354034 words of memory out of 5000000
+ 69843 multiletter control sequences out of 15000+600000
+ 568140 words of font info for 116 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 106i,13n,145p,2402b,1260s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 106i,7n,145p,2402b,374s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on memoria_tfg.pdf (29 pages).
+Output written on memoria_tfg.pdf (4 pages).

@@ -49,15 +49,15 @@
 \contentsline {section}{\numberline {3.11}Ejercicio 3.11}{21}{section.3.11}%
 \contentsline {subsection}{\numberline {3.11.1}¿En qué equipos llegaría el mensaje al módulo ipv6 si INET implementase direcciones MAC multicast (33- 33-xx-xx-xx-xx)? ¿Por qué?}{21}{subsection.3.11.1}%
 \contentsline {chapter}{\numberline {4}IPv6-Neighbor Discovery}{22}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Ejercico 4.1}{22}{section.4.1}%
+\contentsline {section}{\numberline {4.1}Ejercicio 4.1}{22}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}¿Por qué es necesario el NS que se envía en t = 6 s? Muestra una captura del log del nodo que lo envía que muestre el motivo del envío. ¿Qué paquete cumple la misma función en IPv4?}{22}{subsection.4.1.1}%
-\contentsline {section}{\numberline {4.2}Ejercico 4.2}{22}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Ejercicio 4.2}{22}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}¿Por qué no se usa una IP unicast para ese mensaje, si ya es conocida?}{22}{subsection.4.2.1}%
-\contentsline {section}{\numberline {4.3}Ejercico 4.3}{23}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Muestra capturas de la neighbor cache del nodo que envió el NS un segundo antes de enviarlo, justo después de enviarlo pero antes de recibir el paquete de respuesta y justo después de recibir la respuesta y explica las diferencias entre los 3 estados. (Nota: para ver la neighbor cache haz doble click sobre el nodo → ipv6 → neighbourDiscovery, y a continuación expande owned objects en la ventana inferior izquierda. La neighbor cache es el atributo neighbourMap.)}{23}{subsection.4.3.1}%
-\contentsline {section}{\numberline {4.4}Ejercico 4.4}{24}{section.4.4}%
+\contentsline {section}{\numberline {4.3}Ejercicio 4.3}{23}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Muestra capturas de la neighbor cache del nodo que envió el NS un segundo antes de enviarlo, justo después de enviarlo pero antes de recibir el paquete de respuesta y justo después de recibir la respuesta y explica las diferencias entre los 3 estados. (Nota: para ver la neighbor cache haz doble click sobre el nodo → ipv6 → neighborDiscovery, y a continuación expande owned objects en la ventana inferior izquierda. La neighbor cache es el atributo neighbourMap.)}{23}{subsection.4.3.1}%
+\contentsline {section}{\numberline {4.4}Ejercicio 4.4}{24}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}¿Envía el host[1] algún otro mensaje NS después del instante t = 6 s? ¿Cuál es su objetivo? Muestra una captura del mensaje en Wireshark y una captura del log en la que se muestre el motivo del envío.}{24}{subsection.4.4.1}%
-\contentsline {section}{\numberline {4.5}Ejercico 4.5}{24}{section.4.5}%
+\contentsline {section}{\numberline {4.5}Ejercicio 4.5}{24}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}¿Es la IP destino de este NS del mismo tipo que en los NS enviados anteriormente? ¿Por qué?}{24}{subsection.4.5.1}%
-\contentsline {section}{\numberline {4.6}Ejercico 4.6}{24}{section.4.6}%
+\contentsline {section}{\numberline {4.6}Ejercicio 4.6}{24}{section.4.6}%
 \contentsline {subsection}{\numberline {4.6.1}Muestra capturas de la neighbor cache del host[1] en los siguientes instantes de tiempo:}{24}{subsection.4.6.1}%
