@@ -7,12 +7,11 @@
 \begin{figure}[H]
     \centering   
     \includegraphics[width=135mm, scale=0.75]{imaxes/captura_ejer4_1.png}
-    \caption{Paquete NS en t=6s}
-    \label{fig:paquete_ns_t6}
+    \caption{Ventana logs paquete NS en t=6s}
+    \label{fig:logs_ns_t6}
 \end{figure}
 
-Como se puede ver en la imagen \ref{fig:paquete_ns_t6}, el nodo que envia el paquete Neighbor Solicitation en t=6s es el host[0]. El host[0] empieza la conexión mandando un SYN al servidor remoto pero como no tiene información de su MAC, el router manda al servidor un NS para asi averiguar su MAC. Esto ocurre ya que como se mencinó antes, al no existir una entrada en la Neighbor Cache de host[0] para el serverRemote, el dispositivo debe enviar un mensaje NS para solicitar esa información a través del protocolo Neighbor Discovery.
-
+Como se puede ver en la imagen \ref{fig:logs_ns_t6}, el nodo que envía el paquete Neighbor Solicitation en t=6s es el router. El host[0] empieza la conexión mandando un SYN al servidor remoto pero como no tiene información de su MAC, el router manda al servidor un NS para asi averiguar su MAC ya que solamente le llega una IP pero no sabe a que dispositivo le corresponde. Esto ocurre ya que, al no existir una entrada en la Neighbor Cache para el serverRemote, el dispositivo debe enviar un mensaje NS para solicitar esa información a través del protocolo Neighbor Discovery.
 
 En el caso de IPv4, el mensaje que realiza una función similar al NS (Neighbor Solicitation) de IPv6 es el mensaje de solicitud ARP (ARP Request). Tanto el NS en IPv6 como la solicitud ARP en IPv4 se utilizan para descubrir la dirección física (de la capa de enlace) que corresponde a una dirección IP o de red específica.
 
@@ -31,63 +30,33 @@ No se utiliza la dirección unicast aunque sea conocida ya que en IPv6 se emplea
     
     \begin{figure}[H]
         \centering
-        \begin{lstlisting}
-if=101 fe80::8aa:ff:fe00:6 ==> 0A-AA-00-00-00-06 ROUTERDefaultRtr STALE reachabilityExp:0 rtrExp:1803.967555297358
-        \end{lstlisting}
-        \caption{Neighbor cache ante de enviar NS}
-        \label{fig:cache_antes_ns}
+        \includegraphics[width=135mm, scale=0.75]{imaxes/captura_ejer4_33.png}
+        \caption{Neighbor cache del router antes de enviar NS}
+        \label{fig:paquete_antes_t6}
     \end{figure}
 
-    En este momento, la neighbor cache tiene una entrada para la dirección FE80::8AA:FF:FE00:6, que pertenece a la interfaz del router que está conectado en la red. Esta entrada está en estado STALE, lo que significa que la dirección de enlace (MAC) es conocida, pero la conexión no ha sido verificada recientemente (pasó tiempo cierto tiempo desde que recibió un paquete de esa dirección).
+    En este momento, la neighbor cache del router está vacía ya que en ningún momento tuvo que mandar un paquete IPv6 al servidor remoto, por lo que no necesitó nunca guardar su dirección MAC.
 
     \item Justo después de enviar el paquete NS
     
- %   \colorbox{yellow}{%
- %           if=101 aaaa:6:65:0:aa54:18ff:fed4:e5f6 ==> 00-00-00-00-00-00 INCOMPLETE reachabilityExp:0\\
- 
- %}\\
-%  \colorbox{yellow}{%
-%        \parbox{\linewidth}{%
-%            if=101 fe80::8aa:ff:fe00:6 ==> 0A-AA-00-00-00-06 ROUTERDefaultRtr STALE reachabilityExp:0\\
-%            rtrExp:1804.173601335969%
- %       }
-  %  }
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=135mm, scale=0.75]{imaxes/captura_ejer4_31.png}
+        \caption{Neighbor cache del router después enviar NS}
+        \label{fig:paquete_ns_t6}
+    \end{figure}
 
-
-  \begin{figure}[H]
-    \centering
-    \begin{lstlisting}
-if=101 fe80::8aa:ff:fe00:6 ==> 0A-AA-00-00-00-06 ROUTERDefaultRtr DELAY reachabilityExp:0 rtrExp:1804.173601335969    
-    \end{lstlisting}
-    \caption{Neighbor cache ante de enviar NS}
-    \label{fig:cache_antes_ns}
-\end{figure}
-
-   % Llegado a este punto, justo después de enviar el NS, el nodo ha creado una entrada en estado INCOMPLETE para la dirección de destino (AA:6:65:0:AA54:18FF:FED4:E5F6) porque aún no ha recibido respuesta con la dirección MAC correspondiente. La entrada INCOMPLETE indica que el nodo está esperando una respuesta para completar la asociación entre la dirección IPv6 y la dirección MAC. La anterior entrada del neighbor cache permanece en estado STALE.%
-   Este estado refleja que el router ha enviado un mensaje NS debido a la expiración de su temporizador de accesibilidad (reachabilityExp:0). El DELAY indica que está en espera de una respuesta antes de pasar a retransmitir el NS, asegurando que la dirección MAC y la accesibilidad de su vecino están actualizadas para mantener la comunicación en la red.
+   Como se puede ver en la imagen \ref{fig:paquete_ns_t6}, el estado de la entrada de la neighbor cache del router es el estado INCOMPLETE tras haber enviado un mensaje NS ya que al querer enrutar el paquete SYN que envió el host[0], tiene que averiguar la MAC de la IP destino, por lo que está a la espera de la respuesta de la MAC del servidor. En la entrada tiene como destino la IP global del servidor remoto y la MAC asociada es la 00:00:00:00:00:00 ya que no la sabe
 
     \item Un segundo después de enviar el paquete NS
-    
-    \colorbox{yellow}{%
-            if=101 aaaa:6:65:0:8aa:ff:fe00:6 ==> 0A-AA-00-00-00-06 STALE reachabilityExp:0%
-    }\\
-    \colorbox{yellow}{%
-        \parbox{\linewidth}{%
-            if=101 aaaa:6:65:0:aa54:18ff:fed4:e5f6 ==> A8-54-18-D4-E5-F6 REACHABLE reachabilityExp:36.000003336%
-        }
-    }\\
-    \colorbox{yellow}{%
-        \parbox{\linewidth}{%
-            if=101 fe80::8aa:ff:fe00:6 ==> 0A-AA-00-00-00-06 ROUTERDefaultRtr STALE reachabilityExp:0\\
-            rtrExp:1804.173601335969%
-        }
-    }
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=135mm, scale=0.75]{imaxes/captura_ejer4_32.png}
+        \caption{Neighbor cache del router al recibir respuesta del paquete NS}
+        \label{fig:respuesta_ns_t6}
+    \end{figure}
 
-    if=101 aaaa:6:65:0:8aa:ff:fe00:6 ==> 0A-AA-00-00-00-06 STALE reachabilityExp:0
-
-    if=101 fe80::8aa:ff:fe00:6 ==> 0A-AA-00-00-00-06 ROUTERDefaultRtr DELAY reachabilityExp:0 rtrExp:1804.173601335969
-
-    Un segundo después de enviar el NS, el nodo ha recibido la respuesta de la dirección AAAA:6:65:0:AA54:18FF:FED4:E5F6, actualizando la entrada en la neighbor cache al estado REACHABLE y registrando la dirección MAC (A8:54:18:D4:E5:F6). Esto significa que la conectividad con este nodo ha sido verificada recientemente y la información es válida para su uso inmediato. La dirección AAAA:6:65:0:8AA:FF:FE00:6 y la del router (FE80::8AA:FF:FE00:6) se mantienen en STALE, ya que no se ha verificado su conectividad recientemente.
+    Como se puede ver en la imagen \ref{fig:respuesta_ns_t6}, el estado de la entrada de la cache del router pasa a ser REACHABLE ya que se recibió la respuesta indicando que es una dirección alcanzable. También se puede ver que en la entrada de la caché ya aparece la MAC del servidor mapeada con su dirección IPv6 
 
 \end{enumerate}
 
