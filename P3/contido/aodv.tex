@@ -5,9 +5,9 @@
 
 \subsection{¿Qué nodos reenvían el primer paquete RREQ enviado por static1? ¿Y el segundo RREQ? ¿Por qué?}
 
-El primer paquete RREQ enviado por static1 es recibido y reenviado únicamente por los nodos mobile[10] y mobile [12], a pesar de enviarse con intención de alcanzar todos los nodos de la red (Figura \ref{fig:primer_rreq_reception}).
-Aunque no es el objetivo de este ejercicio, cabe decir que este comportamiento se debe a la potencia con la que llega a cada nodo la señal y, por supuesto, la posición de cada uno en el plano. Si la señal no llega con potencia suficiente, se considera que el nodo está demasiado lejos para realizar una comunicación efectiva y ya no se intenta decodificar el paquete. La potencia con las que llegan a los nodos las señales también pueden verse en los logs (Figura )
-Por otro lado, el paquete solo es reenviado por estos dos nodos y, de igual forma, el segundo RREQ es reenviado por 10, 12, 3, 1, 7, 2
+El primer paquete RREQ enviado por static1 es recibido y reenviado únicamente por los nodos mobile[10] y mobile [12], a pesar de enviarse con intención de alcanzar todos los nodos de la red (Figura \ref{fig:primer_rreq_reception}). Esto ocurre porque el primer envío contiene un TTL igual a 2 (aparece en la documentación de Inet), por lo que solamente van a responder los dispositivos a los que le llegue un TTL > 1 para asi poder hacer el reenvío.
+
+El segundo RREQ es reenviado por 10, 12, 3, 1, 7, 2. Al hacer el segundo reenvío, el TTL del paquete pasa a ser 4 (según la documentación de INET, en los siguientes paquetes, el TTL se suma 2 con respeto al anterior ya que el objetivo es poder llegar lo más lejos posible). Como ahora el TLL es 4, pasa por 10 y 12 otra vez (el TTL pasa a ser 3), 12 no alcanza ningún objetivo pero 10 logra mandar ese paquete a 1 y 3 (el TTL pasa a ser 2) y como 3 llega alcanzar a 7 y 2, se los envía también. Llegados a este punto, el TTL es 1 por lo que ya que se acabaría todos los posibles reenvíos del segundo RREQ.
 
 \begin{figure}[H]
     \centering
@@ -22,6 +22,7 @@ Por otro lado, el paquete solo es reenviado por estos dos nodos y, de igual form
     \caption{Nodos que reenvían el primer RREQ (A la izquierda, mobile[10]; A la derecha, mobile[12])}
     \label{fig:primer_rreq_transmission}
 \end{figure}
+
 
 \section{Ejercicio 1.2}
 

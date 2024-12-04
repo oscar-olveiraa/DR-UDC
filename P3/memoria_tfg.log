@@ -1,15 +1,15 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.7)  13 NOV 2024 19:06
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.3)  4 DEC 2024 19:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**d:/UNIVERSIDAD/GEI_24_25/DR/DR/P3/memoria_tfg.tex
-(d:/UNIVERSIDAD/GEI_24_25/DR/DR/P3/memoria_tfg.tex
+**c:/Users/oscar/Desktop/DR/P3/memoria_tfg.tex
+(c:/Users/oscar/Desktop/DR/P3/memoria_tfg.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/base\report.cls
+(C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
 Document Class: report 2024/02/08 v1.4n Standard LaTeX document class
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/base\size10.clo
+(C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
 File: size10.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count190
@@ -26,19 +26,17 @@ File: size10.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
 \bibindent=\dimen141
 ) (estilo_tfg.sty
 Package: estilo_tfg 
-=============== Estilo LaTeX para TFGs GEI FIC ===============
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
 
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/graphics-cfg\color.cfg
+=============== Estilo LaTeX para TFGs GEI FIC ===============
+(C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: xetex.def on input line 274.
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/graphics-def\xetex.def
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
 File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/graphics\mathcolor.ltx)
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
 Package xcolor Info: Model `RGB' extended on input line 1366.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
@@ -47,11 +45,9 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/colortbl\colortbl.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/tools\array.sty
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
 \col@sep=\dimen142
 \ar@mcellbox=\box52
@@ -64,36 +60,27 @@ Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
 \everycr=\toks18
 \minrowclearance=\skip53
 \rownum=\count199
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/graphics\graphicx.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/graphics\keyval.sty
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/graphics\graphics.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/graphics\trig.sty
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/graphics-cfg\graphics.cfg
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 106.
 )
 \Gin@req@height=\dimen144
 \Gin@req@width=\dimen145
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/lettrine\lettrine.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/lettrine\lettrine.sty
 File: lettrine.sty 2024-06-26 v2.61 (Daniel Flipo)
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/l3packages/xfp\xfp.sty
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/l3kernel\expl3.sty
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xfp\xfp.sty (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2024-08-30 L3 programming layer (loader) 
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/l3backend\l3backend-xetex.def
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xetex.def
 File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
 \g__graphics_track_int=\count266
 \l__pdf_internal_box=\box54
@@ -131,32 +118,24 @@ Package: xfp 2024-08-16 L3 Floating point unit
 \LettrineDepth=\dimen165
 
 Loading lettrine.cfg
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/lettrine\lettrine.cfg)
+(C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/lettrine\lettrine.cfg)
 \Llist@everypar=\toks20
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/appendix\appendix.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
 \c@@pps=\count273
 \c@@ppsavesec=\count274
 \c@@ppsaveapp=\count275
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/polyglossia\polyglossia.sty
-Package: polyglossia 2024/07/15 v2.2 Modern multilingual typesetting with XeLaT
-eX and LuaLaTeX
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/etoolbox\etoolbox.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\polyglossia.sty
+Package: polyglossia 2024/07/15 v2.2 Modern multilingual typesetting with XeLaTeX and LuaLaTeX
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count276
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/fontspec\fontspec.sty
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/l3packages/xparse\xparse.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.sty (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
 Package: xparse 2024-08-16 L3 Experimental document command parser
 )
 Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/fontspec\fontspec-xetex.sty
-Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTe
-X
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec-xetex.sty
+Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
 \l__fontspec_script_int=\count277
 \l__fontspec_language_int=\count278
 \l__fontspec_strnum_int=\count279
@@ -171,63 +150,46 @@ X
 \l__fontspec_tmpa_dim=\dimen166
 \l__fontspec_tmpb_dim=\dimen167
 \l__fontspec_tmpc_dim=\dimen168
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/base\fontenc.sty
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/fontspec\fontspec.cfg)))
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/iftex\iftex.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.cfg))) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
 \l_xpg_alias_keyvals_int=\count288
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/polyglossia\gloss-latex.ldf
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\gloss-latex.ldf
 File: gloss-latex.ldf polyglossia: module for default language
-))
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/base\ifthen.sty
+)) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-)
-Estilo TFG: elixiuse como lingua do documento: esp
-Estilo TFG: cargando definicións para español
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/polyglossia\gloss-spanish.ldf
+) Estilo TFG: elixiuse como lingua do documento: esp Estilo TFG: cargando definicións para español (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\gloss-spanish.ldf
 File: gloss-spanish.ldf polyglossia: module for Spanish
 )
 
 Package polyglossia Info: Default language is spanish
 
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/polyglossia\gloss-galician.ldf
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\gloss-galician.ldf
 File: gloss-galician.ldf polyglossia: module for Galician
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/polyglossia\gloss-english.ldf
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\gloss-english.ldf
 File: gloss-english.ldf polyglossia: module for English
-)
-Estilo TFG: elixiuse como titulación do documento: gei
-Estilo TFG: elixiuse como mención: TECNOLOXÍAS DA INFORMACIÓN
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/base\latexsym.sty
+) Estilo TFG: elixiuse como titulación do documento: gei Estilo TFG: elixiuse como mención: TECNOLOXÍAS DA INFORMACIÓN (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/base\latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/amsmath\amsmath.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2024/05/23 v2.17q AMS math features
 \@mathmargin=\skip54
 
 For additional information on amsmath, use the `?' option.
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/amsmath\amstext.sty
+(C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/amsmath\amsgen.sty
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
 \ex@=\dimen169
-))
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/amsmath\amsbsy.sty
+)) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen170
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/amsmath\amsopn.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count289
@@ -277,22 +239,18 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/amsfonts\amssymb.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/amsfonts\amsfonts.sty
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup5
 \symAMSb=\mathgroup6
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/geometry\geometry.sty
+)) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/iftex\ifvtex.sty
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count301
@@ -307,30 +265,21 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen184
 \Gm@layoutvoffset=\dimen185
 \Gm@dimlist=\toks26
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/geometry\geometry.cfg))
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/libertine\libertine.sty
-Package: libertine 2024/04/23 (Bob Tennent) Supports Libertine and Biolinum fon
-ts for all LaTeX engines.
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/iftex\ifxetex.sty
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/libertine\libertine.sty
+Package: libertine 2024/04/23 (Bob Tennent) Supports Libertine and Biolinum fonts for all LaTeX engines.
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/iftex\ifluatex.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/xkeyval\xkeyval.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/xkeyval\xkeyval.tex
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/xkeyval\xkvutils.tex
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
 \XKV@toks=\toks27
 \XKV@tempa@toks=\toks28
 )
 \XKV@depth=\count304
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/base\textcomp.sty
+)) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 )
 
@@ -374,8 +323,7 @@ Package fontspec Info:
 (fontspec)             Font family 'LinLibertine(0)' created for font
 (fontspec)             'LinLibertine' with options [Ligatures = TeX,Extension
 (fontspec)             =
-(fontspec)             .otf,SmallCapsFeatures={Letters=SmallCaps},Ligatures=TeX
-,Numbers
+(fontspec)             .otf,SmallCapsFeatures={Letters=SmallCaps},Ligatures=TeX,Numbers
 (fontspec)             = {Monospaced,Lining},Scale = 1,UprightFont =
 (fontspec)             *_R,ItalicFont = *_RI,BoldFont = *_RB,BoldItalicFont =
 (fontspec)             *_RBI].
@@ -384,29 +332,21 @@ Package fontspec Info:
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_R.otf]/OT:script=latn;language=df
-lt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_R.otf]/OT:script=latn;language=df
-lt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_RB.otf]/OT:script=latn;language=d
-flt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_RB.otf]/OT:script=latn;language=d
-flt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_RI.otf]/OT:script=latn;language=d
-flt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_RI.otf]/OT:script=latn;language=d
-flt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]/OT:script=latn;language=
-dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]/OT:script=latn;language=
-dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
 
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 307.
@@ -450,8 +390,7 @@ Package fontspec Info:
 Package fontspec Info: 
 (fontspec)             Font family 'LinBiolinum(0)' created for font
 (fontspec)             'LinBiolinum' with options [Ligatures = TeX,Extension =
-(fontspec)             .otf,SmallCapsFeatures={Letters=SmallCaps},Ligatures=TeX
-,Numbers
+(fontspec)             .otf,SmallCapsFeatures={Letters=SmallCaps},Ligatures=TeX,Numbers
 (fontspec)             = {Monospaced, Lining},Scale = 1,UprightFont =
 (fontspec)             *_R,ItalicFont = *_RI,BoldFont = *_RB,BoldItalicFont =
 (fontspec)             *_RBO].
@@ -460,29 +399,21 @@ Package fontspec Info:
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinBiolinum_R.otf]/OT:script=latn;language=dfl
-t;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinBiolinum_R.otf]/OT:script=latn;language=dfl
-t;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinBiolinum_RB.otf]/OT:script=latn;language=df
-lt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinBiolinum_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinBiolinum_RB.otf]/OT:script=latn;language=df
-lt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinBiolinum_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinBiolinum_RI.otf]/OT:script=latn;language=df
-lt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinBiolinum_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinBiolinum_RI.otf]/OT:script=latn;language=df
-lt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinBiolinum_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinBiolinum_RBO.otf]/OT:script=latn;language=d
-flt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinBiolinum_RBO.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinBiolinum_RBO.otf]/OT:script=latn;language=d
-flt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinBiolinum_RBO.otf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
 
 
 Package fontspec Info: 
@@ -533,29 +464,21 @@ Package fontspec Info:
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_R.otf]/OT:script=latn;language=df
-lt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_R.otf]/OT:script=latn;language=df
-lt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_RB.otf]/OT:script=latn;language=d
-flt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_RB.otf]/OT:script=latn;language=d
-flt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_RI.otf]/OT:script=latn;language=d
-flt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_RI.otf]/OT:script=latn;language=d
-flt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]/OT:script=latn;language=
-dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]/OT:script=latn;language=
-dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
 
 
 Package fontspec Info: 
@@ -606,29 +529,21 @@ Package fontspec Info:
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_RZ.otf]/OT:script=latn;language=d
-flt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_RZ.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_RZ.otf]/OT:script=latn;language=d
-flt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_RZ.otf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_RB.otf]/OT:script=latn;language=d
-flt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_RB.otf]/OT:script=latn;language=d
-flt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_RZI.otf]/OT:script=latn;language=
-dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_RZI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_RZI.otf]/OT:script=latn;language=
-dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_RZI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]/OT:script=latn;language=
-dflt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]/OT:script=latn;language=
-dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
 
 
 Package fontspec Info: 
@@ -679,29 +594,21 @@ Package fontspec Info:
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_R.otf]/OT:script=latn;language=df
-lt;+tnum;+onum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+onum;mapping=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_R.otf]/OT:script=latn;language=df
-lt;+tnum;+onum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+onum;+smcp;mapping=tex-text;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_RB.otf]/OT:script=latn;language=d
-flt;+tnum;+onum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+tnum;+onum;mapping=tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_RB.otf]/OT:script=latn;language=d
-flt;+tnum;+onum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+tnum;+onum;+smcp;mapping=tex-text;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_RI.otf]/OT:script=latn;language=d
-flt;+tnum;+onum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+tnum;+onum;mapping=tex-text;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_RI.otf]/OT:script=latn;language=d
-flt;+tnum;+onum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+tnum;+onum;+smcp;mapping=tex-text;"
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]/OT:script=latn;language=
-dflt;+tnum;+onum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]/OT:script=latn;language=dflt;+tnum;+onum;mapping=tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]/OT:script=latn;language=
-dflt;+tnum;+onum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinLibertine_RBI.otf]/OT:script=latn;language=dflt;+tnum;+onum;+smcp;mapping=tex-text;"
 
 
 Package fontspec Info: 
@@ -719,26 +626,19 @@ Package fontspec Info:
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[LinLibertine_DR.otf]/OT:script=latn;language=dflt;+
-tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->"[LinLibertine_DR.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+
-tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->"[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->"[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+
-tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->"[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+
-tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->"[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->"[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+
-tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->"[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"[LinLibertine_RBI.otf]/OT:script=latn;language=dflt;
-+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->"[LinLibertine_RBI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->"[LinLibertine_RBI.otf]/OT:script=latn;language=dflt;
-+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->"[LinLibertine_RBI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
 
 
 Package fontspec Info: 
@@ -789,29 +689,21 @@ Package fontspec Info:
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinBiolinum_R.otf]/OT:script=latn;language=dfl
-t;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinBiolinum_R.otf]/OT:script=latn;language=dfl
-t;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinBiolinum_RB.otf]/OT:script=latn;language=df
-lt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinBiolinum_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinBiolinum_RB.otf]/OT:script=latn;language=df
-lt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinBiolinum_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinBiolinum_RI.otf]/OT:script=latn;language=df
-lt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinBiolinum_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinBiolinum_RI.otf]/OT:script=latn;language=df
-lt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinBiolinum_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinBiolinum_RBO.otf]/OT:script=latn;language=d
-flt;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinBiolinum_RBO.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinBiolinum_RBO.otf]/OT:script=latn;language=d
-flt;+tnum;+lnum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinBiolinum_RBO.otf]/OT:script=latn;language=dflt;+tnum;+lnum;+smcp;mapping=tex-text;"
 
 
 Package fontspec Info: 
@@ -862,29 +754,21 @@ Package fontspec Info:
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinBiolinum_R.otf]/OT:script=latn;language=dfl
-t;+tnum;+onum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+onum;mapping=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinBiolinum_R.otf]/OT:script=latn;language=dfl
-t;+tnum;+onum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+onum;+smcp;mapping=tex-text;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinBiolinum_RB.otf]/OT:script=latn;language=df
-lt;+tnum;+onum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinBiolinum_RB.otf]/OT:script=latn;language=dflt;+tnum;+onum;mapping=tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinBiolinum_RB.otf]/OT:script=latn;language=df
-lt;+tnum;+onum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinBiolinum_RB.otf]/OT:script=latn;language=dflt;+tnum;+onum;+smcp;mapping=tex-text;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinBiolinum_RI.otf]/OT:script=latn;language=df
-lt;+tnum;+onum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinBiolinum_RI.otf]/OT:script=latn;language=dflt;+tnum;+onum;mapping=tex-text;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinBiolinum_RI.otf]/OT:script=latn;language=df
-lt;+tnum;+onum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinBiolinum_RI.otf]/OT:script=latn;language=dflt;+tnum;+onum;+smcp;mapping=tex-text;"
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinBiolinum_RBO.otf]/OT:script=latn;language=d
-flt;+tnum;+onum;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinBiolinum_RBO.otf]/OT:script=latn;language=dflt;+tnum;+onum;mapping=tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinBiolinum_RBO.otf]/OT:script=latn;language=d
-flt;+tnum;+onum;+smcp;mapping=tex-text;"
+(fontspec)             <->s*[1]"[LinBiolinum_RBO.otf]/OT:script=latn;language=dflt;+tnum;+onum;+smcp;mapping=tex-text;"
 
 
 Package fontspec Info: 
@@ -914,8 +798,7 @@ Package fontspec Info:
 Package fontspec Info: 
 (fontspec)             Font family 'LinLibertine(5)' created for font
 (fontspec)             'LinLibertine' with options [Extension =
-(fontspec)             .otf,HyphenChar=None,WordSpace={1,0,0},HyphenChar=None,P
-unctuationSpace=WordSpace,Scale
+(fontspec)             .otf,HyphenChar=None,WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=WordSpace,Scale
 (fontspec)             = 1,UprightFont = *_M,ItalicFont = *_MO,BoldFont =
 (fontspec)             *_MB,BoldItalicFont = *_MBO].
 (fontspec)              
@@ -923,17 +806,13 @@ unctuationSpace=WordSpace,Scale
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_M.otf]/OT:script=latn;language=df
-lt;"
+(fontspec)             <->s*[1]"[LinLibertine_M.otf]/OT:script=latn;language=dflt;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_MB.otf]/OT:script=latn;language=d
-flt;"
+(fontspec)             <->s*[1]"[LinLibertine_MB.otf]/OT:script=latn;language=dflt;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_MO.otf]/OT:script=latn;language=d
-flt;"
+(fontspec)             <->s*[1]"[LinLibertine_MO.otf]/OT:script=latn;language=dflt;"
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_MBO.otf]/OT:script=latn;language=
-dflt;"
+(fontspec)             <->s*[1]"[LinLibertine_MBO.otf]/OT:script=latn;language=dflt;"
 
 
 Package fontspec Info: 
@@ -967,24 +846,19 @@ Package fontspec Info:
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_M.otf]/OT:script=latn;language=df
-lt;"
+(fontspec)             <->s*[1]"[LinLibertine_M.otf]/OT:script=latn;language=dflt;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_MB.otf]/OT:script=latn;language=d
-flt;"
+(fontspec)             <->s*[1]"[LinLibertine_MB.otf]/OT:script=latn;language=dflt;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_MO.otf]/OT:script=latn;language=d
-flt;"
+(fontspec)             <->s*[1]"[LinLibertine_MO.otf]/OT:script=latn;language=dflt;"
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[1]"[LinLibertine_MBO.otf]/OT:script=latn;language=
-dflt;"
+(fontspec)             <->s*[1]"[LinLibertine_MBO.otf]/OT:script=latn;language=dflt;"
 
 
 Package fontspec Info: 
 (fontspec)             Font family 'LinBiolinum_K(0)' created for font
 (fontspec)             'LinBiolinum_K' with options [Extension =
-(fontspec)             .otf,HyphenChar=None,BoldFont={},ItalicFont={},SmallCaps
-Font={}].
+(fontspec)             .otf,HyphenChar=None,BoldFont={},ItalicFont={},SmallCapsFont={}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
@@ -996,8 +870,7 @@ Font={}].
 Package fontspec Info: 
 (fontspec)             Font family 'LinLibertine_I(0)' created for font
 (fontspec)             'LinLibertine_I' with options [Extension =
-(fontspec)             .otf,HyphenChar=None,BoldFont={},ItalicFont={},SmallCaps
-Font={}].
+(fontspec)             .otf,HyphenChar=None,BoldFont={},ItalicFont={},SmallCapsFont={}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
@@ -1007,75 +880,42 @@ Font={}].
 
 LaTeX Info: Redefining \oldstylenums on input line 475.
 LaTeX Info: Redefining \liningnums on input line 476.
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/libertine\LinLibertine_R.tex)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/libertine\LinBiolinum_R.tex)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/libertine\LinBiolinum_K.tex)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/libertine\LinLibertine_I.tex)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/libertine\LKey.tex)
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/libertine\LinLibertine_R.tex) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/libertine\LinBiolinum_R.tex) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/libertine\LinBiolinum_K.tex) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/libertine\LinLibertine_I.tex) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/libertine\LKey.tex)
 LaTeX Info: Redefining \textsup on input line 552.
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/datetime2\datetime2.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/datetime2\datetime2.sty
 Package: datetime2 2021/03/21 v1.5.7 (NLCT) date and time formats
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/tracklang\tracklang.sty
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/tracklang\tracklang.sty
 Package: tracklang 2022/12/13 v1.6.1 (NLCT) Track Languages
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/tracklang\tracklang.tex))
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/datetime2-galician\datetime2-gali
-cian.ldf
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/tracklang\tracklang.tex)) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/datetime2-galician\datetime2-galician.ldf
 File: datetime2-galician.ldf 2018/04/13 v1.1
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/datetime2-galician\datetime2-gali
-cian-utf8.ldf
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/datetime2-galician\datetime2-galician-utf8.ldf
 File: datetime2-galician-utf8.ldf 2018/04/13 v1.1
-))
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/datetime2-english\datetime2-en-US
-.ldf
+)) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/datetime2-english\datetime2-en-US.ldf
 File: datetime2-en-US.ldf 2019/10/21 v1.05 (NLCT)
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/datetime2-english\datetime2-engli
-sh-base.ldf
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/datetime2-english\datetime2-english-base.ldf
 File: datetime2-english-base.ldf 2019/10/21 v1.05 (NLCT)
-))
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/datetime2-spanish\datetime2-spani
-sh.ldf
+)) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/datetime2-spanish\datetime2-spanish.ldf
 File: datetime2-spanish.ldf 2017/11/13 v1.1
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/datetime2-spanish\datetime2-spani
-sh-utf8.ldf
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/datetime2-spanish\datetime2-spanish-utf8.ldf
 File: datetime2-spanish-utf8.ldf 2017/11/13 v1.1
-))
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/datetime2\datetime2-calc.sty
+)) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/datetime2\datetime2-calc.sty
 Package: datetime2-calc 2021/03/21 v1.5.7 (NLCT)
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/pgf/utilities\pgfkeys.sty
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/utilities\pgfkeys.code.tex
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks29
 \pgfkeys@temptoks=\toks30
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/utilities\pgfkeyslibraryfil
-tered.code.tex
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks31
-)))
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/pgf/utilities\pgfcalendar.sty
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/pgf/utilities\pgfrcs.sty
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/utilities\pgfutil-common.te
-x
+))) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfcalendar.sty (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks32
 \pgfutil@tempdima=\dimen186
 \pgfutil@tempdimb=\dimen187
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/utilities\pgfutil-latex.def
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box60
-) (D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/utilities\pgfrcs.code.tex
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf\pgf.revision.tex)
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
-))
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/utilities\pgfcalendar.code.
-tex
+)) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfcalendar.code.tex
 File: pgfcalendar.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/math\pgfint.code.tex)
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex)
 \pgfcalendarcurrentjulian=\count305
 \pgf@cal@easter@Y=\count306
 \pgf@cal@easter@G=\count307
@@ -1089,9 +929,8 @@ File: pgfcalendar.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@cal@easter@julianday=\count315
 ))
 \@dtm@julianday=\count316
-)) (D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/fancyhdr\fancyhdr.sty
-Package: fancyhdr 2024/07/23 v4.3.1 Extensive control of page headers and foote
-rs
+)) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2024/07/23 v4.3.1 Extensive control of page headers and footers
 \f@nch@headwidth=\skip57
 \f@nch@O@elh=\skip58
 \f@nch@O@erh=\skip59
@@ -1101,8 +940,7 @@ rs
 \f@nch@O@erf=\skip63
 \f@nch@O@olf=\skip64
 \f@nch@O@orf=\skip65
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/ieeetrantools\IEEEtrantools.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/ieeetrantools\IEEEtrantools.sty
 Package: IEEEtrantools 2015/08/26 V1.5 by Michael Shell
 
 -- See the "IEEEtrantools_doc.txt" manual for usage information.
@@ -1132,7 +970,7 @@ Package: IEEEtrantools 2015/08/26 V1.5 by Michael Shell
 \@IEEEeqncolcnt=\count322
 \@IEEEsubeqnnumrollback=\count323
 \IEEEPARstartletwidth=\dimen259
-) (D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/listings\listings.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count324
 \lst@gtempboxa=\box61
 \lst@token=\toks34
@@ -1145,22 +983,18 @@ Package: IEEEtrantools 2015/08/26 V1.5 by Michael Shell
 \lst@newlines=\count328
 \lst@lineno=\count329
 \lst@maxwidth=\dimen263
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/listings\lstpatch.sty
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
 File: lstpatch.sty 2024/05/25 1.10b (Carsten Heinz)
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/listings\lstmisc.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2024/05/25 1.10b (Carsten Heinz)
 \c@lstnumber=\count330
 \lst@skipnumbers=\count331
 \lst@framebox=\box62
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/listings\listings.cfg
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2024/05/25 1.10b listings configuration
 ))
 Package: listings 2024/05/25 1.10b (Carsten Heinz)
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/tools\multicol.sty
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2024/05/23 v1.9h multicolumn formatting (FMi)
 \c@tracingmulticols=\count332
 \mult@box=\box63
@@ -1229,24 +1063,19 @@ Package: multicol 2024/05/23 v1.9h multicolumn formatting (FMi)
 \mult@nat@firstbox=\box107
 \colbreak@box=\box108
 \mc@col@check@num=\count341
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/natbib\natbib.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip69
 \bibsep=\skip70
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count342
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/setspace\setspace.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/caption\subcaption.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/caption\caption.sty
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/caption\caption3.sty
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen273
 \captionmargin=\dimen274
@@ -1266,15 +1095,14 @@ Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count345
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count346
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/tocbibind\tocbibind.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/tocbibind\tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
 
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
-) (D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/titlesec\titlesec.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \ttl@box=\box109
 \beforetitleunit=\skip71
@@ -1285,15 +1113,12 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \titlewidth=\dimen283
 \titlewidthlast=\dimen284
 \titlewidthfirst=\dimen285
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/url\url.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/blindtext\blindtext.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/tools\xspace.sty
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 \c@blindtext=\count347
@@ -1314,10 +1139,8 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@randommax=\count362
 \c@blind@pangramcount=\count363
 \c@blind@pangrammax=\count364
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/silence\silence.sty
-Package: silence 2012/07/02 v1.5b Selective filtering of warnings and error mes
-sages
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/silence\silence.sty
+Package: silence 2012/07/02 v1.5b Selective filtering of warnings and error messages
 \sl@Save=\count365
 \sl@StateNumber=\count366
 \sl@MessageCount=\count367
@@ -1338,67 +1161,49 @@ LaTeX Info: Redefining \GenericWarning on input line 433.
 \sl@TempBOE=\toks42
 \sl@BankOfErrors=\toks43
 LaTeX Info: Redefining \GenericError on input line 601.
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/hyperref\hyperref.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2024-07-10 v7.01j Hypertext links for LaTeX
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/kvsetkeys\kvsetkeys.sty
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pdfescape\pdfescape.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/ltxcmds\ltxcmds.sty
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pdftexcmds\pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/infwarerr\infwarerr.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
-))
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/hycolor\hycolor.sty
+)) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/hyperref\nameref.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/refcount\refcount.sty
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/gettitlestring\gettitlestring.s
-ty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/kvoptions\kvoptions.sty
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count375
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/stringenc\stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
-)
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
 \@linkdim=\dimen286
 \Hy@linkcounter=\count376
 \Hy@pagecounter=\count377
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/hyperref\pd1enc.def
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2024-07-10 v7.01j Hyperref: PDFDocEncoding definition (HO)
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/intcalc\intcalc.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count378
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/hyperref\puenc.def
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2024-07-10 v7.01j Hyperref: PDF Unicode definition (HO)
 )
 Package hyperref Info: Option `unicode' set `true' on input line 4040.
@@ -1413,13 +1218,10 @@ Package hyperref Info: Bookmarks ON on input line 4424.
 \c@Hy@tempcnt=\count379
 LaTeX Info: Redefining \url on input line 4763.
 \XeTeXLinkMargin=\dimen287
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/bitset\bitset.sty
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/bigintcalc\bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
-)
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count380
 \Field@Width=\dimen288
@@ -1431,8 +1233,7 @@ Package hyperref Info: backreferencing OFF on input line 6057.
 Package hyperref Info: Link coloring ON on input line 6060.
 Package hyperref Info: Link coloring with OCG OFF on input line 6067.
 Package hyperref Info: PDF/A mode OFF on input line 6072.
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/base\atbegshi-ltx.sty
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -1441,73 +1242,53 @@ package with kernel methods
 \c@Hfootnote=\count383
 )
 Package hyperref Info: Driver (autodetected): hxetex.
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/hyperref\hxetex.def
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
 File: hxetex.def 2024-07-10 v7.01j Hyperref driver for XeTeX
 \pdfm@box=\box110
 \c@Hy@AnnotLevel=\count384
 \HyField@AnnotCount=\count385
 \Fld@listcount=\count386
 \c@bookmark@seq@number=\count387
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/base\atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
-kage
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/uniquecounter\uniquecounter.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-85.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip73
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/stringenc\se-ascii-print.def
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-ascii-print.def
 File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
-
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/footnotebackref\footnotebackref.s
-ty
-Package: footnotebackref 2012/07/01 v1.0 Backreferences for footnotes (Holger L
-ange)
- (D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/letltxmacro\letltxmacro.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/footnotebackref\footnotebackref.sty
+Package: footnotebackref 2012/07/01 v1.0 Backreferences for footnotes (Holger Lange)
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
 \c@BackrefHyperFootnoteCounter=\count388
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/glossaries/base\glossaries.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\glossaries.sty
 Package: glossaries 2024/04/03 v4.54 (NLCT)
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/mfirstuc\mfirstuc.sty
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
 Package: mfirstuc 2022/10/14 v2.08 (NLCT)
 \@glsmfirst=\toks44
 \@glsmrest=\toks45
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/xfor\xfor.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/xfor\xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/datatool\datatool-base.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-base.sty
 Package: datatool-base 2019/09/27 v2.32 (NLCT)
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/substr\substr.sty
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/substr\substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
 \c@su@anzahl=\count389
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/datatool\datatool-fp.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-fp.sty
 Package: datatool-fp 2019/09/27 v2.32 (NLCT)
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/fp\fp.sty
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp.sty
 Package: fp 1995/04/02
-
-`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/fp\defpattern.sty
+ `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/fp\defpattern.sty
 Package: defpattern 1994/10/12
 \actioncount=\count390
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/fp\fp-basic.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-basic.sty
 Package: fp-basic 1996/05/13
 \FP@xs=\count391
 \FP@xia=\count392
@@ -1518,33 +1299,24 @@ Package: fp-basic 1996/05/13
 \FP@regb=\count397
 \FP@regs=\count398
 \FP@times=\count399
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/fp\fp-addons.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-addons.sty
 Package: fp-addons 1995/03/15
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/fp\fp-snap.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-snap.sty
 Package: fp-snap 1995/04/05
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/fp\fp-exp.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-exp.sty
 Package: fp-exp 1995/04/03
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/fp\fp-trigo.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-trigo.sty
 Package: fp-trigo 1995/04/14
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/fp\fp-pas.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-pas.sty
 Package: fp-pas 1994/08/29
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/fp\fp-random.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-random.sty
 Package: fp-random 1995/02/23
 \FPseed=\count400
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/fp\fp-eqn.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eqn.sty
 Package: fp-eqn 1995/04/03
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/fp\fp-upn.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-upn.sty
 Package: fp-upn 1996/10/21
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/fp\fp-eval.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
 \@dtl@toks=\toks46
@@ -1563,17 +1335,11 @@ Package glossaries Warning: No language module detected for `gl'.
 (glossaries)                Please check on CTAN for a bundle called
 (glossaries)                `glossaries-galician' or similar.
 
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/glossaries-english\glossaries-eng
-lish.ldf
+(C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-english\glossaries-english.ldf
 File: glossaries-english.ldf 2014/11/23 v1.0
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/glossaries-spanish\glossaries-spa
-nish.ldf
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-spanish\glossaries-spanish.ldf
 File: glossaries-spanish.ldf 2014/11/23 v1.0
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/glossaries-spanish\glossaries-spa
-nish-utf8.ldf))
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-spanish\glossaries-spanish-utf8.ldf))
 
 Package glossaries Warning: No language module detected for `galician'.
 (glossaries)                Language modules need to be installed separately.
@@ -1587,20 +1353,14 @@ Package glossaries Warning: No language module detected for `galician'.
 \glslabeltok=\toks49
 \glsshorttok=\toks50
 \glslongtok=\toks51
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/glossaries/styles\glossary-hypern
-av.sty
+(C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-hypernav.sty
 Package: glossary-hypernav 2024/04/03 v4.54 (NLCT)
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/glossaries/styles\glossary-list.s
-ty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-list.sty
 Package: glossary-list 2024/04/03 v4.54 (NLCT)
 \glslistdottedwidth=\skip76
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/glossaries/styles\glossary-long.s
-ty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-long.sty
 Package: glossary-long 2024/04/03 v4.54 (NLCT)
- (D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/tools\longtable.sty
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2024-04-26 v4.20 Multi-page Table package (DPC)
 \LTleft=\skip77
 \LTright=\skip78
@@ -1621,11 +1381,9 @@ Package: longtable 2024-04-26 v4.20 Multi-page Table package (DPC)
 )
 \glsdescwidth=\skip81
 \glspagelistwidth=\skip82
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/glossaries/styles\glossary-super.
-sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-super.sty
 Package: glossary-super 2024/04/03 v4.54 (NLCT)
- (D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/supertabular\supertabular.sty
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/supertabular\supertabular.sty
 Package: supertabular 2024/07/20 v4.2c the supertabular environment
 \c@tracingst=\count414
 \ST@wd=\dimen291
@@ -1642,9 +1400,7 @@ Package: supertabular 2024/07/20 v4.2c the supertabular environment
 \ST@toadd=\dimen299
 \ST@dimen=\dimen300
 \ST@pbox=\box116
-))
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/glossaries/styles\glossary-tree.s
-ty
+)) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-tree.sty
 Package: glossary-tree 2024/04/03 v4.54 (NLCT)
 \glstreeindent=\skip86
 ))
@@ -1652,24 +1408,16 @@ Package: glossary-tree 2024/04/03 v4.54 (NLCT)
 \glo@main@file=\write4
 \openout4 = `memoria_tfg.glo'.
 
-Package glossaries Info: Writing glossary file memoria_tfg.glo on input line 23
-1.
+Package glossaries Info: Writing glossary file memoria_tfg.glo on input line 231.
 \glo@acronym@file=\write5
 \openout5 = `memoria_tfg.acn'.
 
-Package glossaries Info: Writing glossary file memoria_tfg.acn on input line 23
-1.
- (bibliografia/acronimos.tex) (bibliografia/glosario.tex))
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/tcolorbox\tcolorbox.sty
+Package glossaries Info: Writing glossary file memoria_tfg.acn on input line 231.
+ (bibliografia/acronimos.tex) (bibliografia/glosario.tex)) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
 Package: tcolorbox 2024/07/10 version 6.3.0 text color boxes
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/pgf/frontendlayer\tikz.sty
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/pgf/basiclayer\pgf.sty
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/pgf/basiclayer\pgfcore.sty
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/pgf/systemlayer\pgfsys.sty
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/systemlayer\pgfsys.code.tex
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \pgf@x=\dimen301
 \pgf@y=\dimen302
@@ -1691,71 +1439,36 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \t@pgf@tokb=\toks54
 \t@pgf@tokc=\toks55
 \pgf@sys@id@count=\count419
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/systemlayer\pgf.cfg
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
 Driver file for pgf: pgfsys-xetex.def
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/systemlayer\pgfsys-xetex.de
-f
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-xetex.def
 File: pgfsys-xetex.def 2023-01-15 v3.1.10 (3.1.10)
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/systemlayer\pgfsys-dvipdfmx
-.def
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-dvipdfmx.def
 File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/systemlayer\pgfsys-common-p
-df.def
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 )
 \pgfsys@objnum=\count420
-)))
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/systemlayer\pgfsyssoftpath.
-code.tex
+))) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfsyssoftpath@smallbuffer@items=\count421
 \pgfsyssoftpath@bigbuffer@items=\count422
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/systemlayer\pgfsysprotocol.
-code.tex
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/basiclayer\pgfcore.code.tex
+)) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/math\pgfmath.code.tex
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/math\pgfmathutil.code.tex)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/math\pgfmathparser.code.tex
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen311
 \pgfmath@count=\count423
 \pgfmath@box=\box117
 \pgfmath@toks=\toks56
 \pgfmath@stack@operand=\toks57
 \pgfmath@stack@operation=\toks58
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/math\pgfmathfunctions.code.
-tex)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/math\pgfmathfunctions.basic
-.code.tex)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/math\pgfmathfunctions.trigo
-nometric.code.tex)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/math\pgfmathfunctions.rando
-m.code.tex)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/math\pgfmathfunctions.compa
-rison.code.tex)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/math\pgfmathfunctions.base.
-code.tex)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/math\pgfmathfunctions.round
-.code.tex)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/math\pgfmathfunctions.misc.
-code.tex)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/math\pgfmathfunctions.integ
-erarithmetics.code.tex)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/math\pgfmathcalc.code.tex)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/math\pgfmathfloat.code.tex
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count424
-))
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/basiclayer\pgfcorepoints.co
-de.tex
+)) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picminx=\dimen312
 \pgf@picmaxx=\dimen313
@@ -1771,123 +1484,75 @@ File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yy=\dimen323
 \pgf@zx=\dimen324
 \pgf@zy=\dimen325
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/basiclayer\pgfcorepathconst
-ruct.code.tex
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@path@lastx=\dimen326
 \pgf@path@lasty=\dimen327
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/basiclayer\pgfcorepathusage
-.code.tex
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@shorten@end@additional=\dimen328
 \pgf@shorten@start@additional=\dimen329
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/basiclayer\pgfcorescopes.co
-de.tex
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box118
 \pgf@hbox=\box119
 \pgf@layerbox@main=\box120
 \pgf@picture@serial@count=\count425
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/basiclayer\pgfcoregraphicst
-ate.code.tex
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgflinewidth=\dimen330
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/basiclayer\pgfcoretransform
-ations.code.tex
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@pt@x=\dimen331
 \pgf@pt@y=\dimen332
 \pgf@pt@temp=\dimen333
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/basiclayer\pgfcorequick.cod
-e.tex
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/basiclayer\pgfcoreobjects.c
-ode.tex
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/basiclayer\pgfcorepathproce
-ssing.code.tex
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/basiclayer\pgfcorearrows.co
-de.tex
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfarrowsep=\dimen334
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/basiclayer\pgfcoreshade.cod
-e.tex
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen335
 \pgf@sys@shading@range@num=\count426
 \pgf@shadingcount=\count427
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/basiclayer\pgfcoreimage.cod
-e.tex
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/basiclayer\pgfcoreexternal.
-code.tex
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfexternal@startupbox=\box121
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/basiclayer\pgfcorelayers.co
-de.tex
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/basiclayer\pgfcoretranspare
-ncy.code.tex
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/basiclayer\pgfcorepatterns.
-code.tex
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/basiclayer\pgfcorerdf.code.
-tex
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)))
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/modules\pgfmoduleshapes.cod
-e.tex
+))) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodeparttextbox=\box122
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/modules\pgfmoduleplot.code.
-tex
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/pgf/compatibility\pgfcomp-version
--0-65.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
 \pgf@nodesepstart=\dimen336
 \pgf@nodesepend=\dimen337
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/pgf/compatibility\pgfcomp-version
--1-18.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
-))
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/pgf/utilities\pgffor.sty
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/pgf/math\pgfmath.sty
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/math\pgfmath.code.tex))
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/utilities\pgffor.code.tex
+)) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen338
 \pgffor@skip=\dimen339
 \pgffor@stack=\toks59
 \pgffor@toks=\toks60
-))
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/frontendlayer/tikz\tikz.cod
-e.tex
+)) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/libraries\pgflibraryplothan
-dlers.code.tex
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@plot@mark@count=\count428
 \pgfplotmarksize=\dimen340
@@ -1908,30 +1573,23 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikznumberofchildren=\count430
 \tikznumberofcurrentchild=\count431
 \tikz@fig@count=\count432
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/modules\pgfmodulematrix.cod
-e.tex
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfmatrixcurrentrow=\count433
 \pgfmatrixcurrentcolumn=\count434
 \pgf@matrix@numberofcolumns=\count435
 )
 \tikz@expandcount=\count436
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/generic/pgf/frontendlayer/tikz/librarie
-s\tikzlibrarytopaths.code.tex
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)))
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/tools\verbatim.sty
+))) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks61
 \verbatim@line=\toks62
 \verbatim@in@stream=\read3
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/environ\environ.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/trimspaces\trimspaces.sty
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
 \tcb@titlebox=\box127
@@ -1947,16 +1605,14 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@temp=\box133
 \tcb@temp=\box134
 \tcb@temp=\box135
-)
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/float\float.sty
+) (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count440
 \float@exts=\toks63
 \float@box=\box136
 \@float@everytoks=\toks64
 \@floatcapt=\box137
-) (memoria_tfg.aux (portada/portada.aux) (contido/aodv.aux) (contido/dsdv.aux)
-(contido/aodv_vs_dsdv.aux) (contido/aodv_vs_dsdv_graphics.aux))
+) (memoria_tfg.aux (portada/portada.aux) (contido/aodv.aux) (contido/dsdv.aux) (contido/aodv_vs_dsdv.aux) (contido/aodv_vs_dsdv_graphics.aux))
 \openout1 = `memoria_tfg.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
@@ -1968,10 +1624,8 @@ LaTeX Font Info:    ... okay on input line 53.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
 LaTeX Font Info:    ... okay on input line 53.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 5
-3.
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/base\ts1cmr.fd
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 53.
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 53.
@@ -2019,40 +1673,29 @@ LaTeX Font Info:    Redeclaring symbol font `operators' on input line 53.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
 (Font)              `operators' in the math version `normal' on input line 53.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/LinLibertine(0)/m/n on input line 53
-.
+(Font)                  OT1/cmr/m/n --> TU/LinLibertine(0)/m/n on input line 53.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
 (Font)              `operators' in the math version `bold' on input line 53.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/LinLibertine(0)/m/n on input line 5
-3.
+(Font)                  OT1/cmr/bx/n --> TU/LinLibertine(0)/m/n on input line 53.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/LinLibertine(0)/m/n --> TU/LinLibertine(0)/m/n on in
-put line 53.
+(Font)                  TU/LinLibertine(0)/m/n --> TU/LinLibertine(0)/m/n on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/LinLibertine(0)/m/it on input line 
-53.
+(Font)                  OT1/cmr/m/it --> TU/LinLibertine(0)/m/it on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/LinLibertine(0)/b/n on input line 5
-3.
+(Font)                  OT1/cmr/bx/n --> TU/LinLibertine(0)/b/n on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/LinBiolinum(0)/m/n on input line 53
-.
+(Font)                  OT1/cmss/m/n --> TU/LinBiolinum(0)/m/n on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/LinLibertine(5)/m/n on input line 5
-3.
+(Font)                  OT1/cmtt/m/n --> TU/LinLibertine(5)/m/n on input line 53.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/LinLibertine(0)/m/n --> TU/LinLibertine(0)/b/n on in
-put line 53.
+(Font)                  TU/LinLibertine(0)/m/n --> TU/LinLibertine(0)/b/n on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/LinLibertine(0)/b/it on input line
- 53.
+(Font)                  OT1/cmr/bx/it --> TU/LinLibertine(0)/b/it on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/LinBiolinum(0)/b/n on input line 5
-3.
+(Font)                  OT1/cmss/bx/n --> TU/LinBiolinum(0)/b/n on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/LinLibertine(5)/b/n on input line 5
-3.
+(Font)                  OT1/cmtt/m/n --> TU/LinLibertine(5)/b/n on input line 53.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -2093,14 +1736,13 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/caption\ltcaption.sty
+(C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 53.
-
-(memoria_tfg.out) (memoria_tfg.out)
+ (memoria_tfg.out) (memoria_tfg.out)
 \@outlinefile=\write7
 \openout7 = `memoria_tfg.out'.
 
@@ -2108,9 +1750,7 @@ Package hyperref Info: Link coloring ON on input line 53.
 
  (portada/portada.tex
 LaTeX Font Info:    Trying to load font information for T1+phv on input line 4.
-
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/psnfss\t1phv.fd
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
@@ -2121,8 +1761,7 @@ File: imaxes/udc.png Graphic file (type bmp)
 <imaxes/udc.png>
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 9.
-File: imaxes/euro_inf_seal_bachelor_light background.png Graphic file (type bmp
-)
+File: imaxes/euro_inf_seal_bachelor_light background.png Graphic file (type bmp)
 <imaxes/euro_inf_seal_bachelor_light background.png>
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
 (Font)              scaled to size 20.74pt on input line 15.
@@ -2132,21 +1771,16 @@ LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 26.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
 (Font)              scaled to size 6.0pt on input line 26.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 26
-.
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/base\ulasy.fd
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 26.
+(C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
-
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/amsfonts\umsa.fd
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
-
-
-(D:\UNIVERSIDAD\GEI_24_25\DR\MiKteX\tex/latex/amsfonts\umsb.fd
+ (C:\Users\oscar\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
@@ -2195,13 +1829,27 @@ LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
 (Font)              scaled to size 14.4pt on input line 1.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
 (Font)              scaled to size 14.4pt on input line 4.
-)
+File: imaxes/ejercicio1_1.png Graphic file (type bmp)
+<imaxes/ejercicio1_1.png>
+File: imaxes/ejercicio1_2.png Graphic file (type bmp)
+<imaxes/ejercicio1_2.png>
+
 
 [1
 
 
 
-]
+])
+
+LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 84.
+LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/sl' in size <9> not available
+(Font)              Font shape `TU/LinLibertine(0)/m/it' tried instead on input line 84.
+LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
+(Font)              scaled to size 9.0pt on input line 84.
+[2]
+
+[3]
 \openout2 = `contido/dsdv.aux'.
 
  (contido/dsdv.tex)
@@ -2210,29 +1858,27 @@ LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
  (contido/aodv_vs_dsdv.tex)
 \openout2 = `contido/aodv_vs_dsdv_graphics.aux'.
 
-
-(contido/aodv_vs_dsdv_graphics.tex)
+ (contido/aodv_vs_dsdv_graphics.tex)
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-(memoria_tfg.aux (portada/portada.aux) (contido/aodv.aux) (contido/dsdv.aux)
-(contido/aodv_vs_dsdv.aux) (contido/aodv_vs_dsdv_graphics.aux))
+(memoria_tfg.aux (portada/portada.aux) (contido/aodv.aux) (contido/dsdv.aux) (contido/aodv_vs_dsdv.aux) (contido/aodv_vs_dsdv_graphics.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
 Package rerunfilecheck Info: File `memoria_tfg.out' has not changed.
-(rerunfilecheck)             Checksum: 9C3D0FC50B0B75EDDA994B261CB7065E;89.
+(rerunfilecheck)             Checksum: 376B7198AC133C89C1F63322EA49DE3A;535.
  ) 
 Here is how much of TeX's memory you used:
- 47865 strings out of 409029
- 986148 string characters out of 5758771
- 1354034 words of memory out of 5000000
- 69843 multiletter control sequences out of 15000+600000
- 568140 words of font info for 116 fonts, out of 8000000 for 9000
+ 47902 strings out of 409029
+ 989288 string characters out of 5756741
+ 1359255 words of memory out of 5000000
+ 69876 multiletter control sequences out of 15000+600000
+ 568213 words of font info for 118 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 106i,7n,145p,2402b,374s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 106i,12n,145p,2397b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on memoria_tfg.pdf (4 pages).
+Output written on memoria_tfg.xdv (6 pages, 54260 bytes).
