@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.3)  4 DEC 2024 19:29
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.3)  10 DEC 2024 14:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1612,7 +1612,11 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box136
 \@float@everytoks=\toks64
 \@floatcapt=\box137
-) (memoria_tfg.aux (portada/portada.aux) (contido/aodv.aux) (contido/dsdv.aux) (contido/aodv_vs_dsdv.aux) (contido/aodv_vs_dsdv_graphics.aux))
+) (memoria_tfg.aux (portada/portada.aux) (contido/aodv.aux) (contido/dsdv.aux
+
+LaTeX Warning: Label `fig:ejer2_1' multiply defined.
+
+) (contido/aodv_vs_dsdv.aux) (contido/aodv_vs_dsdv_graphics.aux))
 \openout1 = `memoria_tfg.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
@@ -1852,7 +1856,24 @@ LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
 [3]
 \openout2 = `contido/dsdv.aux'.
 
- (contido/dsdv.tex)
+ (contido/dsdv.tex
+Capítulo 2.
+File: imaxes/dsdv/ejercicio2_1.png Graphic file (type bmp)
+<imaxes/dsdv/ejercicio2_1.png>
+File: imaxes/dsdv/ejercicio2_1_2.png Graphic file (type bmp)
+<imaxes/dsdv/ejercicio2_1_2.png>
+
+
+[4
+
+
+
+
+])
+
+[5]
+
+[6]
 \openout2 = `contido/aodv_vs_dsdv.aux'.
 
  (contido/aodv_vs_dsdv.tex)
@@ -1869,16 +1890,20 @@ This document will not have a glossary.
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `memoria_tfg.out' has not changed.
-(rerunfilecheck)             Checksum: 376B7198AC133C89C1F63322EA49DE3A;535.
+(rerunfilecheck)             Checksum: C5A72EE9AECD623E450CB7C501FAA32E;953.
  ) 
 Here is how much of TeX's memory you used:
- 47902 strings out of 409029
- 989288 string characters out of 5756741
- 1359255 words of memory out of 5000000
- 69876 multiletter control sequences out of 15000+600000
+ 47925 strings out of 409029
+ 989948 string characters out of 5756741
+ 1359254 words of memory out of 5000000
+ 69896 multiletter control sequences out of 15000+600000
  568213 words of font info for 118 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 106i,12n,145p,2397b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 106i,12n,145p,2397b,443s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on memoria_tfg.xdv (6 pages, 54260 bytes).
+Output written on memoria_tfg.xdv (9 pages, 90676 bytes).

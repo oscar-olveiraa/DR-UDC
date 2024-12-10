@@ -3,3 +3,8 @@
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Logs que muestran el envío del primer RREQ y los nodos que lo reciben}}{1}{figure.caption.3}%
 \setforeignlanguage {spanish}
 \contentsline {figure}{\numberline {1.2}{\ignorespaces Nodos que reenvían el primer RREQ (A la izquierda, mobile[10]; A la derecha, mobile[12])}}{2}{figure.caption.4}%
+\addvspace {10\p@ }
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Log del nodo que manda el primer Hello con hopdistance 3}}{4}{figure.caption.5}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Tabla de enrutamiento nodo 8}}{5}{figure.caption.6}%

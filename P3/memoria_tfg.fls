@@ -560,6 +560,12 @@ OUTPUT contido\dsdv.aux
 INPUT .\contido\dsdv.tex
 INPUT .\contido\dsdv.tex
 INPUT contido\dsdv.tex
+INPUT .\imaxes\dsdv\ejercicio2_1.png
+INPUT .\imaxes\dsdv\ejercicio2_1.png
+INPUT .\imaxes\dsdv\ejercicio2_1.png
+INPUT .\imaxes\dsdv\ejercicio2_1_2.png
+INPUT .\imaxes\dsdv\ejercicio2_1_2.png
+INPUT .\imaxes\dsdv\ejercicio2_1_2.png
 INPUT .\contido\aodv_vs_dsdv.tex
 INPUT .\contido\aodv_vs_dsdv.tex
 OUTPUT contido\aodv_vs_dsdv.aux
