@@ -21,10 +21,10 @@ Como se puede ver la imagen, el nodo que manda el primer mensaje Hello con hopdi
     \centering
     \includegraphics[width=115mm, scale=0.75]{imaxes/dsdv/ejercicio2_1_2.png}
     \caption{Tabla de enrutamiento nodo 8}
-    \label{fig:ejer2_1}
+    \label{fig:ejer2_1_2}
 \end{figure}
 
-Según la imagen \ref{fig:ejer2_1}, el campo srcAddress es el nodo que envía el paquete Hello, en este caso es el 1.1.0.7 y el campo nextAddress es la siguiente dirección que va a recibir la trama, en este caso 1.1.0.8. 
+Según la imagen \ref{fig:ejer2_1}, el campo srcAddress es el nodo que generó el paquete Hello, en este caso es el 1.1.0.7 y el campo nextAddress es la siguiente dirección que va a retransmitir la trama, en este caso 1.1.0.8. 
 
 
 
@@ -32,9 +32,14 @@ Según la imagen \ref{fig:ejer2_1}, el campo srcAddress es el nodo que envía el
 
 \subsection{¿Qué valor tiene de sequencenumber? ¿Qué quiere decir ese valor?}
 
+Como se puede ver en la imagen \ref{fig:ejer2_1}, el campo sequencenumber tiene valor 6. Este valor ayuda a identificar entradas obsoletas para asi evitar bucles. Para ver si una ruta es válida o obsoleta llega con ver si este valor es par (ruta disponible) o impar (ruta obsoleta/caída). De esta forma, nos indica como de actualizado está la información de la ruta, el estado de la ruta y evita posibles conflictos en la red.
+
 \section{Ejercicio 2.3}
 
 \subsection{¿Cómo se modifica? ¿Qué nodo lo modifica, y cuándo lo hace?}
+
+Este valor lo modifica el propio nodo en su tabla de enrutamiento, incrementándolo en 2 cuando la ruta que es válida o si es inválida solamente lo incrementa a 1. 
+El nodo actualiza este valor cuando descubre una ruta mejor hacia el destino. Si el nuevo número de secuencia recibido es mayor (y par), el nodo adopta ese valor, lo registra en su tabla y actualiza el próximo salto (nextAddress) con el nodo que recibió la información (en este caso mobile[8]). En el caso de una ruta no válida, genera un sequencenumber impar y establece el costo de la ruta como infinito para indicar que esa ruta no se puede usar.  
 
 \section{Ejercicio 2.4}
 
@@ -49,7 +54,14 @@ crearía (destino, gateway, métrica) si se actualizase con la información del 
 la de AODV, y por lo tanto el nodo a desactivar también. ¿Cuál es el primer nodo en darse cuenta de la caída?
 ¿Notifica la caída del nodo de alguna forma?}
 
+Hay que aclarar que hemos cambiado de semilla ya que con DSDV no funcionaba bien con la semilla que usamos en los anteriores apartados.
+
+
+
 \section{Ejercicio 2.6}
 
 \subsection{¿Cómo se repara la ruta entre static1 y static2? ¿En qué momento?}
 
+
+
+non recibe toda a tabla de enrutamiento cando si que deberia, algunhas veces os nodos mandan unha entrada da sua tabla, outras veces manda varias entradas...

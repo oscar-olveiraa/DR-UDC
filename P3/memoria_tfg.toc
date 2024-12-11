@@ -2,12 +2,12 @@
 \contentsline {chapter}{\numberline {1}AODV}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Ejercicio 1.1}{1}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}¿Qué nodos reenvían el primer paquete RREQ enviado por static1? ¿Y el segundo RREQ? ¿Por qué?}{1}{subsection.1.1.1}%
-\contentsline {section}{\numberline {1.2}Ejercicio 1.2}{3}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Elige el nodo intermedio de la ruta que sigue el primer paquete RREQ que llega a static2. Muestra su tabla de enrutamiento (vector <Ipv4route *> dentro del módulo ipv4.routingTable) justo antes y justo después de recibir el primer RREQ. Explica las diferencias y cómo se crean las entradas que aparecen (incluyendo los campos más importantes).}{3}{subsection.1.2.1}%
-\contentsline {section}{\numberline {1.3}Ejercicio 1.3}{3}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Haz lo mismo justo antes y justo después del primer RREP.}{3}{subsection.1.3.1}%
-\contentsline {section}{\numberline {1.4}Ejercicio 1.4}{3}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Tras aplicar la nueva configuración, ¿Cuál es el primer nodo en darse cuenta de la caída? ¿Cómo? Muestra una captura del log del nodo que se da cuenta que muestre el motivo. ¿Notifica este nodo la caída del nodo?}{3}{subsection.1.4.1}%
+\contentsline {section}{\numberline {1.2}Ejercicio 1.2}{2}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Elige el nodo intermedio de la ruta que sigue el primer paquete RREQ que llega a static2. Muestra su tabla de enrutamiento (vector <Ipv4route *> dentro del módulo ipv4.routingTable) justo antes y justo después de recibir el primer RREQ. Explica las diferencias y cómo se crean las entradas que aparecen (incluyendo los campos más importantes).}{2}{subsection.1.2.1}%
+\contentsline {section}{\numberline {1.3}Ejercicio 1.3}{2}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Haz lo mismo justo antes y justo después del primer RREP.}{2}{subsection.1.3.1}%
+\contentsline {section}{\numberline {1.4}Ejercicio 1.4}{2}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Tras aplicar la nueva configuración, ¿Cuál es el primer nodo en darse cuenta de la caída? ¿Cómo? Muestra una captura del log del nodo que se da cuenta que muestre el motivo. ¿Notifica este nodo la caída del nodo?}{2}{subsection.1.4.1}%
 \contentsline {section}{\numberline {1.5}Ejercicio 1.5}{3}{section.1.5}%
 \contentsline {subsection}{\numberline {1.5.1}Muestra el contenido del paquete RERR en Wireshark explicando los campos más importantes. ¿Qué IP tiene como destino? ¿Por qué?}{3}{subsection.1.5.1}%
 \contentsline {section}{\numberline {1.6}Ejercicio 1.6}{3}{section.1.6}%
@@ -19,10 +19,10 @@
 \contentsline {chapter}{\numberline {2}DSDV}{4}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Ejercicio 2.1}{4}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Avanza la simulación hasta el instante t = 7 s. Busca el primer paquete Hello transmitido a partir a ese instante con un valor de hopdistance de al menos 3 y muestra una captura del contenido. Explica el significado de los campos srcAddress y nextAddress, utilizando para explicarlos una captura de la tabla de enrutamiento del nodo que está transmitiendo el paquete (i.e., no el que consta en srcAddress)}{4}{subsection.2.1.1}%
-\contentsline {section}{\numberline {2.2}Ejercicio 2.2}{6}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}¿Qué valor tiene de sequencenumber? ¿Qué quiere decir ese valor?}{6}{subsection.2.2.1}%
-\contentsline {section}{\numberline {2.3}Ejercicio 2.3}{6}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}¿Cómo se modifica? ¿Qué nodo lo modifica, y cuándo lo hace?}{6}{subsection.2.3.1}%
+\contentsline {section}{\numberline {2.2}Ejercicio 2.2}{5}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}¿Qué valor tiene de sequencenumber? ¿Qué quiere decir ese valor?}{5}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.3}Ejercicio 2.3}{5}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}¿Cómo se modifica? ¿Qué nodo lo modifica, y cuándo lo hace?}{5}{subsection.2.3.1}%
 \contentsline {section}{\numberline {2.4}Ejercicio 2.4}{6}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Muestra la tabla de enrutamiento del nodo que recibe el Hello de la pregunta anterior justo antes y justo después de recibirlo, relacionándola con el contenido del paquete. Si se actualiza la tabla, explica por qué se actualiza y las entradas que se crean. Si no se actualiza, explica por qué no se actualiza y di qué entrada se crearía (destino, gateway, métrica) si se actualizase con la información del paquete.}{6}{subsection.2.4.1}%
 \contentsline {section}{\numberline {2.5}Ejercicio 2.5}{6}{section.2.5}%
