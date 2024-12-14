@@ -8,3 +8,23 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Log del nodo que manda el primer Hello con hopdistance 3}}{4}{figure.caption.5}%
 \setforeignlanguage {spanish}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Tabla de enrutamiento nodo 8}}{5}{figure.caption.6}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Tabla de enrutamiento nodo 5 antes recibir Hello de nodo 8}}{6}{figure.caption.7}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Tabla de enrutamiento nodo 9 antes recibir Hello de nodo 8}}{7}{figure.caption.8}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Tabla de enrutamiento nodo 5 antes recibir Hello de nodo 8}}{7}{figure.caption.9}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Tabla de enrutamiento nodo 9 antes recibir Hello de nodo 8}}{8}{figure.caption.10}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Ruta antes de la caída}}{9}{figure.caption.11}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Mensaje del nodo 1 cuando no es capaz de enviar los UDP datas al detectar un nodo caído}}{9}{figure.caption.12}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Ruta nueva después de la caída del nodo 2}}{9}{figure.caption.13}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Stati2 mandando mensaje Hello}}{10}{figure.caption.14}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Nodo 11 antes de recibir Hello de static2}}{10}{figure.caption.15}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Nodo 11 después de recibir Hello de static2}}{11}{figure.caption.16}%
