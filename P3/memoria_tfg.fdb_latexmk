@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1734198771.05456 "memoria_tfg.xdv" "memoria_tfg.pdf" "memoria_tfg" 1734198774.64236 0
-  "memoria_tfg.xdv" 1734198770 179216 f50801313a7283491b993219b1714648 "xelatex"
+["xdvipdfmx"] 1734302506.4761 "memoria_tfg.xdv" "memoria_tfg.pdf" "memoria_tfg" 1734302510.44808 0
+  "memoria_tfg.xdv" 1734302506 251836 57d01d041afd27f19bac8ff4b04a7659 "xelatex"
   (generated)
   "memoria_tfg.pdf"
   (rewritten before read)
-["xelatex"] 1734198768.20814 "c:/Users/oscar/Desktop/DR/P3/memoria_tfg.tex" "memoria_tfg.xdv" "memoria_tfg" 1734198774.63379 0
+["xelatex"] 1734302503.04482 "c:/Users/oscar/Desktop/DR/P3/memoria_tfg.tex" "memoria_tfg.xdv" "memoria_tfg" 1734302510.4382 0
   "C:/Users/oscar/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1727946186 25300196 53318ed4743b0ef445d7f763f7adb2ce ""
   "C:/Users/oscar/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/helvetic/phvr8t.tfm" 1136768654 7040 b2bd27e2bfe6f6948cbc3239cae7444f ""
   "C:/Users/oscar/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768654 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
@@ -250,15 +250,19 @@
   "bibliografia/acronimos.tex" 1732124559 394 3f341dd8dab229563a54db0f007d2a4e ""
   "bibliografia/glosario.tex" 1732124559 551 33d59db273bd224cf908073c9d264c05 ""
   "c:/Users/oscar/Desktop/DR/P3/memoria_tfg.tex" 1732124559 4812 60242bdef483becce157158a8c7e8ba9 ""
-  "contido/aodv.aux" 1734198770 5897 f61522eb9be4283a470f0a66fca6edb7 "xelatex"
+  "contido/aodv.aux" 1734302505 5897 f61522eb9be4283a470f0a66fca6edb7 "xelatex"
   "contido/aodv.tex" 1733936513 3451 d08c516b82cf21cd86fdf31773bf89e8 ""
-  "contido/aodv_vs_dsdv.aux" 1734198770 1691 2b75370265e7bfb6b01532ecb7e79dd7 "xelatex"
-  "contido/aodv_vs_dsdv.tex" 1732124559 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "contido/aodv_vs_dsdv_graphics.aux" 1734198770 1700 f704de9d9af8b68b75eac799ce1100aa "xelatex"
+  "contido/aodv_vs_dsdv.aux" 1734302506 5836 3673266e6c61006cc8ab77d64bce9925 "xelatex"
+  "contido/aodv_vs_dsdv.tex" 1734302502 6368 9554868cecb7db0f376f976b628f73c6 ""
+  "contido/aodv_vs_dsdv_graphics.aux" 1734302506 1699 15f07c85754967aa5a2740d56c0a6e39 "xelatex"
   "contido/aodv_vs_dsdv_graphics.tex" 1732124559 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "contido/dsdv.aux" 1734198770 9034 3e6a37eb6e7b5239a01948dd615658b7 "xelatex"
+  "contido/dsdv.aux" 1734302505 9034 3e6a37eb6e7b5239a01948dd615658b7 "xelatex"
   "contido/dsdv.tex" 1734198767 10769 7d0484b91dfa22f235de979beb7d19a0 ""
   "estilo_tfg.sty" 1732124559 9056 a1f5c1ae20c20ff41d2cd27d6c892007 ""
+  "imaxes/aodv_dsdv/ejercicio3_4_static1_aodv.png" 1734265849 76817 3f41131b5b5b0a80bead72a540e8736b ""
+  "imaxes/aodv_dsdv/ejercicio3_4_static1_dsdv.png" 1734267211 78144 de4f7f58505eb839b35d985457ba52aa ""
+  "imaxes/aodv_dsdv/ejercicio3_4_static2_aodv.png" 1734265885 69952 ea5834d57bfcbe1232c49880e9e7a0e4 ""
+  "imaxes/aodv_dsdv/ejercicio3_4_static2_dsdv.png" 1734267237 70418 3826ba9373c0793be57b3fddbccac4a0 ""
   "imaxes/dsdv/ejercicio2_1.png" 1733941991 294403 1d571ffb84f23e0c500c5363b54629f5 ""
   "imaxes/dsdv/ejercicio2_1_2.png" 1733833743 164674 8ed353d0afe35488e58ebde66ca0323d ""
   "imaxes/dsdv/ejercicio2_4_1_nodo5.png" 1733943242 164404 1589d7ca782115e66b7e2ad511939e09 ""
@@ -275,12 +279,12 @@
   "imaxes/ejercicio1_2.png" 1732357291 626991 0b490cf164225e39e9ca697dda9809ed ""
   "imaxes/euro_inf_seal_bachelor_light background.png" 1732124559 299304 4e5d2dd0c992ca358c35cfd236035fd2 ""
   "imaxes/udc.png" 1732124559 24371 11c539dc2530db5e5948b184f75640a3 ""
-  "memoria_tfg.aux" 1734198770 684 f64c462e0fbecc21404c39a9505c42a1 "xelatex"
-  "memoria_tfg.lof" 1734198770 2336 47082cad146764835da796c5a4fa0638 "xelatex"
-  "memoria_tfg.out" 1734198770 953 c5a72ee9aecd623e450cb7c501faa32e "xelatex"
+  "memoria_tfg.aux" 1734302506 684 cff63d6f09dbce58c3660bd8622f3c70 "xelatex"
+  "memoria_tfg.lof" 1734302506 2938 7c7fa8dfa6be7714d8129f4658ed2353 "xelatex"
+  "memoria_tfg.out" 1734302506 1323 ab1e04421bcb455d33c23bb8a63023ca "xelatex"
   "memoria_tfg.tex" 1732124559 4812 60242bdef483becce157158a8c7e8ba9 ""
-  "memoria_tfg.toc" 1734198770 4684 0c429deebb509538ca3619b09005d075 "xelatex"
-  "portada/portada.aux" 1734198770 1683 9f9ab95e816410912d84168b55c8d75e "xelatex"
+  "memoria_tfg.toc" 1734302506 6551 9b12e8e042fafea0aeafc754e4c338f3 "xelatex"
+  "portada/portada.aux" 1734302505 1683 9f9ab95e816410912d84168b55c8d75e "xelatex"
   "portada/portada.tex" 1732124559 942 c7b2e8d1afd394e0034651357215e2d6 ""
   (generated)
   "contido/aodv.aux"

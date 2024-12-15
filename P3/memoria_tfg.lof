@@ -28,3 +28,13 @@
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Nodo 11 antes de recibir Hello de static2}}{10}{figure.caption.15}%
 \setforeignlanguage {spanish}
 \contentsline {figure}{\numberline {2.12}{\ignorespaces Nodo 11 después de recibir Hello de static2}}{11}{figure.caption.16}%
+\addvspace {10\p@ }
+\setforeignlanguage {spanish}
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Static1 a los 300s en AODV}}{13}{figure.caption.18}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Static2 a los 300s en AODV}}{14}{figure.caption.19}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Static1 a los 300s en DSDV}}{14}{figure.caption.20}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Static2 a los 300s en DSDV}}{15}{figure.caption.21}%

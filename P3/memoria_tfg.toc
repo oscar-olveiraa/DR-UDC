@@ -29,3 +29,14 @@
 \contentsline {subsection}{\numberline {2.5.1}Avanza hasta la caída del nodo en t = 15 s. Ten en cuenta que la ruta en ese momento puede ser diferente a la de AODV, y por lo tanto el nodo a desactivar también. ¿Cuál es el primer nodo en darse cuenta de la caída? ¿Notifica la caída del nodo de alguna forma?}{8}{subsection.2.5.1}%
 \contentsline {section}{\numberline {2.6}Ejercicio 2.6}{9}{section.2.6}%
 \contentsline {subsection}{\numberline {2.6.1}¿Cómo se repara la ruta entre static1 y static2? ¿En qué momento?}{9}{subsection.2.6.1}%
+\contentsline {chapter}{\numberline {3}AODV vs. DSDV}{12}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Ejercicio 3.1}{12}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}¿En qué instante se realiza la primera transmisión (de cualquier tipo de paquete) con AODV? ¿Y con DSDV? ¿Por qué?}{12}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Ejercicio 3.2}{12}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}¿En qué instante recibe static2 el datagrama UdpBasicAppData-0 con AODV? ¿Y con DSDV? ¿Por qué?}{12}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.3}Ejercicio 3.3}{12}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}¿Cuántos paquetes se pierden como consecuencia de la caída del nodo en AODV? ¿Y en DSDV? ¿A qué se debe la diferencia? (Nota: para calcular el número de paquetes perdidos avanza hasta un instante posterior a la caída en el que en ambos escenarios static2 vuelva a recibir datagramas y calcula la diferencia entre el número de paquetes recibidos en static2 con y sin la caída del nodo).}{12}{subsection.3.3.1}%
+\contentsline {section}{\numberline {3.4}Ejercicio 3.4}{13}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Con la caída del nodo desactivada, simula AODV y DSDV durante 300 s (sim-time-limit). Muestra capturas de los nodos estáticos a nivel de aplicación (doble click sobre el nodo) al final de la simulación. ¿Qué porcentaje de los UdpBasicAppData enviados por static1 llega a static2? Explica los valores y las diferencias observadas}{13}{subsection.3.4.1}%
+\contentsline {section}{\numberline {3.5}Ejercicio 3.5}{15}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}¿Qué porcentaje de los paquetes devueltos por static2 llegan a static1? Explica los valores y las diferencias observadas.}{15}{subsection.3.5.1}%
