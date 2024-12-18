@@ -7,7 +7,6 @@ La semilla usada durante la práctica es \textbf{2701}
 \endtcolorbox
 \vspace{1cm}
 
-
 \section{Ejercicio 1.1}
 
 \subsection{¿Qué nodos reenvían el primer paquete RREQ enviado por static1? ¿Y el segundo RREQ? ¿Por qué?}
@@ -27,8 +26,15 @@ Debido a lo comentado anteriormente, el segundo RREQ es reenviado por 10 y 12 pr
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=125mm, scale=0.75]{imaxes/ejercicio1_2.png}
+    \includegraphics[width=125mm, scale=0.75]{imaxes/ejercicio1_2.jpg}
     \caption{Nodos que reenvían el primer RREQ (A la izquierda, mobile[10]; A la derecha, mobile[12])}
+    \label{fig:primer_rreq_transmission}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=125mm, scale=0.75]{imaxes/ejercicio1_4.png}
+    \caption{Disminución del TTL del segundo RREQ al ser reenviado por los nodos}
     \label{fig:primer_rreq_transmission}
 \end{figure}
 
@@ -135,17 +141,67 @@ También podemos ver en los logs (Figura \ref{fig:caidabroadcast}) que mobile[9]
 \subsection{Muestra el contenido del paquete RERR en Wireshark explicando los campos más importantes. ¿Qué IP
 tiene como destino? ¿Por qué?}
 
+La figura \ref{fig:RerrWireshark} muestra en detalle el paquete RERR enviado por mobile[9] tras detectar la no disponibilidad de mobile[5]. 
+
+Como características notables, se puede indicar que el paquete se envía siguiendo el protocolo UDP, desde la dirección IP de mobile[9] (1.1.0.9) a toda la red (255.255.255.255) a través del puerto 654 con TTL=1, por lo que no es reenviado por sus vecinos. En cuanto a la cabecera AODV, se indica el tipo de paquete (Route Error) y las direcciones no alcanzables, que incluyen mobile[5] y, por consiguiente, static1.
+
+Tiene como IP de destino la 255.255.255.255 debido a que, según el RFC 3561, es el comportamiento general y el que se toma cuando haya dos o más nodos vecinos en la lista de precursores de al menos uno de los destinos inalcanzables. Si hubiera un único vecino único en la lista de precursores de mobile[5], podría enviarse como unicast.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=125mm, scale=0.75]{imaxes/ejercicio5_1.png}
+    \caption{Detalle del paquete de error enviado por mobile[9] en t=15,03}
+    \label{fig:RerrWireshark}
+\end{figure}
+
+\vspace{1.25cm}
 \section{Ejercicio 1.6}
 
 \subsection{Explica cómo se propaga el RERR por la red. ¿Qué nodos lo reenvían? ¿Cómo sabe un nodo si debe reenviar
 el RERR?}
 
+
+
+\vspace{1.25cm}
 \section{Ejercicio 1.7} 
 
 \subsection{Muestra capturas de la tabla de enrutamiento de un nodo antes y después de recibir un RERR y explica en
 qué cambia.}
 
+Static2 es el único de los nodos a los que se le envía el RRER susceptible a cambios en su tabla de enrutamiento tras su recepción. Esto es debido a que el resto de nodos que reciben el paquete son vecinos de mobile[5] pero no pertenecen a la ruta, por lo que no se apreciarán cambios.
+
+En el caso de static2, las diferencias entre antes\ref{fig:RerrRouteTablePre} y después\ref{fig:RerrRouteTablePos} de la recepción del RRER radican en las entradas [0] y [2]. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=125mm, scale=0.75]{imaxes/ejercicio7_1.png}
+    \caption{Tabla de enrutamiento de static2 antes de recibir el RRER}
+    \label{fig:RerrRouteTablePre}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=125mm, scale=0.75]{imaxes/ejercicio7_2.png}
+    \caption{Tabla de enrutamiento de static2 después de recibir el RRER}
+    \label{fig:RerrRouteTablePos}
+\end{figure}
+
+\vspace{1.25cm}
 \section{Ejercicio 1.8}
 
 \subsection{¿Qué hace static1 al recibir el RERR? Muestra el contenido del siguiente RREQ en Wireshark. ¿En qué cambia
 con respecto al de la pregunta 1?}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=125mm, scale=0.75]{imaxes/ejercicio8_1.png}
+    \caption{Comportamiento de static2 al recibir el RRER}
+    \label{fig:ComportamientoStatic2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=125mm, scale=0.75]{imaxes/ejercicio8_2.png}
+    \caption{RREQ enviado por static2 posterior a la recepción del RREP}
+    \label{fig:RREQstatic2}
+\end{figure}
