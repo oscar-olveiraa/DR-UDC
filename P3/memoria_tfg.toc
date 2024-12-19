@@ -45,7 +45,7 @@
 \contentsline {subsection}{\numberline {4.1.1}Obtén una gráfica que muestre el número de paquetes recibidos por static2 en función de la potencia tanto para AODV como para DSDV}{24}{subsection.4.1.1}%
 \contentsline {section}{\numberline {4.2}Ejercicio 4.2}{25}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Obtén una gráfica similar para el número de nodos. Explica lo observado.?}{25}{subsection.4.2.1}%
-\contentsline {section}{\numberline {4.3}Ejercicio 4.3}{25}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Obtén una gráfica como las anteriores para la velocidad. Explica lo observado.}{25}{subsection.4.3.1}%
-\contentsline {section}{\numberline {4.4}Ejercicio 4.4}{25}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Para DSDV, obtén una gráfica del porcentaje de paquetes perdidos con diferentes valores de helloInterval. Explica lo observado.}{25}{subsection.4.4.1}%
+\contentsline {section}{\numberline {4.3}Ejercicio 4.3}{26}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Obtén una gráfica como las anteriores para la velocidad. Explica lo observado.}{26}{subsection.4.3.1}%
+\contentsline {section}{\numberline {4.4}Ejercicio 4.4}{26}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Para DSDV, obtén una gráfica del porcentaje de paquetes perdidos con diferentes valores de helloInterval. Explica lo observado.}{26}{subsection.4.4.1}%

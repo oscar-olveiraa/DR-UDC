@@ -74,4 +74,6 @@
 \setforeignlanguage {spanish}
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Gráfica paquetes recibidos en static2 en función de la potencia}}{24}{figure.caption.38}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Gráfica paquetes recibidos en static2 en función de la velocidad}}{25}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Gráfica paquetes recibidos en static2 en función número de nodos}}{25}{figure.caption.39}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Gráfica paquetes recibidos en static2 en función de la velocidad}}{26}{figure.caption.40}%

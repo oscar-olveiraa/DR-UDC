@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.3)  19 DEC 2024 12:29
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.3)  19 DEC 2024 13:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1612,11 +1612,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box136
 \@float@everytoks=\toks64
 \@floatcapt=\box137
-) (memoria_tfg.aux (portada/portada.aux) (contido/aodv.aux) (contido/dsdv.aux) (contido/aodv_vs_dsdv.aux) (contido/aodv_vs_dsdv_graphics.aux
-
-LaTeX Warning: Label `fig:ejer4_1' multiply defined.
-
-))
+) (memoria_tfg.aux (portada/portada.aux) (contido/aodv.aux) (contido/dsdv.aux) (contido/aodv_vs_dsdv.aux) (contido/aodv_vs_dsdv_graphics.aux))
 \openout1 = `memoria_tfg.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
@@ -2009,8 +2005,6 @@ File: imaxes/aodv_dsdv/ejercicio3_4_static2_dsdv.png Graphic file (type bmp)
 Capítulo 4.
 File: imaxes/graficas/ejer4_1.pdf Graphic file (type pdf)
 <use imaxes/graficas/ejer4_1.pdf>
-File: imaxes/graficas/ejer4_3.pdf Graphic file (type pdf)
-<use imaxes/graficas/ejer4_3.pdf>
 
 
 [24
@@ -2018,9 +2012,16 @@ File: imaxes/graficas/ejer4_3.pdf Graphic file (type pdf)
 
 
 
-])
+]
+File: imaxes/graficas/ejer4_2.pdf Graphic file (type pdf)
+<use imaxes/graficas/ejer4_2.pdf>
+File: imaxes/graficas/ejer4_3.pdf Graphic file (type pdf)
+<use imaxes/graficas/ejer4_3.pdf>
 
-[25]
+
+[25])
+
+[26]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -2031,20 +2032,16 @@ This document will not have a glossary.
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `memoria_tfg.out' has not changed.
 (rerunfilecheck)             Checksum: BABC92AD753E9102333FC1A3D6E898E8;1746.
  ) 
 Here is how much of TeX's memory you used:
- 48305 strings out of 409029
- 1002245 string characters out of 5756741
- 1373120 words of memory out of 5000000
- 70240 multiletter control sequences out of 15000+600000
+ 48315 strings out of 409029
+ 1002543 string characters out of 5756741
+ 1373407 words of memory out of 5000000
+ 70249 multiletter control sequences out of 15000+600000
  568221 words of font info for 119 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  106i,12n,145p,2397b,443s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on memoria_tfg.xdv (29 pages, 392096 bytes).
+Output written on memoria_tfg.xdv (30 pages, 424856 bytes).
