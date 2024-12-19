@@ -24,7 +24,7 @@ Como se puede ver la imagen, el nodo que manda el primer mensaje Hello con hopdi
     \label{fig:ejer2_1_2}
 \end{figure}
 
-Según la imagen \ref{fig:ejer2_1}, el campo srcAddress es el nodo que generó el paquete Hello, en este caso es el 1.1.0.7. El campo nextAddress es la siguiente dirección que va a retransmitir la trama, en este caso 1.1.0.8. Como 1.1.0.8 (nodo 8) tiene en su tabla de enrutamiento una métrica de 2 para 1.1.0.7 (nodo 7), va a sumar 1 para transmitirlo el Hello a los vecinos indicando que el nodo destino está a 3 saltos del nodo 7.
+Los mensajes Hello contienen las entradas de la tabla de enrutamiento de ese nodo. En Inet no se manda toda las entradas de la tabla en un mensaje Hello, si no que manda una o algunas veces varias entradas. Según la imagen \ref{fig:ejer2_1}, el campo srcAddress es el nodo que generó el paquete Hello, en este caso es el 1.1.0.7. El campo nextAddress es la siguiente dirección que va a retransmitir el Hello, en este caso 1.1.0.8. Como 1.1.0.8 (nodo 8) tiene en su tabla de enrutamiento una métrica de 2 para 1.1.0.7 (nodo 7) (imagen \ref{fig:ejer2_1_2}), va a sumar 1 para transmitir el Hello a los vecinos indicando que el nodo destino está a 3 saltos del nodo 7.
 
 
 
@@ -32,13 +32,13 @@ Según la imagen \ref{fig:ejer2_1}, el campo srcAddress es el nodo que generó e
 
 \subsection{¿Qué valor tiene de sequencenumber? ¿Qué quiere decir ese valor?}
 
-Como se puede ver en la imagen \ref{fig:ejer2_1}, el campo sequencenumber tiene valor 6. Este valor ayuda a identificar entradas obsoletas o inválidas (un nodo se ha desplazado y ya no es alcanzable) con el fin de evitar bucles. Para ver si una ruta es válida o inválida llega con ver si este valor es par (ruta disponible) o impar (ruta no disponible/caída). De esta forma, nos indica como de actualizado está la información de la ruta, el estado de la ruta y evita posibles conflictos en la red.
+Como se puede ver en la imagen \ref{fig:ejer2_1}, el campo sequencenumber tiene valor 6. Este valor ayuda a identificar entradas obsoletas o inválidas (un nodo se ha desplazado y ya no es alcanzable) con el fin de evitar bucles. Para ver si una ruta es válida o inválida llega con ver si este valor es par (ruta disponible) o impar (ruta no disponible/caída). De esta forma, nos indica como de actualizado está la información de la ruta, el estado de la ruta y evitar posibles conflictos en la red.
 
 \section{Ejercicio 2.3}
 
 \subsection{¿Cómo se modifica? ¿Qué nodo lo modifica, y cuándo lo hace?}
 
-Este valor lo modifica el propio nodo en su tabla de enrutamiento, incrementándolo en 2 cuando la ruta que es válida, pero si un nodo identifica un nodo caído (o que se desplazó), ese nodo puede cambiar en la entrada de la tabla, el valor del sequencenumber de otro nodo indicando que es inválido. Esto se indica incrementando el valor 1 número (las rutas válidas tienen valor par, si incrementamos a 1, pasa a ser impar y por lo tanto indicando que ya no es un nodo válido). 
+Este valor lo modifica el propio nodo en su tabla de enrutamiento, incrementándolo en 2 cuando la ruta que es válida, pero si un nodo identifica un nodo caído (o que se desplazó), el nodo que identifica la caída puede cambiar en la entrada de la tabla, el valor del sequencenumber de otro nodo indicando que es inválido. Esto se indica incrementando el valor 1 número (las rutas válidas tienen valor par, si incrementamos a 1, pasa a ser impar y por lo tanto indicando que ya no es un nodo válido). 
 
 Cuando un nodo descubre una ruta mejor hacia el destino, actualiza este valor. Esto ocurre si el nuevo número de secuencia recibido es mayor (y par), con respeto a lo que tiene el guardado en su tabla de enrutamiento, por lo registra en su tabla y actualiza el nodo que recibió la información (en este caso mobile[8]). En el caso de una ruta no válida, genera un sequencenumber impar y establece el costo de la ruta como infinito para indicar que esa ruta no se puede usar.
 
@@ -138,7 +138,7 @@ La ruta de static1 a static2 se repara cuando todos los nodos mandan sus mensaje
     \label{fig:ejer2_6}
 \end{figure}
 
-Por ejemplo, si vemos la tabla de enrutamiento de un nodo antes de que static2 enviara un Hello y después de recibir ese Hello, vemos que ha cambiado:
+Por ejemplo, antes de establecer la nueva ruta, si vemos la tabla de enrutamiento de un nodo antes de que static2 enviara un Hello y después de recibir ese Hello, vemos que ha cambiado:
 
 \begin{figure}[H]
     \centering
@@ -163,8 +163,3 @@ Por ejemplo, si vemos la tabla de enrutamiento de un nodo antes de que static2 e
 
 Si comparamos la imagen \ref{fig:ejer2_6_2} con \ref{fig:ejer2_6_3} la entrada de static2 en el nodo 11 ha cambiado. Este paso se repite para todos los demás nodos y, una vez tienen la tabla de enrutamiento actualizada, se establecería la ruta que aparece en la imagen \ref{fig:ejer2_6}
 
-
-ELIMINAR ESTO
-ELIMINAR ESTO
-ELIMINAR ESTO
-non recibe toda a tabla de enrutamiento cando si que deberia, algunhas veces os nodos mandan unha entrada da sua tabla, outras veces manda varias entradas..

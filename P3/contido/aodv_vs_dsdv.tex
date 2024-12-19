@@ -8,7 +8,7 @@
 
 La primera transmisión de AODV se hace a los 10.002 segundos. En cambio, DSDV transmite el primer paquete a los 0.056 segundos.
 
-La diferencia que hay es debido a que DSDV es un protocolo proactivo, por lo que va actualizando cada poco tiempo las tablas de enrutamiento para así mantener la información fresca. En cambio AODV es un protocolo reactivo, solo manda paquetes cuando es necesario.
+La diferencia que hay es debido a que DSDV es un protocolo proactivo, por lo que va actualizando cada poco tiempo las tablas de enrutamiento para así mantener la información fresca. En cambio AODV es un protocolo reactivo, solo manda paquetes cuando es necesario (en el .ini se especifica que no mandamos tramas UDP hasta los 10s, por lo que AODV no va empezar a transmitir paquetería hasta ese instante).
 
 \section{Ejercicio 3.2}
 
@@ -24,7 +24,7 @@ debe la diferencia? (Nota: para calcular el número de paquetes perdidos avanza 
 caída en el que en ambos escenarios static2 vuelva a recibir datagramas y calcula la diferencia entre el número
 de paquetes recibidos en static2 con y sin la caída del nodo).}
 
-Para el caso de DSDV tuvimos que usar la semilla 65634 para poder ver con claridad la pérdida de paquetes y asi hacer la comparación.
+Para el caso de DSDV tuvimos que usar la semilla 65634 para poder ver con claridad la pérdida de paquetes y asi hacer la comparación. En AODV mantenemos la semilla inicial.
 
 Hemos hecho las simulaciones en ambos casos hasta los 22 segundos y en la tabla \ref{tabla1} se ven los resultados:
 
