@@ -8,29 +8,89 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.1.1}¿Qué nodos reenvían el primer paquete RREQ enviado por static1? ¿Y el segundo RREQ? ¿Por qué?}{1}{subsection.1.1.1}\protected@file@percent }
 \@writefile{lof}{\setforeignlanguage {spanish}}
 \@writefile{lot}{\setforeignlanguage {spanish}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces Logs que muestran el envío del primer RREQ y los nodos que lo reciben}}{1}{figure.caption.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces Logs que muestran el envío del primer RREQ y los nodos que lo reciben}}{2}{figure.caption.3}\protected@file@percent }
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{fig:primer_rreq_reception}{{1.1}{1}{Logs que muestran el envío del primer RREQ y los nodos que lo reciben}{figure.caption.3}{}}
+\newlabel{fig:primer_rreq_reception}{{1.1}{2}{Logs que muestran el envío del primer RREQ y los nodos que lo reciben}{figure.caption.3}{}}
 \@writefile{lof}{\setforeignlanguage {spanish}}
 \@writefile{lot}{\setforeignlanguage {spanish}}
 \@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces Nodos que reenvían el primer RREQ (A la izquierda, mobile[10]; A la derecha, mobile[12])}}{2}{figure.caption.4}\protected@file@percent }
 \newlabel{fig:primer_rreq_transmission}{{1.2}{2}{Nodos que reenvían el primer RREQ (A la izquierda, mobile[10]; A la derecha, mobile[12])}{figure.caption.4}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.2}Ejercicio 1.2}{2}{section.1.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.1}Elige el nodo intermedio de la ruta que sigue el primer paquete RREQ que llega a static2. Muestra su tabla de enrutamiento (vector <Ipv4route *> dentro del módulo ipv4.routingTable) justo antes y justo después de recibir el primer RREQ. Explica las diferencias y cómo se crean las entradas que aparecen (incluyendo los campos más importantes).}{2}{subsection.1.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {1.3}Ejercicio 1.3}{2}{section.1.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.1}Haz lo mismo justo antes y justo después del primer RREP.}{2}{subsection.1.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {1.4}Ejercicio 1.4}{2}{section.1.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.4.1}Tras aplicar la nueva configuración, ¿Cuál es el primer nodo en darse cuenta de la caída? ¿Cómo? Muestra una captura del log del nodo que se da cuenta que muestre el motivo. ¿Notifica este nodo la caída del nodo?}{2}{subsection.1.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {1.5}Ejercicio 1.5}{3}{section.1.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.5.1}Muestra el contenido del paquete RERR en Wireshark explicando los campos más importantes. ¿Qué IP tiene como destino? ¿Por qué?}{3}{subsection.1.5.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {1.6}Ejercicio 1.6}{3}{section.1.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.6.1}Explica cómo se propaga el RERR por la red. ¿Qué nodos lo reenvían? ¿Cómo sabe un nodo si debe reenviar el RERR?}{3}{subsection.1.6.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {1.7}Ejercicio 1.7}{3}{section.1.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.7.1}Muestra capturas de la tabla de enrutamiento de un nodo antes y después de recibir un RERR y explica en qué cambia.}{3}{subsection.1.7.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {1.8}Ejercicio 1.8}{3}{section.1.8}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.8.1}¿Qué hace static1 al recibir el RERR? Muestra el contenido del siguiente RREQ en Wireshark. ¿En qué cambia con respecto al de la pregunta 1?}{3}{subsection.1.8.1}\protected@file@percent }
+\@writefile{lof}{\setforeignlanguage {spanish}}
+\@writefile{lot}{\setforeignlanguage {spanish}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces Disminución del TTL del segundo RREQ al ser reenviado por los nodos}}{2}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:ttldisminucion}{{1.3}{2}{Disminución del TTL del segundo RREQ al ser reenviado por los nodos}{figure.caption.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.2}Ejercicio 1.2}{3}{section.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.1}Elige el nodo intermedio de la ruta que sigue el primer paquete RREQ que llega a static2. Muestra su tabla de enrutamiento (vector <Ipv4route *> dentro del módulo ipv4.routingTable) justo antes y justo después de recibir el primer RREQ. Explica las diferencias y cómo se crean las entradas que aparecen (incluyendo los campos más importantes).}{3}{subsection.1.2.1}\protected@file@percent }
+\@writefile{lof}{\setforeignlanguage {spanish}}
+\@writefile{lot}{\setforeignlanguage {spanish}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.4}{\ignorespaces Tabla de enrutamiento de mobile[7] antes de recibir el primer RREQ}}{3}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:rtable_prev_mob7}{{1.4}{3}{Tabla de enrutamiento de mobile[7] antes de recibir el primer RREQ}{figure.caption.6}{}}
+\@writefile{lof}{\setforeignlanguage {spanish}}
+\@writefile{lot}{\setforeignlanguage {spanish}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.5}{\ignorespaces Tabla de enrutamiento de mobile[7] después de recibir el primer RREQ}}{3}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:rtable_post_mob7}{{1.5}{3}{Tabla de enrutamiento de mobile[7] después de recibir el primer RREQ}{figure.caption.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.3}Ejercicio 1.3}{4}{section.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.1}Haz lo mismo justo antes y justo después del primer RREP.}{4}{subsection.1.3.1}\protected@file@percent }
+\@writefile{lof}{\setforeignlanguage {spanish}}
+\@writefile{lot}{\setforeignlanguage {spanish}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.6}{\ignorespaces Tabla de enrutamiento de mobile[7] antes de recibir el primer RREP}}{4}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:rtable_prev_mob7RREP}{{1.6}{4}{Tabla de enrutamiento de mobile[7] antes de recibir el primer RREP}{figure.caption.8}{}}
+\@writefile{lof}{\setforeignlanguage {spanish}}
+\@writefile{lot}{\setforeignlanguage {spanish}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.7}{\ignorespaces Tabla de enrutamiento de mobile[7] después de recibir el primer RREP}}{4}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:rtable_post_mob7RREP}{{1.7}{4}{Tabla de enrutamiento de mobile[7] después de recibir el primer RREP}{figure.caption.9}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.4}Ejercicio 1.4}{5}{section.1.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.4.1}Tras aplicar la nueva configuración, ¿Cuál es el primer nodo en darse cuenta de la caída? ¿Cómo? Muestra una captura del log del nodo que se da cuenta que muestre el motivo. ¿Notifica este nodo la caída del nodo?}{5}{subsection.1.4.1}\protected@file@percent }
+\@writefile{lof}{\setforeignlanguage {spanish}}
+\@writefile{lot}{\setforeignlanguage {spanish}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.8}{\ignorespaces Escenario en t=15 con todos los nodos en funcionamiento}}{5}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:escenariot15}{{1.8}{5}{Escenario en t=15 con todos los nodos en funcionamiento}{figure.caption.10}{}}
+\@writefile{lof}{\setforeignlanguage {spanish}}
+\@writefile{lot}{\setforeignlanguage {spanish}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.9}{\ignorespaces Detalle de los nodos cercanos a static2 en t=15 con mobile[5] caído}}{5}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:nodocaidot15}{{1.9}{5}{Detalle de los nodos cercanos a static2 en t=15 con mobile[5] caído}{figure.caption.11}{}}
+\@writefile{lof}{\setforeignlanguage {spanish}}
+\@writefile{lot}{\setforeignlanguage {spanish}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.10}{\ignorespaces Log de detección de la caída de mobile[5]}}{6}{figure.caption.12}\protected@file@percent }
+\newlabel{fig:deteccioncaida}{{1.10}{6}{Log de detección de la caída de mobile[5]}{figure.caption.12}{}}
+\@writefile{lof}{\setforeignlanguage {spanish}}
+\@writefile{lot}{\setforeignlanguage {spanish}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.11}{\ignorespaces Log del envío del RRER a broadcast}}{6}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:caidabroadcast}{{1.11}{6}{Log del envío del RRER a broadcast}{figure.caption.13}{}}
+\@writefile{lof}{\setforeignlanguage {spanish}}
+\@writefile{lot}{\setforeignlanguage {spanish}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.12}{\ignorespaces Logs de la transmisión del RRER por mobile[9]}}{6}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:transmisioncaida}{{1.12}{6}{Logs de la transmisión del RRER por mobile[9]}{figure.caption.14}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.5}Ejercicio 1.5}{6}{section.1.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.5.1}Muestra el contenido del paquete RERR en Wireshark explicando los campos más importantes. ¿Qué IP tiene como destino? ¿Por qué?}{6}{subsection.1.5.1}\protected@file@percent }
+\@writefile{lof}{\setforeignlanguage {spanish}}
+\@writefile{lot}{\setforeignlanguage {spanish}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.13}{\ignorespaces Detalle del paquete de error enviado por mobile[9] en t=15,03}}{7}{figure.caption.15}\protected@file@percent }
+\newlabel{fig:RerrWireshark}{{1.13}{7}{Detalle del paquete de error enviado por mobile[9] en t=15,03}{figure.caption.15}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.6}Ejercicio 1.6}{7}{section.1.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.6.1}Explica cómo se propaga el RERR por la red. ¿Qué nodos lo reenvían? ¿Cómo sabe un nodo si debe reenviar el RERR?}{7}{subsection.1.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {1.7}Ejercicio 1.7}{7}{section.1.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.7.1}Muestra capturas de la tabla de enrutamiento de un nodo antes y después de recibir un RERR y explica en qué cambia.}{7}{subsection.1.7.1}\protected@file@percent }
+\@writefile{lof}{\setforeignlanguage {spanish}}
+\@writefile{lot}{\setforeignlanguage {spanish}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.14}{\ignorespaces Tabla de enrutamiento de static2 antes de recibir el RRER}}{8}{figure.caption.16}\protected@file@percent }
+\newlabel{fig:RerrRouteTablePre}{{1.14}{8}{Tabla de enrutamiento de static2 antes de recibir el RRER}{figure.caption.16}{}}
+\@writefile{lof}{\setforeignlanguage {spanish}}
+\@writefile{lot}{\setforeignlanguage {spanish}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.15}{\ignorespaces Tabla de enrutamiento de static2 después de recibir el RRER}}{8}{figure.caption.17}\protected@file@percent }
+\newlabel{fig:RerrRouteTablePos}{{1.15}{8}{Tabla de enrutamiento de static2 después de recibir el RRER}{figure.caption.17}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.8}Ejercicio 1.8}{8}{section.1.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.8.1}¿Qué hace static1 al recibir el RERR? Muestra el contenido del siguiente RREQ en Wireshark. ¿En qué cambia con respecto al de la pregunta 1?}{8}{subsection.1.8.1}\protected@file@percent }
+\@writefile{lof}{\setforeignlanguage {spanish}}
+\@writefile{lot}{\setforeignlanguage {spanish}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.16}{\ignorespaces Comportamiento de static2 al recibir el RRER}}{8}{figure.caption.18}\protected@file@percent }
+\newlabel{fig:ComportamientoStatic2}{{1.16}{8}{Comportamiento de static2 al recibir el RRER}{figure.caption.18}{}}
+\@writefile{lof}{\setforeignlanguage {spanish}}
+\@writefile{lot}{\setforeignlanguage {spanish}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.17}{\ignorespaces RREQ enviado por static2 posterior a la recepción del RREP}}{9}{figure.caption.19}\protected@file@percent }
+\newlabel{fig:RREQstatic2}{{1.17}{9}{RREQ enviado por static2 posterior a la recepción del RREP}{figure.caption.19}{}}
 \@setckpt{contido/aodv}{
-\setcounter{page}{4}
+\setcounter{page}{10}
 \setcounter{equation}{0}
 \setcounter{enumi}{0}
 \setcounter{enumii}{0}
@@ -45,7 +105,7 @@
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{figure}{2}
+\setcounter{figure}{17}
 \setcounter{table}{0}
 \setcounter{DefaultLines}{2}
 \setcounter{DefaultDepth}{0}
@@ -83,9 +143,9 @@
 \setcounter{su@anzahl}{0}
 \setcounter{LT@tables}{0}
 \setcounter{LT@chunks}{0}
-\setcounter{tcbbreakpart}{0}
+\setcounter{tcbbreakpart}{1}
 \setcounter{tcblayer}{0}
-\setcounter{tcolorbox@number}{0}
+\setcounter{tcolorbox@number}{1}
 \setcounter{float@type}{16}
 \setcounter{lstlisting}{0}
 }

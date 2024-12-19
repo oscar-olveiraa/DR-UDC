@@ -2,41 +2,50 @@
 \contentsline {chapter}{\numberline {1}AODV}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Ejercicio 1.1}{1}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}¿Qué nodos reenvían el primer paquete RREQ enviado por static1? ¿Y el segundo RREQ? ¿Por qué?}{1}{subsection.1.1.1}%
-\contentsline {section}{\numberline {1.2}Ejercicio 1.2}{2}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Elige el nodo intermedio de la ruta que sigue el primer paquete RREQ que llega a static2. Muestra su tabla de enrutamiento (vector <Ipv4route *> dentro del módulo ipv4.routingTable) justo antes y justo después de recibir el primer RREQ. Explica las diferencias y cómo se crean las entradas que aparecen (incluyendo los campos más importantes).}{2}{subsection.1.2.1}%
-\contentsline {section}{\numberline {1.3}Ejercicio 1.3}{2}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Haz lo mismo justo antes y justo después del primer RREP.}{2}{subsection.1.3.1}%
-\contentsline {section}{\numberline {1.4}Ejercicio 1.4}{2}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Tras aplicar la nueva configuración, ¿Cuál es el primer nodo en darse cuenta de la caída? ¿Cómo? Muestra una captura del log del nodo que se da cuenta que muestre el motivo. ¿Notifica este nodo la caída del nodo?}{2}{subsection.1.4.1}%
-\contentsline {section}{\numberline {1.5}Ejercicio 1.5}{3}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Muestra el contenido del paquete RERR en Wireshark explicando los campos más importantes. ¿Qué IP tiene como destino? ¿Por qué?}{3}{subsection.1.5.1}%
-\contentsline {section}{\numberline {1.6}Ejercicio 1.6}{3}{section.1.6}%
-\contentsline {subsection}{\numberline {1.6.1}Explica cómo se propaga el RERR por la red. ¿Qué nodos lo reenvían? ¿Cómo sabe un nodo si debe reenviar el RERR?}{3}{subsection.1.6.1}%
-\contentsline {section}{\numberline {1.7}Ejercicio 1.7}{3}{section.1.7}%
-\contentsline {subsection}{\numberline {1.7.1}Muestra capturas de la tabla de enrutamiento de un nodo antes y después de recibir un RERR y explica en qué cambia.}{3}{subsection.1.7.1}%
-\contentsline {section}{\numberline {1.8}Ejercicio 1.8}{3}{section.1.8}%
-\contentsline {subsection}{\numberline {1.8.1}¿Qué hace static1 al recibir el RERR? Muestra el contenido del siguiente RREQ en Wireshark. ¿En qué cambia con respecto al de la pregunta 1?}{3}{subsection.1.8.1}%
-\contentsline {chapter}{\numberline {2}DSDV}{4}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Ejercicio 2.1}{4}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Avanza la simulación hasta el instante t = 7 s. Busca el primer paquete Hello transmitido a partir a ese instante con un valor de hopdistance de al menos 3 y muestra una captura del contenido. Explica el significado de los campos srcAddress y nextAddress, utilizando para explicarlos una captura de la tabla de enrutamiento del nodo que está transmitiendo el paquete (i.e., no el que consta en srcAddress)}{4}{subsection.2.1.1}%
-\contentsline {section}{\numberline {2.2}Ejercicio 2.2}{5}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}¿Qué valor tiene de sequencenumber? ¿Qué quiere decir ese valor?}{5}{subsection.2.2.1}%
-\contentsline {section}{\numberline {2.3}Ejercicio 2.3}{5}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}¿Cómo se modifica? ¿Qué nodo lo modifica, y cuándo lo hace?}{5}{subsection.2.3.1}%
-\contentsline {section}{\numberline {2.4}Ejercicio 2.4}{6}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Muestra la tabla de enrutamiento del nodo que recibe el Hello de la pregunta anterior justo antes y justo después de recibirlo, relacionándola con el contenido del paquete. Si se actualiza la tabla, explica por qué se actualiza y las entradas que se crean. Si no se actualiza, explica por qué no se actualiza y di qué entrada se crearía (destino, gateway, métrica) si se actualizase con la información del paquete.}{6}{subsection.2.4.1}%
-\contentsline {section}{\numberline {2.5}Ejercicio 2.5}{8}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Avanza hasta la caída del nodo en t = 15 s. Ten en cuenta que la ruta en ese momento puede ser diferente a la de AODV, y por lo tanto el nodo a desactivar también. ¿Cuál es el primer nodo en darse cuenta de la caída? ¿Notifica la caída del nodo de alguna forma?}{8}{subsection.2.5.1}%
-\contentsline {section}{\numberline {2.6}Ejercicio 2.6}{9}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}¿Cómo se repara la ruta entre static1 y static2? ¿En qué momento?}{9}{subsection.2.6.1}%
-\contentsline {chapter}{\numberline {3}AODV vs. DSDV}{12}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Ejercicio 3.1}{12}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}¿En qué instante se realiza la primera transmisión (de cualquier tipo de paquete) con AODV? ¿Y con DSDV? ¿Por qué?}{12}{subsection.3.1.1}%
-\contentsline {section}{\numberline {3.2}Ejercicio 3.2}{12}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}¿En qué instante recibe static2 el datagrama UdpBasicAppData-0 con AODV? ¿Y con DSDV? ¿Por qué?}{12}{subsection.3.2.1}%
-\contentsline {section}{\numberline {3.3}Ejercicio 3.3}{12}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}¿Cuántos paquetes se pierden como consecuencia de la caída del nodo en AODV? ¿Y en DSDV? ¿A qué se debe la diferencia? (Nota: para calcular el número de paquetes perdidos avanza hasta un instante posterior a la caída en el que en ambos escenarios static2 vuelva a recibir datagramas y calcula la diferencia entre el número de paquetes recibidos en static2 con y sin la caída del nodo).}{12}{subsection.3.3.1}%
-\contentsline {section}{\numberline {3.4}Ejercicio 3.4}{13}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Con la caída del nodo desactivada, simula AODV y DSDV durante 300 s (sim-time-limit). Muestra capturas de los nodos estáticos a nivel de aplicación (doble click sobre el nodo) al final de la simulación. ¿Qué porcentaje de los UdpBasicAppData enviados por static1 llega a static2? Explica los valores y las diferencias observadas}{13}{subsection.3.4.1}%
-\contentsline {section}{\numberline {3.5}Ejercicio 3.5}{15}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}¿Qué porcentaje de los paquetes devueltos por static2 llegan a static1? Explica los valores y las diferencias observadas.}{15}{subsection.3.5.1}%
+\contentsline {section}{\numberline {1.2}Ejercicio 1.2}{3}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Elige el nodo intermedio de la ruta que sigue el primer paquete RREQ que llega a static2. Muestra su tabla de enrutamiento (vector <Ipv4route *> dentro del módulo ipv4.routingTable) justo antes y justo después de recibir el primer RREQ. Explica las diferencias y cómo se crean las entradas que aparecen (incluyendo los campos más importantes).}{3}{subsection.1.2.1}%
+\contentsline {section}{\numberline {1.3}Ejercicio 1.3}{4}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Haz lo mismo justo antes y justo después del primer RREP.}{4}{subsection.1.3.1}%
+\contentsline {section}{\numberline {1.4}Ejercicio 1.4}{5}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Tras aplicar la nueva configuración, ¿Cuál es el primer nodo en darse cuenta de la caída? ¿Cómo? Muestra una captura del log del nodo que se da cuenta que muestre el motivo. ¿Notifica este nodo la caída del nodo?}{5}{subsection.1.4.1}%
+\contentsline {section}{\numberline {1.5}Ejercicio 1.5}{6}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Muestra el contenido del paquete RERR en Wireshark explicando los campos más importantes. ¿Qué IP tiene como destino? ¿Por qué?}{6}{subsection.1.5.1}%
+\contentsline {section}{\numberline {1.6}Ejercicio 1.6}{7}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}Explica cómo se propaga el RERR por la red. ¿Qué nodos lo reenvían? ¿Cómo sabe un nodo si debe reenviar el RERR?}{7}{subsection.1.6.1}%
+\contentsline {section}{\numberline {1.7}Ejercicio 1.7}{7}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}Muestra capturas de la tabla de enrutamiento de un nodo antes y después de recibir un RERR y explica en qué cambia.}{7}{subsection.1.7.1}%
+\contentsline {section}{\numberline {1.8}Ejercicio 1.8}{8}{section.1.8}%
+\contentsline {subsection}{\numberline {1.8.1}¿Qué hace static1 al recibir el RERR? Muestra el contenido del siguiente RREQ en Wireshark. ¿En qué cambia con respecto al de la pregunta 1?}{8}{subsection.1.8.1}%
+\contentsline {chapter}{\numberline {2}DSDV}{10}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Ejercicio 2.1}{10}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Avanza la simulación hasta el instante t = 7 s. Busca el primer paquete Hello transmitido a partir a ese instante con un valor de hopdistance de al menos 3 y muestra una captura del contenido. Explica el significado de los campos srcAddress y nextAddress, utilizando para explicarlos una captura de la tabla de enrutamiento del nodo que está transmitiendo el paquete (i.e., no el que consta en srcAddress)}{10}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.2}Ejercicio 2.2}{11}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}¿Qué valor tiene de sequencenumber? ¿Qué quiere decir ese valor?}{11}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.3}Ejercicio 2.3}{11}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}¿Cómo se modifica? ¿Qué nodo lo modifica, y cuándo lo hace?}{11}{subsection.2.3.1}%
+\contentsline {section}{\numberline {2.4}Ejercicio 2.4}{12}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Muestra la tabla de enrutamiento del nodo que recibe el Hello de la pregunta anterior justo antes y justo después de recibirlo, relacionándola con el contenido del paquete. Si se actualiza la tabla, explica por qué se actualiza y las entradas que se crean. Si no se actualiza, explica por qué no se actualiza y di qué entrada se crearía (destino, gateway, métrica) si se actualizase con la información del paquete.}{12}{subsection.2.4.1}%
+\contentsline {section}{\numberline {2.5}Ejercicio 2.5}{14}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Avanza hasta la caída del nodo en t = 15 s. Ten en cuenta que la ruta en ese momento puede ser diferente a la de AODV, y por lo tanto el nodo a desactivar también. ¿Cuál es el primer nodo en darse cuenta de la caída? ¿Notifica la caída del nodo de alguna forma?}{14}{subsection.2.5.1}%
+\contentsline {section}{\numberline {2.6}Ejercicio 2.6}{15}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}¿Cómo se repara la ruta entre static1 y static2? ¿En qué momento?}{15}{subsection.2.6.1}%
+\contentsline {chapter}{\numberline {3}AODV vs. DSDV}{18}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Ejercicio 3.1}{18}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}¿En qué instante se realiza la primera transmisión (de cualquier tipo de paquete) con AODV? ¿Y con DSDV? ¿Por qué?}{18}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Ejercicio 3.2}{18}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}¿En qué instante recibe static2 el datagrama UdpBasicAppData-0 con AODV? ¿Y con DSDV? ¿Por qué?}{18}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.3}Ejercicio 3.3}{18}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}¿Cuántos paquetes se pierden como consecuencia de la caída del nodo en AODV? ¿Y en DSDV? ¿A qué se debe la diferencia? (Nota: para calcular el número de paquetes perdidos avanza hasta un instante posterior a la caída en el que en ambos escenarios static2 vuelva a recibir datagramas y calcula la diferencia entre el número de paquetes recibidos en static2 con y sin la caída del nodo).}{18}{subsection.3.3.1}%
+\contentsline {section}{\numberline {3.4}Ejercicio 3.4}{19}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Con la caída del nodo desactivada, simula AODV y DSDV durante 300 s (sim-time-limit). Muestra capturas de los nodos estáticos a nivel de aplicación (doble click sobre el nodo) al final de la simulación. ¿Qué porcentaje de los UdpBasicAppData enviados por static1 llega a static2? Explica los valores y las diferencias observadas}{19}{subsection.3.4.1}%
+\contentsline {section}{\numberline {3.5}Ejercicio 3.5}{21}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}¿Qué porcentaje de los paquetes devueltos por static2 llegan a static1? Explica los valores y las diferencias observadas.}{21}{subsection.3.5.1}%
+\contentsline {chapter}{\numberline {4}AODV vs. DSDV: gráficas}{22}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Ejercicio 4.1}{22}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Obtén una gráfica que muestre el número de paquetes recibidos por static2 en función de la potencia tanto para AODV como para DSDV}{22}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Ejercicio 4.2}{23}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Obtén una gráfica similar para el número de nodos. Explica lo observado.?}{23}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.3}Ejercicio 4.3}{23}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Obtén una gráfica como las anteriores para la velocidad. Explica lo observado.}{23}{subsection.4.3.1}%
+\contentsline {section}{\numberline {4.4}Ejercicio 4.4}{23}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Para DSDV, obtén una gráfica del porcentaje de paquetes perdidos con diferentes valores de helloInterval. Explica lo observado.}{23}{subsection.4.4.1}%
