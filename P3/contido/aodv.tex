@@ -19,21 +19,29 @@ Debido a lo comentado anteriormente, el segundo RREQ es reenviado por 10 y 12 pr
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=125mm, scale=0.75]{imaxes/ejercicio1_1.png}
+    \includegraphics[width=125mm, scale=0.75]{imaxes/aodv/ejercicio1_1.png}
     \caption{Logs que muestran el envío del primer RREQ y los nodos que lo reciben}
     \label{fig:primer_rreq_reception}
 \end{figure}
 
 \begin{figure}[H]
     \centering
+<<<<<<< HEAD
     \includegraphics[width=125mm, scale=0.75]{imaxes/ejercicio1_2.png}
+=======
+    \includegraphics[width=125mm, scale=0.75]{imaxes/aodv/ejercicio1_2.png}
+>>>>>>> f0991af16855c10a310fab577fe99d396df7f905
     \caption{Nodos que reenvían el primer RREQ (A la izquierda, mobile[10]; A la derecha, mobile[12])}
     \label{fig:primer_rreq_transmission}
 \end{figure}
 
 \begin{figure}[H]
     \centering
+<<<<<<< HEAD
     \includegraphics[width=125mm, scale=0.75]{imaxes/ejercicio1_4.jpg}
+=======
+    \includegraphics[width=125mm, scale=0.75]{imaxes/aodv/ejercicio1_4.jpg}
+>>>>>>> f0991af16855c10a310fab577fe99d396df7f905
     \caption{Disminución del TTL del segundo RREQ al ser reenviado por los nodos}
     \label{fig:ttldisminucion}
 \end{figure}
@@ -52,14 +60,14 @@ Tras recibir el primer RREQ, la tabla de mobile[7] se puebla con dos nuevas entr
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=125mm, scale=0.75]{imaxes/ejercicio2_1.png}
+    \includegraphics[width=125mm, scale=0.75]{imaxes/aodv/ejercicio2_1.png}
     \caption{Tabla de enrutamiento de mobile[7] antes de recibir el primer RREQ}
     \label{fig:rtable_prev_mob7}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=125mm, scale=0.75]{imaxes/ejercicio2_2.png}
+    \includegraphics[width=125mm, scale=0.75]{imaxes/aodv/ejercicio2_2.png}
     \caption{Tabla de enrutamiento de mobile[7] después de recibir el primer RREQ}
     \label{fig:rtable_post_mob7}
 \end{figure}
@@ -75,14 +83,14 @@ Por otra parte, la segunda imagen (Figura \ref{fig:rtable_post_mob7RREP}) introd
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=125mm, scale=0.75]{imaxes/ejercicio3_1.png}
+    \includegraphics[width=125mm, scale=0.75]{imaxes/aodv/ejercicio3_1.png}
     \caption{Tabla de enrutamiento de mobile[7] antes de recibir el primer RREP}
     \label{fig:rtable_prev_mob7RREP}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=125mm, scale=0.75]{imaxes/ejercicio3_2.png}
+    \includegraphics[width=125mm, scale=0.75]{imaxes/aodv/ejercicio3_2.png}
     \caption{Tabla de enrutamiento de mobile[7] después de recibir el primer RREP}
     \label{fig:rtable_post_mob7RREP}
 \end{figure}
@@ -94,63 +102,64 @@ Por otra parte, la segunda imagen (Figura \ref{fig:rtable_post_mob7RREP}) introd
 
 Primero de todo, debe aclararse que, como se observa en la figura \ref{fig:escenariot15}, en el escenario producido con la semilla actual, en t=15, los nodos más alejados de static1 que pueden producir una ruta alternativa son mobile[0] y mobile[5], ya que si tirásemos el más cercano a static2 se perdería la comunicación al no haber otro nodo en su rango.
 
-Tras aplicar la configuración para mobile[5] podemos observar en la simulación que este nodo aparece marcado como caído, pero sigue existiendo una ruta hasta static2 (Figura \ref{fig:nodocaidot15}).
+Tras aplicar la configuración para mobile[0] podemos observar en la simulación que este nodo aparece marcado como caído, pero sigue existiendo una ruta hasta static2 (Figura \ref{fig:nodocaidot15}).
 
-Ahora, como vemos en la figura \ref{fig:deteccioncaida}, la caída de mobile[5] es detectada rápidamente por mobile[9], que es el siguiente nodo en el camino hacia static2. Esto ocurre al enviar un paquete UDP de vuelta a static1 desde static2. Mobile[9] intenta contactar durante un período de tiempo con mobile[5], pero al no recibir respuesta, lo marca como ruta inválida.
+Ahora, como vemos en la figura \ref{fig:deteccioncaida}, la caída de mobile[0] es detectada rápidamente por mobile[2], que es el nodo previo en el camino hacia static2. Mobile[2] intenta contactar durante un período de tiempo con mobile[0], pero al no recibir respuesta, lo acaba detectando como ruta inválida.
 
-También podemos ver en los logs (Figura \ref{fig:caidabroadcast}) que mobile[9] notifica a todos los nodos posibles mediante broadcast que mobile[5] no está disponible. En la figura \ref{fig:transmisioncaida} se muestra cómo mobile[9] transmite el paquete RERR y los miembros a su alcance lo reciben (Static2 realiza después el mismo proceso).
+También podemos ver en los logs (Figura \ref{fig:caidabroadcast}) que mobile[2] notifica a todos los nodos posibles mediante broadcast que mobile[0] no está disponible. En la figura \ref{fig:transmisioncaida} se muestra cómo mobile[2] transmite el paquete RERR y los miembros a su alcance lo reciben.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=125mm, scale=0.75]{imaxes/ejercicio4_1.png}
+    \includegraphics[width=125mm, scale=0.75]{imaxes/aodv/ejercicio4_1.png}
     \caption{Escenario en t=15 con todos los nodos en funcionamiento}
     \label{fig:escenariot15}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=125mm, scale=0.75]{imaxes/ejercicio4_2.png}
-    \caption{Detalle de los nodos cercanos a static2 en t=15 con mobile[5] caído}
+    \includegraphics[width=125mm, scale=0.75]{imaxes/aodv/ejercicio4_2.png}
+    \caption{Detalle de los nodos cercanos a static2 en t=15 con mobile[0] caído}
     \label{fig:nodocaidot15}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=125mm, scale=0.75]{imaxes/ejercicio4_3.png}
-    \caption{Log de detección de la caída de mobile[5]}
+    \includegraphics[width=125mm, scale=0.75]{imaxes/aodv/ejercicio4_3.png}
+    \caption{Log de detección de la caída de mobile[0]}
     \label{fig:deteccioncaida}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=125mm, scale=0.75]{imaxes/ejercicio4_4.png}
-    \caption{Log del envío del RRER a broadcast}
+    \includegraphics[width=125mm, scale=0.75]{imaxes/aodv/ejercicio4_4.png}
+    \caption{Log del envío del RERR a broadcast}
     \label{fig:caidabroadcast}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=125mm, scale=0.75]{imaxes/ejercicio4_5.png}
-    \caption{Logs de la transmisión del RRER por mobile[9]}
+    \includegraphics[width=125mm, scale=0.75]{imaxes/aodv/ejercicio4_5.png}
+    \caption{Logs de envío del RERR enviado por mobile[9]}
     \label{fig:transmisioncaida}
 \end{figure}
 
 \vspace{1.25cm}
+\newpage
 \section{Ejercicio 1.5}
 
 \subsection{Muestra el contenido del paquete RERR en Wireshark explicando los campos más importantes. ¿Qué IP
 tiene como destino? ¿Por qué?}
 
-La figura \ref{fig:RerrWireshark} muestra en detalle el paquete RERR enviado por mobile[9] tras detectar la no disponibilidad de mobile[5]. 
+La figura \ref{fig:RerrWireshark} muestra en detalle el paquete RERR enviado por mobile[2] tras detectar la no disponibilidad de mobile[0]. 
 
-Como características notables, se puede indicar que el paquete se envía siguiendo el protocolo UDP, desde la dirección IP de mobile[9] (1.1.0.9) a toda la red (255.255.255.255) a través del puerto 654 con TTL=1, por lo que no es reenviado por sus vecinos. En cuanto a la cabecera AODV, se indica el tipo de paquete (Route Error) y las direcciones no alcanzables, que incluyen mobile[5] y, por consiguiente, static1.
+Como características notables, se puede indicar que el paquete se envía siguiendo el protocolo UDP, desde la dirección IP de mobile[2] (1.1.0.2) a toda la red (255.255.255.255) a través del puerto 654 con TTL=1, por lo que no es reenviado por sus vecinos. En cuanto a la cabecera AODV, se indica el tipo de paquete (Route Error) y las direcciones no alcanzables, que incluyen mobile[0] (Duplicado por problemas de INET) y, por consiguiente, static2.
 
-Tiene como IP de destino la 255.255.255.255 debido a que, según el RFC 3561, es el comportamiento general y el que se toma cuando haya dos o más nodos vecinos en la lista de precursores de al menos uno de los destinos inalcanzables. Si hubiera un único vecino único en la lista de precursores de mobile[5], podría enviarse como unicast.
+Tiene como IP de destino la 255.255.255.255 debido a que, según el RFC 3561, es el comportamiento general y el que se toma cuando hay dos o más nodos vecinos en la lista de precursores de al menos uno de los destinos inalcanzables. Si hubiera un único vecino en la lista de precursores de mobile[0], podría enviarse como unicast.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=125mm, scale=0.75]{imaxes/ejercicio5_1.png}
-    \caption{Detalle del paquete de error enviado por mobile[9] en t=15,03}
+    \includegraphics[width=125mm, scale=0.75]{imaxes/aodv/ejercicio5_1.png}
+    \caption{Detalle del paquete de error enviado por mobile[2] en t=15,037}
     \label{fig:RerrWireshark}
 \end{figure}
 
@@ -160,7 +169,16 @@ Tiene como IP de destino la 255.255.255.255 debido a que, según el RFC 3561, es
 \subsection{Explica cómo se propaga el RERR por la red. ¿Qué nodos lo reenvían? ¿Cómo sabe un nodo si debe reenviar
 el RERR?}
 
+El RERR se propaga, generalmente, mediante broadcast, debido a que los nodos afectados a los que se debe avisar son más que uno. El RERR es recibido por todos los nodos al alcance del emisor, que lo procesan y comprueban si las \textit{Unreachable destinations} del RERR coinciden con alguna entrada contenida en sus tablas de enrutamiento. Si es el caso, los nodos afectados reenvían el RERR.
 
+Por ejemplo, el primer RERR (Enviado por mobile[2]) es reenviado por los nodos que contienen la ruta hacia static2. Como vemos en la figura \ref{fig:RerrPropagation}, después de salir de mobile[2], es reenviado por mobile[1] y mobile[10] hasta alcanzar static1.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=125mm, scale=0.75]{imaxes/aodv/ejercicio6_1.png}
+    \caption{Logs de envío del RERR producido por mobile[2]}
+    \label{fig:RerrPropagation}
+\end{figure}
 
 \vspace{1.25cm}
 \section{Ejercicio 1.7} 
@@ -168,40 +186,45 @@ el RERR?}
 \subsection{Muestra capturas de la tabla de enrutamiento de un nodo antes y después de recibir un RERR y explica en
 qué cambia.}
 
-Static2 es el único de los nodos a los que se le envía el RRER susceptible a cambios en su tabla de enrutamiento tras su recepción. Esto es debido a que el resto de nodos que reciben el paquete son vecinos de mobile[5] pero no pertenecen a la ruta, por lo que no se apreciarán cambios.
+Los nodos que pertenecen a la lista de predecesores del nodo caído y a la ruta entre static1 y static2 y, por tanto, posibles de usar para este ejercicio (Se apreciarán cambios en su tabla de enrutamiento) son mobile[2], mobile[1] y mobile[10] (Y poor supuesto static1). Para esta demostración usamos mobile[1] como ejemplo.
 
-En el caso de static2, las diferencias entre antes\ref{fig:RerrRouteTablePre} y después\ref{fig:RerrRouteTablePos} de la recepción del RRER radican en las entradas [0] y [2]. 
+En el caso de mobile[1], las diferencias entre antes\ref{fig:RerrRouteTablePre} y después\ref{fig:RerrRouteTablePos} de la recepción del RERR radica en la entrada [5], que es la ruta a static2. Vemos que la ruta se marca como inactiva (isActive=0) y, con la llegada del RRER, se actualiza en uno el número de secuencia de destino en esa entrada (Ya lo había incrementado mobile[2]) y se actualiza también el lifetime al valor incluido en el paquete (Generado en mobile[2] como instante actual+ART).
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=125mm, scale=0.75]{imaxes/ejercicio7_1.png}
-    \caption{Tabla de enrutamiento de static2 antes de recibir el RRER}
+    \includegraphics[width=125mm, scale=0.75]{imaxes/aodv/ejercicio7_1.png}
+    \caption{Tabla de enrutamiento de mobile[1] antes de recibir el RERR}
     \label{fig:RerrRouteTablePre}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=125mm, scale=0.75]{imaxes/ejercicio7_2.png}
-    \caption{Tabla de enrutamiento de static2 después de recibir el RRER}
+    \includegraphics[width=125mm, scale=0.75]{imaxes/aodv/ejercicio7_2.png}
+    \caption{Tabla de enrutamiento de mobile[1] después de recibir el RERR}
     \label{fig:RerrRouteTablePos}
 \end{figure}
 
 \vspace{1.25cm}
+\newpage
 \section{Ejercicio 1.8}
 
 \subsection{¿Qué hace static1 al recibir el RERR? Muestra el contenido del siguiente RREQ en Wireshark. ¿En qué cambia
 con respecto al de la pregunta 1?}
 
+Al recibir el último RERR, enviado desde mobile[10], static1 inicia un nuevo descubrimiento de ruta para intentar alcanzar static2 utilizando un número de secuencia de destino igual o mayor al recibido en el RERR, que ya había sido incrementado.
+
+Como se observa al comparar la figura \ref{fig:RREQstatic1} con la figura \ref{fig:PrimerRREQstatic1}, el contenido de los paquetes es prácticamente idéntico, diferenciándose principalmente en que, en el primer RREQ se incluye una flag indicando que aún no se conoce un primer número de secuencia de destino, mientras que el RREQ tras el RERR ya viene con un número establecido.
+
 \begin{figure}[H]
     \centering
-    \includegraphics[width=125mm, scale=0.75]{imaxes/ejercicio8_1.png}
-    \caption{Comportamiento de static2 al recibir el RRER}
-    \label{fig:ComportamientoStatic2}
+    \includegraphics[width=125mm, scale=0.75]{imaxes/aodv/ejercicio8_1.png}
+    \caption{RREQ enviado por static1 tras a la recepción del RREP}
+    \label{fig:RREQstatic1}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=125mm, scale=0.75]{imaxes/ejercicio8_2.png}
-    \caption{RREQ enviado por static2 posterior a la recepción del RREP}
-    \label{fig:RREQstatic2}
+    \includegraphics[width=125mm, scale=0.75]{imaxes/aodv/ejercicio8_2.png}
+    \caption{Primer RREQ enviado por static1}
+    \label{fig:PrimerRREQstatic1}
 \end{figure}

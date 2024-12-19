@@ -24,7 +24,7 @@ Como se puede ver la imagen, el nodo que manda el primer mensaje Hello con hopdi
     \label{fig:ejer2_1_2}
 \end{figure}
 
-Según la imagen \ref{fig:ejer2_1}, el campo srcAddress es el nodo que generó el paquete Hello, en este caso es el 1.1.0.7 y el campo nextAddress es la siguiente dirección que va a retransmitir la trama, en este caso 1.1.0.8. Como 1.1.0.8 (nodo 8) tiene en su tabla de enrutamiento una métrica de 2 para 1.1.0.7 (nodo 7), va a sumar 1 para transmitirlo el Hello a los vecinos indicando que el nodo destino está a 3 saltos del nodo 7.
+Según la imagen \ref{fig:ejer2_1}, el campo srcAddress es el nodo que generó el paquete Hello, en este caso es el 1.1.0.7. El campo nextAddress es la siguiente dirección que va a retransmitir la trama, en este caso 1.1.0.8. Como 1.1.0.8 (nodo 8) tiene en su tabla de enrutamiento una métrica de 2 para 1.1.0.7 (nodo 7), va a sumar 1 para transmitirlo el Hello a los vecinos indicando que el nodo destino está a 3 saltos del nodo 7.
 
 
 
@@ -42,7 +42,7 @@ Este valor lo modifica el propio nodo en su tabla de enrutamiento, incrementánd
 
 Cuando un nodo descubre una ruta mejor hacia el destino, actualiza este valor. Esto ocurre si el nuevo número de secuencia recibido es mayor (y par), con respeto a lo que tiene el guardado en su tabla de enrutamiento, por lo registra en su tabla y actualiza el nodo que recibió la información (en este caso mobile[8]). En el caso de una ruta no válida, genera un sequencenumber impar y establece el costo de la ruta como infinito para indicar que esa ruta no se puede usar.
 
-El caso de una ruta inválida, es el otro nodo el que lo actualiza. Esto ocurre básicamente porque en el caso de que el nodo que identifica otro nodo inválido se moviera y un nodo en su tabla de enrutamiento tuviera registrado el nodo invalido con un sequencenumber impar, este al ver que si que es alcanzable, como el nodo invalido tiene un sequencenumber mayor, el otro nodo puede actualizarlo ya como valido y no pasaría nada.
+El caso de una ruta inválida, es el otro nodo el que lo actualiza. Esto ocurre básicamente porque en el caso de que el nodo que identifica otro nodo inválido se moviera y un nodo en su tabla de enrutamiento tuviera registrado el nodo inválido con un sequencenumber impar, este al ver que si que es alcanzable, como el nodo inválido tiene un sequencenumber mayor, el otro nodo puede actualizarlo ya como valido y no pasaría nada.
 
 \section{Ejercicio 2.4}
 
@@ -65,7 +65,7 @@ crearía (destino, gateway, métrica) si se actualizase con la información del 
     \label{fig:ejer2_4_2}
 \end{figure}
 
-En las anteriores imágenes (\ref{fig:ejer2_4_1} y \ref{fig:ejer2_4_2}) podemos ver las tablas de enrutamiento antes de recibir el Hello, de los nodos 5 y 9, que son nodos que está dentro del rango del nodo 8. Ambas tienen para la entrada al nodo 7 un numero de secuencia 6. En el nodo 5 tiene una métrica de 2 y el gateway es el nodo 0 mientras que el nodo 9 tiene una métrica de 3 y el gateway es el nodo 5. 
+En las anteriores imágenes (\ref{fig:ejer2_4_1} y \ref{fig:ejer2_4_2}) podemos ver las tablas de enrutamiento antes de recibir el Hello, de los nodos 5 y 9, que son nodos que está dentro del rango del nodo 8. Ambas tienen para la entrada al nodo 7 un numero de secuencia 6. En el nodo 5 tiene una métrica de 2 y el gateway es el nodo 0, mientras que el nodo 9 tiene una métrica de 3 y el gateway es el nodo 5. 
 
 En las siguientes imágenes vamos a ver las tablas de enrutamiento de los dos nodos mencionados anteriormente, pero después de haber recibido el mensaje Hello:
 
@@ -84,9 +84,9 @@ En las siguientes imágenes vamos a ver las tablas de enrutamiento de los dos no
 \end{figure}
 
 
-Como podemos ver ninguna de las tablas de enrutamiento han cambiado. Esto pasó ya que el mensaje Hello que ha mandado el nodo 8, manda una entrada de su tabla de enrutamiento con un sequencenumber igual al que tienen los otros nodos en su tabla de enrutamiento por lo que no se actualiza nada.
+Como podemos ver, ninguna de las tablas de enrutamiento han cambiado. Esto pasó ya que el mensaje Hello que ha mandado el nodo 8, manda una entrada de su tabla de enrutamiento con un sequencenumber igual al que tienen los otros nodos en su tabla de enrutamiento, por lo que no se actualiza nada.
 
-Como se ve en la figura \ref{fig:ejer2_1_2}, la entrada que tiene el nodo 8 para el nodo 7 es el mismo gateway que tiene el nodo 5 y 9, en el caso de la métrica como el nodo 5 tiene hopdistance mayor o igual al que guarda (marca hopdistance 3 y en el nodo 5 y 9 tiene una métrica de 2 y 3 respectivamente) tampoco lo actualizan. 
+Como se ve en la figura \ref{fig:ejer2_1_2}, la entrada que tiene el nodo 8 para el nodo 7 es el mismo gateway que tiene el nodo 5 y 9. En el caso de la métrica, como el nodo 5 tiene hopdistance mayor o igual al que guarda (marca hopdistance 3 y en el nodo 5 y 9 tiene una métrica de 2 y 3 respectivamente), tampoco lo actualizan. 
 
 En el caso de que recibieran un sequencenumber mayor y par, no se crearía ninguna entrada, solamente se actualizaría cambiando la métrica. Para el caso del hopdistance, si los nodos 5 y 9 guardasen un número mayor que el que recibieran, significaría que el nodo 8 estaría más cerca por lo que se actualizaría el valor. El gateway en el caso de que se actualizase la entrada de alguno de los nodos, el gateway pasaría a ser el del nodo 8.
 
@@ -101,7 +101,7 @@ la de AODV, y por lo tanto el nodo a desactivar también. ¿Cuál es el primer n
 
 Hay que aclarar que hemos cambiado de semilla ya que con DSDV no funcionaba bien con la semilla que usamos en los anteriores apartados. La semilla a utilizar en este apartado y para el siguiente es 1865.
 
-Ruta antes de la caida:
+Ruta antes de la caída:
 
 \begin{figure}[H]
     \centering
@@ -121,7 +121,7 @@ Como nodo 2 es el nodo más próximo a static2 que establece la ruta, vamos a pr
 \end{figure}
 
 
-Esto quiere decir que el nodo 1 es el primero en ver que el nodo 2 está caído ya que no puede procesar los paquetes UDP. El problema es que Inet no tiene forma de notificar la caída, es decir, en las tablas de enrutamiento, no cambia el sequencenumber a un número impar para indicar que nodo ya no es válido por lo que no hay forma de notificar eso de una forma eficiente.
+Esto quiere decir que el nodo 1 es el primero en ver que el nodo 2 está caído, ya que no puede procesar los paquetes UDP. El problema es que INET no tiene forma de notificar la caída, es decir, en las tablas de enrutamiento no cambia el sequencenumber a un número impar para indicar qué nodo ya no es válido, por lo que no hay forma de notificar eso de una forma eficaz.
 
 
 
@@ -161,7 +161,7 @@ Por ejemplo, si vemos la tabla de enrutamiento de un nodo antes de que static2 e
     \label{fig:ejer2_6_3}
 \end{figure}
 
-Si comparamos la imagen \ref{fig:ejer2_6_2} con \ref{fig:ejer2_6_3} la entrada de static2 en el nodo 11 ha cambiado. Este paso se repite para todos los demás nodos y una vez tienen la tabla de enrutamiento actualizada, se establecería la ruta que aparece en la imagen \ref{fig:ejer2_6}
+Si comparamos la imagen \ref{fig:ejer2_6_2} con \ref{fig:ejer2_6_3} la entrada de static2 en el nodo 11 ha cambiado. Este paso se repite para todos los demás nodos y, una vez tienen la tabla de enrutamiento actualizada, se establecería la ruta que aparece en la imagen \ref{fig:ejer2_6}
 
 
 ELIMINAR ESTO
