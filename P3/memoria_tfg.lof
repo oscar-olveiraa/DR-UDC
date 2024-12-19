@@ -16,60 +16,62 @@
 \setforeignlanguage {spanish}
 \contentsline {figure}{\numberline {1.8}{\ignorespaces Escenario en t=15 con todos los nodos en funcionamiento}}{5}{figure.caption.10}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Detalle de los nodos cercanos a static2 en t=15 con mobile[5] caído}}{5}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Detalle de los nodos cercanos a static2 en t=15 con mobile[0] caído}}{5}{figure.caption.11}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Log de detección de la caída de mobile[5]}}{6}{figure.caption.12}%
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Log de detección de la caída de mobile[0]}}{6}{figure.caption.12}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {1.11}{\ignorespaces Log del envío del RRER a broadcast}}{6}{figure.caption.13}%
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Log del envío del RERR a broadcast}}{6}{figure.caption.13}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {1.12}{\ignorespaces Logs de la transmisión del RRER por mobile[9]}}{6}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Logs de envío del RERR enviado por mobile[9]}}{6}{figure.caption.14}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {1.13}{\ignorespaces Detalle del paquete de error enviado por mobile[9] en t=15,03}}{7}{figure.caption.15}%
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Detalle del paquete de error enviado por mobile[2] en t=15,037}}{7}{figure.caption.15}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {1.14}{\ignorespaces Tabla de enrutamiento de static2 antes de recibir el RRER}}{8}{figure.caption.16}%
+\contentsline {figure}{\numberline {1.14}{\ignorespaces Logs de envío del RERR producido por mobile[2]}}{8}{figure.caption.16}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {1.15}{\ignorespaces Tabla de enrutamiento de static2 después de recibir el RRER}}{8}{figure.caption.17}%
+\contentsline {figure}{\numberline {1.15}{\ignorespaces Tabla de enrutamiento de mobile[1] antes de recibir el RERR}}{9}{figure.caption.17}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {1.16}{\ignorespaces Comportamiento de static2 al recibir el RRER}}{8}{figure.caption.18}%
+\contentsline {figure}{\numberline {1.16}{\ignorespaces Tabla de enrutamiento de mobile[1] después de recibir el RERR}}{9}{figure.caption.18}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {1.17}{\ignorespaces RREQ enviado por static2 posterior a la recepción del RREP}}{9}{figure.caption.19}%
+\contentsline {figure}{\numberline {1.17}{\ignorespaces RREQ enviado por static1 tras a la recepción del RREP}}{10}{figure.caption.19}%
+\setforeignlanguage {spanish}
+\contentsline {figure}{\numberline {1.18}{\ignorespaces Primer RREQ enviado por static1}}{11}{figure.caption.20}%
 \addvspace {10\p@ }
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Log del nodo que manda el primer Hello con hopdistance 3}}{10}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Log del nodo que manda el primer Hello con hopdistance 3}}{12}{figure.caption.21}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Tabla de enrutamiento nodo 8}}{11}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Tabla de enrutamiento nodo 8}}{13}{figure.caption.22}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Tabla de enrutamiento nodo 5 antes recibir Hello de nodo 8}}{12}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Tabla de enrutamiento nodo 5 antes recibir Hello de nodo 8}}{14}{figure.caption.23}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Tabla de enrutamiento nodo 9 antes recibir Hello de nodo 8}}{13}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Tabla de enrutamiento nodo 9 antes recibir Hello de nodo 8}}{15}{figure.caption.24}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Tabla de enrutamiento nodo 5 antes recibir Hello de nodo 8}}{13}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Tabla de enrutamiento nodo 5 antes recibir Hello de nodo 8}}{15}{figure.caption.25}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Tabla de enrutamiento nodo 9 antes recibir Hello de nodo 8}}{14}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Tabla de enrutamiento nodo 9 antes recibir Hello de nodo 8}}{16}{figure.caption.26}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Ruta antes de la caída}}{15}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Ruta antes de la caída}}{17}{figure.caption.27}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Mensaje del nodo 1 cuando no es capaz de enviar los UDP datas al detectar un nodo caído}}{15}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Mensaje del nodo 1 cuando no es capaz de enviar los UDP datas al detectar un nodo caído}}{17}{figure.caption.28}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Ruta nueva después de la caída del nodo 2}}{15}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Ruta nueva después de la caída del nodo 2}}{17}{figure.caption.29}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Stati2 mandando mensaje Hello}}{16}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Stati2 mandando mensaje Hello}}{18}{figure.caption.30}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Nodo 11 antes de recibir Hello de static2}}{16}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Nodo 11 antes de recibir Hello de static2}}{18}{figure.caption.31}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Nodo 11 después de recibir Hello de static2}}{17}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Nodo 11 después de recibir Hello de static2}}{19}{figure.caption.32}%
 \addvspace {10\p@ }
 \setforeignlanguage {spanish}
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Static1 a los 300s en AODV}}{19}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Static1 a los 300s en AODV}}{21}{figure.caption.34}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Static2 a los 300s en AODV}}{20}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Static2 a los 300s en AODV}}{22}{figure.caption.35}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Static1 a los 300s en DSDV}}{20}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Static1 a los 300s en DSDV}}{22}{figure.caption.36}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Static2 a los 300s en DSDV}}{21}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Static2 a los 300s en DSDV}}{23}{figure.caption.37}%
 \addvspace {10\p@ }
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Gráfica paquetes recibidos en static2 en función de la potencia}}{22}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Gráfica paquetes recibidos en static2 en función de la potencia}}{24}{figure.caption.38}%
 \setforeignlanguage {spanish}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Gráfica paquetes recibidos en static2 en función de la velocidad}}{23}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Gráfica paquetes recibidos en static2 en función de la velocidad}}{25}{figure.caption.39}%

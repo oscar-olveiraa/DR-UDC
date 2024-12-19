@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.3)  19 DEC 2024 02:13
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.3)  19 DEC 2024 02:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1841,8 +1841,8 @@ LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
 (Font)              scaled to size 14.4pt on input line 1.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
 (Font)              scaled to size 14.4pt on input line 10.
-File: imaxes/ejercicio1_1.png Graphic file (type bmp)
-<imaxes/ejercicio1_1.png>
+File: imaxes/aodv/ejercicio1_1.png Graphic file (type bmp)
+<imaxes/aodv/ejercicio1_1.png>
 
 
 [1
@@ -1850,63 +1850,71 @@ File: imaxes/ejercicio1_1.png Graphic file (type bmp)
 
 
 ]
-File: imaxes/ejercicio1_2.png Graphic file (type bmp)
-<imaxes/ejercicio1_2.png>
-File: imaxes/ejercicio1_4.jpg Graphic file (type bmp)
-<imaxes/ejercicio1_4.jpg>
+File: imaxes/aodv/ejercicio1_2.png Graphic file (type bmp)
+<imaxes/aodv/ejercicio1_2.png>
+File: imaxes/aodv/ejercicio1_4.jpg Graphic file (type bmp)
+<imaxes/aodv/ejercicio1_4.jpg>
 
 
 [2]
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
 (Font)              scaled to size 10.0pt on input line 51.
-File: imaxes/ejercicio2_1.png Graphic file (type bmp)
-<imaxes/ejercicio2_1.png>
-File: imaxes/ejercicio2_2.png Graphic file (type bmp)
-<imaxes/ejercicio2_2.png>
+File: imaxes/aodv/ejercicio2_1.png Graphic file (type bmp)
+<imaxes/aodv/ejercicio2_1.png>
+File: imaxes/aodv/ejercicio2_2.png Graphic file (type bmp)
+<imaxes/aodv/ejercicio2_2.png>
 
 
 [3]
-File: imaxes/ejercicio3_1.png Graphic file (type bmp)
-<imaxes/ejercicio3_1.png>
-File: imaxes/ejercicio3_2.png Graphic file (type bmp)
-<imaxes/ejercicio3_2.png>
+File: imaxes/aodv/ejercicio3_1.png Graphic file (type bmp)
+<imaxes/aodv/ejercicio3_1.png>
+File: imaxes/aodv/ejercicio3_2.png Graphic file (type bmp)
+<imaxes/aodv/ejercicio3_2.png>
 
 
 [4]
-File: imaxes/ejercicio4_1.png Graphic file (type bmp)
-<imaxes/ejercicio4_1.png>
-File: imaxes/ejercicio4_2.png Graphic file (type bmp)
-<imaxes/ejercicio4_2.png>
-File: imaxes/ejercicio4_3.png Graphic file (type bmp)
-<imaxes/ejercicio4_3.png>
+File: imaxes/aodv/ejercicio4_1.png Graphic file (type bmp)
+<imaxes/aodv/ejercicio4_1.png>
+File: imaxes/aodv/ejercicio4_2.png Graphic file (type bmp)
+<imaxes/aodv/ejercicio4_2.png>
+File: imaxes/aodv/ejercicio4_3.png Graphic file (type bmp)
+<imaxes/aodv/ejercicio4_3.png>
 
 
 [5]
-File: imaxes/ejercicio4_4.png Graphic file (type bmp)
-<imaxes/ejercicio4_4.png>
-File: imaxes/ejercicio4_5.png Graphic file (type bmp)
-<imaxes/ejercicio4_5.png>
-File: imaxes/ejercicio5_1.png Graphic file (type bmp)
-<imaxes/ejercicio5_1.png>
+File: imaxes/aodv/ejercicio4_4.png Graphic file (type bmp)
+<imaxes/aodv/ejercicio4_4.png>
+File: imaxes/aodv/ejercicio4_5.png Graphic file (type bmp)
+<imaxes/aodv/ejercicio4_5.png>
 
 
 [6]
-File: imaxes/ejercicio7_1.png Graphic file (type bmp)
-<imaxes/ejercicio7_1.png>
+File: imaxes/aodv/ejercicio5_1.png Graphic file (type bmp)
+<imaxes/aodv/ejercicio5_1.png>
 
 
 [7]
-File: imaxes/ejercicio7_2.png Graphic file (type bmp)
-<imaxes/ejercicio7_2.png>
-File: imaxes/ejercicio8_1.png Graphic file (type bmp)
-<imaxes/ejercicio8_1.png>
-File: imaxes/ejercicio8_2.png Graphic file (type bmp)
-<imaxes/ejercicio8_2.png>
-)
+File: imaxes/aodv/ejercicio6_1.png Graphic file (type bmp)
+<imaxes/aodv/ejercicio6_1.png>
+
 
 [8]
+File: imaxes/aodv/ejercicio7_1.png Graphic file (type bmp)
+<imaxes/aodv/ejercicio7_1.png>
+File: imaxes/aodv/ejercicio7_2.png Graphic file (type bmp)
+<imaxes/aodv/ejercicio7_2.png>
+
 
 [9]
+File: imaxes/aodv/ejercicio8_1.png Graphic file (type bmp)
+<imaxes/aodv/ejercicio8_1.png>
+File: imaxes/aodv/ejercicio8_2.png Graphic file (type bmp)
+<imaxes/aodv/ejercicio8_2.png>
+)
+
+[10]
+
+[11]
 \openout2 = `contido/dsdv.aux'.
 
  (contido/dsdv.tex
@@ -1917,33 +1925,33 @@ File: imaxes/dsdv/ejercicio2_1_2.png Graphic file (type bmp)
 <imaxes/dsdv/ejercicio2_1_2.png>
 
 
-[10
+[12
 
 
 
 
 ]
 
-[11]
+[13]
 File: imaxes/dsdv/ejercicio2_4_nodo5.png Graphic file (type bmp)
 <imaxes/dsdv/ejercicio2_4_nodo5.png>
 File: imaxes/dsdv/ejercicio2_4_nodo9.png Graphic file (type bmp)
 <imaxes/dsdv/ejercicio2_4_nodo9.png>
 
 
-[12]
+[14]
 File: imaxes/dsdv/ejercicio2_4_1_nodo5.png Graphic file (type bmp)
 <imaxes/dsdv/ejercicio2_4_1_nodo5.png>
 File: imaxes/dsdv/ejercicio2_4_1_nodo9.png Graphic file (type bmp)
 <imaxes/dsdv/ejercicio2_4_1_nodo9.png>
 
 
-[13]
+[15]
 File: imaxes/dsdv/ejercicio2_5.png Graphic file (type bmp)
 <imaxes/dsdv/ejercicio2_5.png>
 
 
-[14]
+[16]
 File: imaxes/dsdv/ejercicio2_5_1.png Graphic file (type bmp)
 <imaxes/dsdv/ejercicio2_5_1.png>
 File: imaxes/dsdv/ejercicio2_6.png Graphic file (type bmp)
@@ -1952,16 +1960,16 @@ File: imaxes/dsdv/ejercicio2_6_1.png Graphic file (type bmp)
 <imaxes/dsdv/ejercicio2_6_1.png>
 
 
-[15]
+[17]
 File: imaxes/dsdv/ejercicio2_6_2.png Graphic file (type bmp)
 <imaxes/dsdv/ejercicio2_6_2.png>
 File: imaxes/dsdv/ejercicio2_6_3.png Graphic file (type bmp)
 <imaxes/dsdv/ejercicio2_6_3.png>
 
 
-[16])
+[18])
 
-[17]
+[19]
 \openout2 = `contido/aodv_vs_dsdv.aux'.
 
  (contido/aodv_vs_dsdv.tex
@@ -1973,7 +1981,7 @@ Overfull \hbox (5.84392pt too wide) in paragraph at lines 25--25
 
 
 
-[18
+[20
 
 
 
@@ -1985,16 +1993,16 @@ File: imaxes/aodv_dsdv/ejercicio3_4_static2_aodv.png Graphic file (type bmp)
 <imaxes/aodv_dsdv/ejercicio3_4_static2_aodv.png>
 
 
-[19]
+[21]
 File: imaxes/aodv_dsdv/ejercicio3_4_static1_dsdv.png Graphic file (type bmp)
 <imaxes/aodv_dsdv/ejercicio3_4_static1_dsdv.png>
 File: imaxes/aodv_dsdv/ejercicio3_4_static2_dsdv.png Graphic file (type bmp)
 <imaxes/aodv_dsdv/ejercicio3_4_static2_dsdv.png>
 
 
-[20])
+[22])
 
-[21]
+[23]
 \openout2 = `contido/aodv_vs_dsdv_graphics.aux'.
 
  (contido/aodv_vs_dsdv_graphics.tex
@@ -2005,14 +2013,14 @@ File: imaxes/graficas/ejer4_3.pdf Graphic file (type pdf)
 <use imaxes/graficas/ejer4_3.pdf>
 
 
-[22
+[24
 
 
 
 
 ])
 
-[23]
+[25]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -2031,12 +2039,12 @@ Package rerunfilecheck Info: File `memoria_tfg.out' has not changed.
 (rerunfilecheck)             Checksum: BABC92AD753E9102333FC1A3D6E898E8;1746.
  ) 
 Here is how much of TeX's memory you used:
- 48292 strings out of 409029
- 1001196 string characters out of 5756741
- 1372050 words of memory out of 5000000
- 70229 multiletter control sequences out of 15000+600000
+ 48303 strings out of 409029
+ 1002193 string characters out of 5756741
+ 1373118 words of memory out of 5000000
+ 70238 multiletter control sequences out of 15000+600000
  568221 words of font info for 119 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  106i,12n,145p,2397b,443s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on memoria_tfg.xdv (27 pages, 369488 bytes).
+Output written on memoria_tfg.xdv (29 pages, 388776 bytes).
